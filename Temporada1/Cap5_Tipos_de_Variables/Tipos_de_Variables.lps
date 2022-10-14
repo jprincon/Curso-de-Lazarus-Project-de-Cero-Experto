@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Tipos_de_Variables.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uftiposvariables.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FTiposVariables"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFTiposVariables"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="41"/>
+        <CursorPos X="20" Y="47"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="10">
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="18" Column="25" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="19" Column="25" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="17" Column="15" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="19" Column="14" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="20" Column="14" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="21" Column="14" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="23" Column="14" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="24" Column="14" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="22" Column="40" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="50" Column="23" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="uftiposvariables.pas"/>
+        <Caret Line="62" Column="14" TopLine="44"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

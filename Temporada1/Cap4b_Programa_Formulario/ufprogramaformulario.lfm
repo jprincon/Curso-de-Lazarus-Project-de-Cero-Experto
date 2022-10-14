@@ -1,0 +1,27 @@
+object Form1: TForm1
+  Left = 572
+  Height = 87
+  Top = 295
+  Width = 221
+  Caption = 'Form1'
+  ClientHeight = 87
+  ClientWidth = 221
+  OnCreate = FormCreate
+  LCLVersion = '2.2.4.0'
+  object Label1: TLabel
+    Left = 11
+    Height = 15
+    Top = 9
+    Width = 118
+    Caption = 'Suma de dos números'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 11
+    Height = 23
+    Top = 32
+    Width = 117
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+end

@@ -1,0 +1,136 @@
+object FTiposVariables: TFTiposVariables
+  Left = 488
+  Height = 587
+  Top = 201
+  Width = 887
+  Caption = 'Tipos de Variables'
+  ClientHeight = 587
+  ClientWidth = 887
+  Color = clWhite
+  Font.Height = -16
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 80
+    Top = 0
+    Width = 887
+    Align = alTop
+    Caption = 'Tipos de Variables'
+    Color = 12615680
+    Font.Color = clWhite
+    Font.Height = -32
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object paginaMenuPrincipal: TPageControl
+    Left = 0
+    Height = 507
+    Top = 80
+    Width = 887
+    ActivePage = tabCalculadora
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object tabCalculadora: TTabSheet
+      Caption = 'Calculadora'
+      ClientHeight = 473
+      ClientWidth = 879
+      object Panel2: TPanel
+        Left = 15
+        Height = 443
+        Top = 15
+        Width = 273
+        Align = alLeft
+        BorderSpacing.Around = 15
+        BevelOuter = bvNone
+        BorderStyle = bsSingle
+        ClientHeight = 439
+        ClientWidth = 269
+        TabOrder = 0
+        object Label1: TLabel
+          Left = 5
+          Height = 21
+          Top = 5
+          Width = 259
+          Align = alTop
+          BorderSpacing.Around = 5
+          Caption = 'Ingrese el valor del número 1'
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object edNum1: TEdit
+          Left = 5
+          Height = 29
+          Top = 31
+          Width = 259
+          Align = alTop
+          BorderSpacing.Around = 5
+          Color = clWhite
+          Font.Color = 13369446
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '123'
+        end
+        object Label2: TLabel
+          Left = 5
+          Height = 21
+          Top = 65
+          Width = 259
+          Align = alTop
+          BorderSpacing.Around = 5
+          Caption = 'Ingrese el valor del número 2'
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+        end
+        object edNum2: TEdit
+          Left = 5
+          Height = 29
+          Top = 91
+          Width = 259
+          Align = alTop
+          BorderSpacing.Around = 5
+          Color = clWhite
+          Font.Color = 13369446
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '877'
+        end
+        object bCalcular: TButton
+          Left = 15
+          Height = 41
+          Top = 135
+          Width = 239
+          Align = alTop
+          BorderSpacing.Around = 15
+          Caption = 'Calcular'
+          OnClick = realizarCalculo
+          TabOrder = 2
+        end
+      end
+      object mCalcBasica: TMemo
+        Left = 303
+        Height = 443
+        Top = 15
+        Width = 561
+        Align = alClient
+        BorderSpacing.Around = 15
+        Lines.Strings = (
+          '=== Calculadora Básica ==='
+        )
+        TabOrder = 1
+      end
+    end
+    object tabFloat: TTabSheet
+      Caption = 'Float'
+    end
+  end
+end
