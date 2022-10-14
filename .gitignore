@@ -1,0 +1,7 @@
+# Directorios
+backup
+lib
+
+# Extensiones
+*.res
+*.exe
