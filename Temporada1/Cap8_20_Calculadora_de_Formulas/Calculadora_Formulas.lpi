@@ -5,7 +5,7 @@
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="Tipos_de_Variables"/>
+      <Title Value="Calculadora_Formulas"/>
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
@@ -31,16 +31,15 @@
     </RequiredPackages>
     <Units>
       <Unit>
-        <Filename Value="Tipos_de_Variables.lpr"/>
+        <Filename Value="Calculadora_Formulas.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="uftiposvariables.pas"/>
+        <Filename Value="ufcalculadoraformulas.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FTiposVariables"/>
-        <HasResources Value="True"/>
+        <ComponentName Value="FCalculadoraFormulas"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFTiposVariables"/>
+        <UnitName Value="uFCalculadoraFormulas"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -48,7 +47,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="Tipos_de_Variables"/>
+      <Filename Value="Calculadora_Formulas"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
@@ -75,9 +74,6 @@
       </Item>
       <Item>
         <Name Value="EFOpenError"/>
-      </Item>
-      <Item>
-        <Name Value="EConvertError"/>
       </Item>
     </Exceptions>
   </Debugging>

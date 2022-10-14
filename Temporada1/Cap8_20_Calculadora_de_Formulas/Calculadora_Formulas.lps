@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Calculadora_Formulas.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCalculadoraFormulas"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFCalculadoraFormulas"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="63"/>
+        <CursorPos X="36" Y="77"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="14">
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Column="20" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="49" Column="6" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="43" Column="19" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="44" Column="19" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="45" Column="19" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="59" Column="27" TopLine="39"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="60" Column="27" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="61" Column="25" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="53" Column="34" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="54" Column="34" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="55" Column="34" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="54" Column="34" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="55" Column="34" TopLine="44"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="54" Column="34" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="56" Column="34" TopLine="45"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
