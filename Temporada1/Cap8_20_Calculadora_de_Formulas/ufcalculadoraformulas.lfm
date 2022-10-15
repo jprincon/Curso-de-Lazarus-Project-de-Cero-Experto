@@ -1,48 +1,63 @@
 object FCalculadoraFormulas: TFCalculadoraFormulas
-  Left = 489
-  Height = 600
-  Top = 161
-  Width = 1024
-  BorderStyle = bsDialog
+  Left = 485
+  Height = 641
+  Top = 223
+  Width = 1011
+  BorderStyle = bsToolWindow
   Caption = 'Calculadora de Fórmulas'
-  ClientHeight = 600
-  ClientWidth = 1024
+  ClientHeight = 621
+  ClientWidth = 1011
   Color = clWhite
   Font.Height = -16
+  Menu = MainMenu1
   OnCreate = FormCreate
   Position = poScreenCenter
   LCLVersion = '2.2.4.0'
   object MenuPrincipal: TTreeView
     Left = 0
-    Height = 548
+    Height = 569
     Top = 52
-    Width = 234
+    Width = 256
     Align = alLeft
     TabOrder = 0
     OnClick = seleccionarMenu
     Items.Data = {
-      F9FFFFFF020001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000
-      00000017000000436F6E7665727369C3B36E20646520536567756E646F73
+      F9FFFFFF020009000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000
+      00000017000000436F6E7665727369C3B36E20646520536567756E646F73FFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000011000000477261646F
+      7320612052616469616E6573FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000
+      00000000001B000000436F6E7665727369C3B36E2064652054656D7065726174
+      75726173FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000120000
+      0050756E746F7320656E20656C20506C616E6FFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFF0000000000000000000D00000053756D612064C3AD6769746F73FFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFF0000000000000000001900000052656C616369
+      6F6E6573206465206C612054616E67656E7465FFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFF0000000000000000001600000053697374656D61204563756163696F6E
+      657320327832FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000000000000000010
+      00000044657465726D696E616E746520337833FFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFF0000000000000000001700000043697263756E666572656E6369612033
+      2050756E746F73
     }
   end
   object Contenido: TPageControl
-    Left = 234
-    Height = 548
+    Left = 256
+    Height = 569
     Top = 52
-    Width = 790
-    ActivePage = TabSheet1
+    Width = 755
+    ActivePage = TabSheet10
     Align = alClient
-    TabIndex = 1
+    TabIndex = 10
     TabOrder = 1
+    OnChange = ContenidoChange
     object TabSheet13: TTabSheet
       Caption = 'Bienvenida'
-      ClientHeight = 514
-      ClientWidth = 782
+      ClientHeight = 535
+      ClientWidth = 747
       object Label2: TLabel
         Left = 50
-        Height = 414
+        Height = 435
         Top = 50
-        Width = 682
+        Width = 647
         Align = alClient
         Alignment = taCenter
         BorderSpacing.Around = 50
@@ -58,13 +73,13 @@ object FCalculadoraFormulas: TFCalculadoraFormulas
     end
     object TabSheet1: TTabSheet
       Caption = 'Conversión de Segundos'
-      ClientHeight = 514
-      ClientWidth = 782
+      ClientHeight = 535
+      ClientWidth = 747
       object mLogSegundos: TMemo
         Left = 0
-        Height = 357
+        Height = 378
         Top = 157
-        Width = 782
+        Width = 747
         Align = alClient
         Lines.Strings = (
           'mLogSegundos'
@@ -76,7 +91,7 @@ object FCalculadoraFormulas: TFCalculadoraFormulas
         Left = 0
         Height = 56
         Top = 0
-        Width = 782
+        Width = 747
         Align = alTop
         Caption = 'Conversión de Segundos'
         Color = 14548991
@@ -90,12 +105,12 @@ object FCalculadoraFormulas: TFCalculadoraFormulas
         Left = 20
         Height = 61
         Top = 76
-        Width = 742
+        Width = 707
         Align = alTop
         BorderSpacing.Around = 20
         Caption = 'Ingrese el valor en segundos'
         ClientHeight = 35
-        ClientWidth = 738
+        ClientWidth = 703
         Font.Height = -16
         Font.Style = [fsBold]
         ParentFont = False
@@ -104,7 +119,7 @@ object FCalculadoraFormulas: TFCalculadoraFormulas
           Left = 3
           Height = 29
           Top = 3
-          Width = 578
+          Width = 543
           Align = alClient
           Alignment = taRightJustify
           BorderSpacing.Around = 3
@@ -115,7 +130,7 @@ object FCalculadoraFormulas: TFCalculadoraFormulas
           Text = '285174'
         end
         object bConvertirSegundos: TButton
-          Left = 584
+          Left = 549
           Height = 35
           Top = 0
           Width = 154
@@ -129,44 +144,1335 @@ object FCalculadoraFormulas: TFCalculadoraFormulas
       end
     end
     object TabSheet2: TTabSheet
-      Caption = 'TabSheet2'
+      Caption = 'Grados <=> Radianes'
+      ClientHeight = 535
+      ClientWidth = 747
+      object Panel3: TPanel
+        Left = 0
+        Height = 56
+        Top = 0
+        Width = 747
+        Align = alTop
+        Caption = 'Conversión de Grados a Radianes y de Radianes a Grados'
+        Color = 14548991
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+      end
+      object GroupBox2: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 76
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese un ángulo en grados'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object edGrados: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 527
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '180'
+        end
+        object bConvToRadianes: TButton
+          Left = 533
+          Height = 35
+          Top = 0
+          Width = 170
+          Align = alRight
+          Caption = 'Convertir a Radianes'
+          Font.Height = -16
+          OnClick = ConvertirDeGradosARadianes
+          ParentFont = False
+          TabOrder = 1
+        end
+      end
+      object GroupBox3: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 157
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese un ángulo en radianes'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 2
+        object edRadianes: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 527
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '3.14159253'
+        end
+        object bConvToGrados: TButton
+          Left = 533
+          Height = 35
+          Top = 0
+          Width = 170
+          Align = alRight
+          Caption = 'Convertir a Grados'
+          Font.Height = -16
+          OnClick = ConvertirDeRadianesAGrados
+          ParentFont = False
+          TabOrder = 1
+        end
+      end
     end
     object TabSheet3: TTabSheet
-      Caption = 'TabSheet3'
+      Caption = 'Temperaturas'
+      ClientHeight = 535
+      ClientWidth = 747
+      object gbCelcius: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 76
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Grados Celcius (C°)'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        object tbCelcius: TTrackBar
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 703
+          Max = 5000
+          Min = -5000
+          OnChange = ConvertirDeCelciusA_
+          Position = 0
+          Align = alClient
+          TabOrder = 0
+        end
+      end
+      object gbKelvin: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 157
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Grados Kevin (K°)'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object tbKelvin: TTrackBar
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 703
+          Max = 5500
+          Min = -5500
+          OnChange = ConvertirDeKelvinA_
+          Position = 0
+          Align = alClient
+          TabOrder = 0
+        end
+      end
+      object gbFahrenheit: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 238
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Grados Fahrenheit (F°)'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 2
+        object tbFahrenheit: TTrackBar
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 703
+          Max = 10000
+          Min = -10000
+          OnChange = ConvertirDeFahrenheitA_
+          Position = 0
+          Align = alClient
+          TabOrder = 0
+        end
+      end
+      object Panel6: TPanel
+        Left = 0
+        Height = 56
+        Top = 0
+        Width = 747
+        Align = alTop
+        Caption = 'Conversión de Temperaturas'
+        Color = 14548991
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 3
+      end
     end
     object TabSheet4: TTabSheet
-      Caption = 'TabSheet4'
+      Caption = 'Puntos en el Plano'
+      ClientHeight = 535
+      ClientWidth = 747
+      object gbPtA: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 76
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el punto A'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        object edY1: TEdit
+          Left = 421
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alRight
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '10'
+        end
+        object Label1: TLabel
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 38
+          Align = alLeft
+          Alignment = taCenter
+          Caption = 'X1 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object Label3: TLabel
+          Left = 323
+          Height = 35
+          Top = 0
+          Width = 95
+          Align = alClient
+          Alignment = taRightJustify
+          Caption = 'Y1 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edX1: TEdit
+          Left = 41
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '6'
+        end
+      end
+      object Panel4: TPanel
+        Left = 0
+        Height = 56
+        Top = 0
+        Width = 747
+        Align = alTop
+        Caption = 'Operaciones con Puntos en el Plano'
+        Color = 14548991
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 3
+      end
+      object mLogPuntos: TMemo
+        Left = 0
+        Height = 167
+        Top = 368
+        Width = 747
+        Align = alClient
+        Lines.Strings = (
+          'mLogSegundos'
+        )
+        ScrollBars = ssVertical
+        TabOrder = 4
+      end
+      object gbPtB: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 157
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el punto B'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object edY2: TEdit
+          Left = 421
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alRight
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '3'
+        end
+        object Label4: TLabel
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 38
+          Align = alLeft
+          Alignment = taCenter
+          Caption = 'X2 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object Label5: TLabel
+          Left = 323
+          Height = 35
+          Top = 0
+          Width = 95
+          Align = alClient
+          Alignment = taRightJustify
+          Caption = 'Y2 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edX2: TEdit
+          Left = 41
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '4'
+        end
+      end
+      object gbPtC: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 238
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el punto C'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 2
+        object edY3: TEdit
+          Left = 421
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alRight
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '2'
+        end
+        object Label6: TLabel
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 38
+          Align = alLeft
+          Alignment = taCenter
+          Caption = 'X3 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object Label7: TLabel
+          Left = 323
+          Height = 35
+          Top = 0
+          Width = 95
+          Align = alClient
+          Alignment = taRightJustify
+          Caption = 'Y3 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edX3: TEdit
+          Left = 41
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '12'
+        end
+      end
+      object Panel5: TPanel
+        Left = 0
+        Height = 49
+        Top = 319
+        Width = 747
+        Align = alTop
+        ClientHeight = 49
+        ClientWidth = 747
+        TabOrder = 5
+        object bCalcularTriangulo: TButton
+          Left = 574
+          Height = 37
+          Top = 6
+          Width = 167
+          Align = alRight
+          BorderSpacing.Around = 5
+          Caption = 'Calcular'
+          OnClick = CalcularElementosTriangulo
+          TabOrder = 0
+        end
+      end
     end
     object TabSheet5: TTabSheet
-      Caption = 'TabSheet5'
+      Caption = 'Suma digitos'
+      ClientHeight = 535
+      ClientWidth = 747
+      object Panel7: TPanel
+        Left = 0
+        Height = 56
+        Top = 0
+        Width = 747
+        Align = alTop
+        Caption = 'Suma de los dígitos de un número de cuatro cifras'
+        Color = 14548991
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+      end
+      object GroupBox4: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 76
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese un número de cuatro cifras'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object edNumero: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 543
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '1234'
+        end
+        object bSumar: TButton
+          Left = 549
+          Height = 35
+          Top = 0
+          Width = 154
+          Align = alRight
+          Caption = 'Sumar'
+          Font.Height = -16
+          OnClick = sumarDigitosCuatroCifras
+          ParentFont = False
+          TabOrder = 1
+        end
+      end
+      object pSuma: TPanel
+        Left = 50
+        Height = 56
+        Top = 157
+        Width = 647
+        Align = alTop
+        BorderSpacing.Left = 50
+        BorderSpacing.Right = 50
+        BorderSpacing.Bottom = 50
+        BevelOuter = bvNone
+        BorderStyle = bsSingle
+        Caption = 'Suma = 0'
+        Color = 16777177
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 2
+      end
     end
     object TabSheet6: TTabSheet
-      Caption = 'TabSheet6'
+      Caption = 'Relaciones Tangente'
+      ClientHeight = 535
+      ClientWidth = 747
+      object GroupBox5: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 20
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el ángulo alfa'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        object edAlfa: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 697
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '33,69'
+        end
+      end
+      object GroupBox6: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 101
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el ángulo beta'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object edBeta: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 697
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '37,57'
+        end
+      end
+      object GroupBox7: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 182
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese la distancia entre las mediciones angulares'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 2
+        object edDist: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 697
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '2'
+        end
+      end
+      object Panel8: TPanel
+        Left = 0
+        Height = 49
+        Top = 263
+        Width = 747
+        Align = alTop
+        ClientHeight = 49
+        ClientWidth = 747
+        TabOrder = 3
+        object bCalcRelTangente: TButton
+          Left = 574
+          Height = 37
+          Top = 6
+          Width = 167
+          Align = alRight
+          BorderSpacing.Around = 5
+          Caption = 'Calcular'
+          OnClick = CalcularRelacionesTangente
+          TabOrder = 0
+        end
+      end
+      object mLogTangente: TMemo
+        Left = 0
+        Height = 223
+        Top = 312
+        Width = 747
+        Align = alClient
+        Lines.Strings = (
+          'mLogSegundos'
+        )
+        ScrollBars = ssVertical
+        TabOrder = 4
+      end
     end
     object TabSheet7: TTabSheet
-      Caption = 'TabSheet7'
+      Caption = 'Sistema Ecuaciones 2x2'
+      ClientHeight = 535
+      ClientWidth = 747
+      object Panel9: TPanel
+        Left = 0
+        Height = 56
+        Top = 0
+        Width = 747
+        Align = alTop
+        Caption = 'Resolución de un Sistema de Ecuaciones de 2x2'
+        Color = 14548991
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+      end
+      object gbPtA1: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 76
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Coeficientes de la Ecuación 1'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object Label8: TLabel
+          Left = 206
+          Height = 35
+          Top = 0
+          Width = 29
+          Align = alLeft
+          Caption = 'X + '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edCoefX1: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 200
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '4'
+        end
+        object edCoefY1: TEdit
+          Left = 238
+          Height = 29
+          Top = 3
+          Width = 200
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '3'
+        end
+        object Label9: TLabel
+          Left = 441
+          Height = 35
+          Top = 0
+          Width = 29
+          Align = alLeft
+          Caption = 'Y = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edTerm1: TEdit
+          Left = 473
+          Height = 29
+          Top = 3
+          Width = 227
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 2
+          Text = '50'
+        end
+      end
+      object Panel10: TPanel
+        Left = 0
+        Height = 49
+        Top = 238
+        Width = 747
+        Align = alTop
+        ClientHeight = 49
+        ClientWidth = 747
+        TabOrder = 2
+        object bCalcularSolucion: TButton
+          Left = 574
+          Height = 37
+          Top = 6
+          Width = 167
+          Align = alRight
+          BorderSpacing.Around = 5
+          Caption = 'Calcular'
+          OnClick = CalcularSolucionSistemaEcuaciones
+          TabOrder = 0
+        end
+      end
+      object mLogSolSisEcu: TMemo
+        Left = 0
+        Height = 248
+        Top = 287
+        Width = 747
+        Align = alClient
+        Lines.Strings = (
+          'mLogSegundos'
+        )
+        ScrollBars = ssVertical
+        TabOrder = 3
+      end
+      object gbPtA2: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 157
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Coeficientes de la Ecuación 1'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 4
+        object Label10: TLabel
+          Left = 206
+          Height = 35
+          Top = 0
+          Width = 29
+          Align = alLeft
+          Caption = 'X + '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edCoefX2: TEdit
+          Left = 3
+          Height = 29
+          Top = 3
+          Width = 200
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '-1'
+        end
+        object edCoefY2: TEdit
+          Left = 238
+          Height = 29
+          Top = 3
+          Width = 200
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '1'
+        end
+        object Label11: TLabel
+          Left = 441
+          Height = 35
+          Top = 0
+          Width = 29
+          Align = alLeft
+          Caption = 'Y = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edTerm2: TEdit
+          Left = 473
+          Height = 29
+          Top = 3
+          Width = 227
+          Align = alClient
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 2
+          Text = '-2'
+        end
+      end
     end
     object TabSheet8: TTabSheet
-      Caption = 'TabSheet8'
+      Caption = 'Determinante 3x3'
+      ClientHeight = 535
+      ClientWidth = 747
+      object Panel11: TPanel
+        Left = 0
+        Height = 56
+        Top = 0
+        Width = 747
+        Align = alTop
+        Caption = 'Cálculo del Determinante 3x3'
+        Color = 14548991
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+      end
+      object pMat1: TPanel
+        Left = 100
+        Height = 57
+        Top = 106
+        Width = 547
+        Align = alTop
+        BorderSpacing.Left = 100
+        BorderSpacing.Top = 50
+        BorderSpacing.Right = 100
+        BevelOuter = bvNone
+        ClientHeight = 57
+        ClientWidth = 547
+        Color = 15132390
+        ParentColor = False
+        TabOrder = 1
+        object edM11: TEdit
+          Left = 10
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alLeft
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 0
+          Text = '1'
+        end
+        object edM13: TEdit
+          Left = 368
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alClient
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 2
+          Text = '8'
+        end
+        object edM12: TEdit
+          Left = 189
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alLeft
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 1
+          Text = '3'
+        end
+      end
+      object pMat2: TPanel
+        Left = 100
+        Height = 57
+        Top = 163
+        Width = 547
+        Align = alTop
+        BorderSpacing.Left = 100
+        BorderSpacing.Right = 100
+        BevelOuter = bvNone
+        ClientHeight = 57
+        ClientWidth = 547
+        Color = 15132390
+        ParentColor = False
+        TabOrder = 2
+        object edM21: TEdit
+          Left = 10
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alLeft
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 0
+          Text = '-6'
+        end
+        object edM23: TEdit
+          Left = 368
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alClient
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 2
+          Text = '7'
+        end
+        object edM22: TEdit
+          Left = 189
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alLeft
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 1
+          Text = '5'
+        end
+      end
+      object pMat3: TPanel
+        Left = 100
+        Height = 57
+        Top = 220
+        Width = 547
+        Align = alTop
+        BorderSpacing.Left = 100
+        BorderSpacing.Right = 100
+        BevelOuter = bvNone
+        ClientHeight = 57
+        ClientWidth = 547
+        Color = 15132390
+        ParentColor = False
+        TabOrder = 3
+        object edM31: TEdit
+          Left = 10
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alLeft
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 0
+          Text = '-2'
+        end
+        object edM33: TEdit
+          Left = 368
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alClient
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 2
+          Text = '4'
+        end
+        object edM32: TEdit
+          Left = 189
+          Height = 37
+          Top = 10
+          Width = 169
+          Align = alLeft
+          Alignment = taCenter
+          BorderSpacing.Around = 10
+          TabOrder = 1
+          Text = '9'
+        end
+      end
+      object mLogDeterminante: TMemo
+        Left = 0
+        Height = 189
+        Top = 346
+        Width = 747
+        Align = alClient
+        Lines.Strings = (
+          'mLogSegundos'
+        )
+        ScrollBars = ssVertical
+        TabOrder = 4
+      end
+      object Panel15: TPanel
+        Left = 0
+        Height = 49
+        Top = 297
+        Width = 747
+        Align = alTop
+        BorderSpacing.Top = 20
+        ClientHeight = 49
+        ClientWidth = 747
+        TabOrder = 5
+        object bCalcularDeterminante: TButton
+          Left = 574
+          Height = 37
+          Top = 6
+          Width = 167
+          Align = alRight
+          BorderSpacing.Around = 5
+          Caption = 'Calcular Determinante'
+          OnClick = CalcularDeterminante3x3
+          TabOrder = 0
+        end
+      end
     end
     object TabSheet9: TTabSheet
-      Caption = 'TabSheet9'
+      Caption = 'Circunferencia 3 Puntos'
+      ClientHeight = 535
+      ClientWidth = 747
+      object Panel12: TPanel
+        Left = 0
+        Height = 56
+        Top = 0
+        Width = 747
+        Align = alTop
+        Caption = 'Operaciones con Puntos en el Plano'
+        Color = 14548991
+        Font.Height = -21
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+      end
+      object gbPtA3: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 76
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el punto A'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object edCy1: TEdit
+          Left = 421
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alRight
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '10'
+        end
+        object Label12: TLabel
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 38
+          Align = alLeft
+          Alignment = taCenter
+          Caption = 'X1 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object Label13: TLabel
+          Left = 323
+          Height = 35
+          Top = 0
+          Width = 95
+          Align = alClient
+          Alignment = taRightJustify
+          Caption = 'Y1 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edCx1: TEdit
+          Left = 41
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '6'
+        end
+      end
+      object gbPtB1: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 157
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el punto B'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 2
+        object edCy2: TEdit
+          Left = 421
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alRight
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '3'
+        end
+        object Label14: TLabel
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 38
+          Align = alLeft
+          Alignment = taCenter
+          Caption = 'X2 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object Label15: TLabel
+          Left = 323
+          Height = 35
+          Top = 0
+          Width = 95
+          Align = alClient
+          Alignment = taRightJustify
+          Caption = 'Y2 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edCx2: TEdit
+          Left = 41
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '4'
+        end
+      end
+      object gbPtC1: TGroupBox
+        Left = 20
+        Height = 61
+        Top = 238
+        Width = 707
+        Align = alTop
+        BorderSpacing.Around = 20
+        Caption = 'Ingrese el punto C'
+        ClientHeight = 35
+        ClientWidth = 703
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 3
+        object edCy3: TEdit
+          Left = 421
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alRight
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 1
+          Text = '2'
+        end
+        object Label16: TLabel
+          Left = 0
+          Height = 35
+          Top = 0
+          Width = 38
+          Align = alLeft
+          Alignment = taCenter
+          Caption = 'X3 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object Label17: TLabel
+          Left = 323
+          Height = 35
+          Top = 0
+          Width = 95
+          Align = alClient
+          Alignment = taRightJustify
+          Caption = 'Y3 = '
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object edCx3: TEdit
+          Left = 41
+          Height = 29
+          Top = 3
+          Width = 279
+          Align = alLeft
+          Alignment = taRightJustify
+          BorderSpacing.Around = 3
+          Font.Color = 10158158
+          Font.Height = -16
+          ParentFont = False
+          TabOrder = 0
+          Text = '12'
+        end
+      end
+      object Panel13: TPanel
+        Left = 0
+        Height = 49
+        Top = 319
+        Width = 747
+        Align = alTop
+        ClientHeight = 49
+        ClientWidth = 747
+        TabOrder = 4
+        object bCalcularTriangulo1: TButton
+          Left = 574
+          Height = 37
+          Top = 6
+          Width = 167
+          Align = alRight
+          BorderSpacing.Around = 5
+          Caption = 'Calcular Ecuación'
+          OnClick = CalcularEcuacionCircunferencia
+          TabOrder = 0
+        end
+      end
+      object mLogCircunferencia: TMemo
+        Left = 0
+        Height = 167
+        Top = 368
+        Width = 747
+        Align = alClient
+        Lines.Strings = (
+          'mLogSegundos'
+        )
+        ScrollBars = ssVertical
+        TabOrder = 5
+      end
     end
     object TabSheet10: TTabSheet
-      Caption = 'TabSheet10'
-    end
-    object TabSheet11: TTabSheet
-      Caption = 'TabSheet11'
-    end
-    object TabSheet12: TTabSheet
-      Caption = 'TabSheet12'
+      Caption = 'Acerca del Software'
+      ClientHeight = 535
+      ClientWidth = 747
+      object mLogCircunferencia1: TMemo
+        Left = 50
+        Height = 435
+        Top = 50
+        Width = 647
+        Align = alClient
+        Alignment = taCenter
+        BorderSpacing.Around = 50
+        Font.Height = -24
+        Lines.Strings = (
+          'Esta software es diseñado por Julián Andrés Rincón Penagos, como una herramienta, una calculadora para resolver algunos ejercicios y problemas de las matemáticas usando números enteros y reales.'
+        )
+        ParentFont = False
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
     end
   end
   object Panel1: TPanel
     Left = 0
     Height = 52
     Top = 0
-    Width = 1024
+    Width = 1011
     Align = alTop
     Caption = 'Calculadora de Fórmulas'
     Color = 12615680
@@ -176,5 +1482,76 @@ object FCalculadoraFormulas: TFCalculadoraFormulas
     ParentColor = False
     ParentFont = False
     TabOrder = 2
+  end
+  object MainMenu1: TMainMenu
+    Left = 96
+    Top = 392
+    object MenuItem1: TMenuItem
+      Caption = 'Archivo'
+      object MenuItem2: TMenuItem
+        Caption = 'Conversión de Segundos'
+        OnClick = MenuItem2Click
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Grados a Radianes'
+        OnClick = MenuItem3Click
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Conversión de Temperaturas'
+        OnClick = MenuItem4Click
+      end
+      object MenuItem5: TMenuItem
+        Caption = 'Puntos en el Plano'
+        OnClick = MenuItem5Click
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Suma de Dígitos de un Número de Cuatro Cifras'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Relaciones de la Tangente'
+        OnClick = MenuItem7Click
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Sistema de Ecuaciones de 2x2'
+        OnClick = MenuItem8Click
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Determinante 3x3'
+        OnClick = MenuItem9Click
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'Circunferencia por tres puntos'
+        OnClick = MenuItem10Click
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Salir'
+        ShortCut = 16465
+        OnClick = MenuItem11Click
+      end
+    end
+    object MenuItem12: TMenuItem
+      Caption = 'Ver'
+      object menuVerLateral: TMenuItem
+        Caption = 'Menú Lateral'
+        Checked = True
+        ShortCut = 16461
+        OnClick = menuVerLateralClick
+      end
+    end
+    object MenuItem13: TMenuItem
+      Caption = 'Acerca de ...'
+      object MenuItem14: TMenuItem
+        Caption = 'Acerca del Software'
+        OnClick = MenuItem14Click
+      end
+      object MenuItem15: TMenuItem
+        Caption = 'Autor'
+        OnClick = MenuItem15Click
+      end
+    end
   end
 end

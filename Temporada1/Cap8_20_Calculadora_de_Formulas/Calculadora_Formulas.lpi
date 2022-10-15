@@ -75,6 +75,9 @@
       <Item>
         <Name Value="EFOpenError"/>
       </Item>
+      <Item>
+        <Name Value="EConvertError"/>
+      </Item>
     </Exceptions>
   </Debugging>
 </CONFIG>

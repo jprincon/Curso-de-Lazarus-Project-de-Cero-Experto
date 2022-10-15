@@ -21,73 +21,140 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFCalculadoraFormulas"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="63"/>
-        <CursorPos X="36" Y="77"/>
+        <TopLine Value="276"/>
+        <CursorPos X="3" Y="279"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
+      <Unit>
+        <Filename Value="F:\Lazarus\fpc\3.2.2\source\rtl\inc\mathh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="94"/>
+        <CursorPos X="18" Y="105"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="14">
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Column="20" TopLine="13"/>
+        <Caret Line="430" Column="35" TopLine="423"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="49" Column="6" TopLine="30"/>
+        <Caret Line="431" Column="35" TopLine="424"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="43" Column="19" TopLine="36"/>
+        <Caret Line="432" Column="35" TopLine="425"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="44" Column="19" TopLine="37"/>
+        <Caret Line="433" Column="35" TopLine="426"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="45" Column="19" TopLine="38"/>
+        <Caret Line="440" Column="35" TopLine="433"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="59" Column="27" TopLine="39"/>
+        <Caret Line="273" Column="14" TopLine="264"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="60" Column="27" TopLine="40"/>
+        <Caret Line="279" Column="27" TopLine="265"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="61" Column="25" TopLine="42"/>
+        <Caret Line="285" Column="29" TopLine="266"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="53" Column="34" TopLine="42"/>
+        <Caret Line="304" Column="39" TopLine="289"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="54" Column="34" TopLine="43"/>
+        <Caret Line="297" Column="28" TopLine="290"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="55" Column="34" TopLine="44"/>
+        <Caret Line="303" Column="29" TopLine="291"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="54" Column="34" TopLine="43"/>
+        <Caret Line="309" Column="29" TopLine="298"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="55" Column="34" TopLine="44"/>
+        <Caret Line="315" Column="29" TopLine="299"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="54" Column="34" TopLine="43"/>
+        <Caret Line="326" Column="29" TopLine="305"/>
       </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="56" Column="34" TopLine="45"/>
+        <Caret Line="291" Column="16" TopLine="279"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="292" Column="16" TopLine="280"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="299" Column="16" TopLine="282"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="295" Column="52" TopLine="282"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="296" Column="52" TopLine="283"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="297" Column="52" TopLine="284"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="304" Column="52" TopLine="286"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="298" Column="32" TopLine="280"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="297" Column="32" TopLine="279"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="296" Column="32" TopLine="278"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="302" Column="32" TopLine="280"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="298" Column="27" TopLine="284"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="591" Column="74" TopLine="586"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="593" Column="45" TopLine="586"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="303" Column="29" TopLine="301"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="304" Column="29" TopLine="302"/>
       </Position>
     </JumpHistory>
     <RunParams>
