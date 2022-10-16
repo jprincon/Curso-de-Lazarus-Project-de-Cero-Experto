@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Estructuras_Programacion.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="73"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FEstructurasProgramacion"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFEstructurasProgramacion"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="524"/>
+        <CursorPos X="4" Y="527"/>
+        <UsageCount Value="73"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="306" Column="22" TopLine="294"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="607" Column="12" TopLine="594"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="306" Column="24" TopLine="294"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="612" Column="18" TopLine="585"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="304" Column="40" TopLine="294"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="612" Column="44" TopLine="597"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="613" Column="44" TopLine="598"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="612" Column="44" TopLine="597"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="613" Column="44" TopLine="598"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="614" Column="44" TopLine="599"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="615" Column="44" TopLine="600"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="299" Column="3" TopLine="288"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="183" Column="20" TopLine="173"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="302" Column="10" TopLine="297"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="382" Column="35" TopLine="375"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="184" Column="19" TopLine="174"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="380" Column="43" TopLine="374"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="304" Column="5" TopLine="293"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="382" Column="29" TopLine="371"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="623" Column="26" TopLine="613"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="388" Column="34" TopLine="375"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="389" Column="34" TopLine="376"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="384" Column="4" TopLine="377"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="787" Column="5" TopLine="765"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="793" Column="5" TopLine="772"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="526" Column="5" TopLine="491"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="192" Column="22" TopLine="182"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="213" Column="14" TopLine="205"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="542" Column="2" TopLine="524"/>
+      </Position>
+      <Position>
+        <Filename Value="ufestructurasprogramacion.pas"/>
+        <Caret Line="794" Column="3" TopLine="762"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

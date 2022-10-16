@@ -21,8 +21,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFCalculadoraFormulas"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="276"/>
-        <CursorPos X="3" Y="279"/>
+        <TopLine Value="293"/>
+        <CursorPos X="32" Y="305"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -36,26 +36,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="430" Column="35" TopLine="423"/>
-      </Position>
-      <Position>
-        <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="431" Column="35" TopLine="424"/>
-      </Position>
-      <Position>
-        <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="432" Column="35" TopLine="425"/>
-      </Position>
-      <Position>
-        <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="433" Column="35" TopLine="426"/>
-      </Position>
-      <Position>
-        <Filename Value="ufcalculadoraformulas.pas"/>
-        <Caret Line="440" Column="35" TopLine="433"/>
-      </Position>
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
         <Caret Line="273" Column="14" TopLine="264"/>
@@ -155,6 +135,26 @@
       <Position>
         <Filename Value="ufcalculadoraformulas.pas"/>
         <Caret Line="304" Column="29" TopLine="302"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="22" Column="17" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="311" Column="6" TopLine="309"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="312" Column="6" TopLine="310"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="311" Column="6" TopLine="309"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcalculadoraformulas.pas"/>
+        <Caret Line="310" Column="6" TopLine="308"/>
       </Position>
     </JumpHistory>
     <RunParams>

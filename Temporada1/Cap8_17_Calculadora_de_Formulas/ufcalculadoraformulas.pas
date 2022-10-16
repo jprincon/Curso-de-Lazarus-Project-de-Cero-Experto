@@ -173,6 +173,7 @@ type
     procedure MenuItem11Click(Sender: TObject);
     procedure MenuItem14Click(Sender: TObject);
     procedure MenuItem15Click(Sender: TObject);
+    procedure MenuItem16Click(Sender: TObject);
     procedure menuVerLateralClick(Sender: TObject);
     procedure MenuItem2Click(Sender: TObject);
     procedure MenuItem3Click(Sender: TObject);
@@ -302,6 +303,11 @@ end;
 procedure TFCalculadoraFormulas.MenuItem15Click(Sender: TObject);
 begin
      Contenido.TabIndex:= 0;
+end;
+
+procedure TFCalculadoraFormulas.MenuItem16Click(Sender: TObject);
+begin
+
 end;
 
 procedure TFCalculadoraFormulas.menuVerLateralClick(Sender: TObject);
@@ -619,14 +625,3 @@ begin
 end;
 
 end.
-{
-1. Conversión de Segundos
-2. Conversión de grados
-3. Conversión de temperatura
-4. Punto medio, Distancia, Área de un triángulo
-5. Suma de los digitos de un número de cuatro cifras
-6. Teorema de la tangente
-7. Sistemas de ecuaciones de 2x2
-8. Determinante de 3x3
-9. Ecuación de una Circunferencia dados tres puntos
-}

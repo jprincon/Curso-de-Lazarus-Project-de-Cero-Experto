@@ -1,0 +1,3282 @@
+object FEstructurasProgramacion: TFEstructurasProgramacion
+  Left = 486
+  Height = 738
+  Top = 186
+  Width = 1024
+  Caption = 'Estructuras de Programación'
+  ClientHeight = 718
+  ClientWidth = 1024
+  Color = clWhite
+  Font.Height = -16
+  Menu = MenuPrincipal
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object Contenido: TPageControl
+    Left = 0
+    Height = 406
+    Top = 71
+    Width = 1024
+    ActivePage = tabSimulacionCodigo
+    Align = alClient
+    TabIndex = 16
+    TabOrder = 0
+    object tabSolEcuacion: TTabSheet
+      Caption = 'tabSolEcuacion'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel1: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox1: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 312
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Coeficiente A'
+          ClientHeight = 38
+          ClientWidth = 308
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edCoefA: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 302
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '12'
+          end
+        end
+        object GroupBox2: TGroupBox
+          Left = 352
+          Height = 64
+          Top = 20
+          Width = 312
+          Align = alClient
+          BorderSpacing.Around = 20
+          Caption = 'Coeficiente B'
+          ClientHeight = 38
+          ClientWidth = 308
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 1
+          object edCoefB: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 302
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '12'
+          end
+        end
+        object GroupBox7: TGroupBox
+          Left = 684
+          Height = 64
+          Top = 20
+          Width = 312
+          Align = alRight
+          BorderSpacing.Around = 20
+          Caption = 'Coeficiente C'
+          ClientHeight = 38
+          ClientWidth = 308
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 2
+          object edCoefC: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 302
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '12'
+          end
+        end
+      end
+      object Panel2: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bRseolverEcuacion: TButton
+          Left = 836
+          Height = 40
+          Top = 5
+          Width = 160
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Resolver Ecuación'
+          OnClick = ResolverEcuacion
+          TabOrder = 0
+        end
+      end
+    end
+    object tabAyuda: TTabSheet
+      Caption = 'tabAyuda'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object mAyuda: TMemo
+        Left = 0
+        Height = 372
+        Top = 0
+        Width = 1016
+        Align = alClient
+        Lines.Strings = (
+          'mAyuda'
+        )
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+    object tabAutor: TTabSheet
+      Caption = 'tabAutor'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object GroupBox3: TGroupBox
+        Left = 20
+        Height = 332
+        Top = 20
+        Width = 144
+        Align = alLeft
+        BorderSpacing.Around = 20
+        Caption = 'Autor'
+        TabOrder = 0
+      end
+    end
+    object tabParImpar: TTabSheet
+      Caption = 'tabParImpar'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel3: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox4: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edNumC: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '12'
+          end
+        end
+      end
+      object Panel4: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bEvaluarNumerosPares: TButton
+          Left = 836
+          Height = 40
+          Top = 5
+          Width = 160
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Evaluar Número'
+          OnClick = EvaluarNumerosParesImpares
+          TabOrder = 0
+        end
+      end
+    end
+    object tabNumeroMayor: TTabSheet
+      Caption = 'tabNumeroMayor'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel5: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox5: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edNumA: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '12'
+          end
+        end
+        object GroupBox6: TGroupBox
+          Left = 518
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alClient
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 1
+          object edNumB: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '12'
+          end
+        end
+      end
+      object Panel6: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bEvaluarNumeros1: TButton
+          Left = 836
+          Height = 40
+          Top = 5
+          Width = 160
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Evaluar Números'
+          OnClick = EvaluarNumeros
+          TabOrder = 0
+        end
+      end
+    end
+    object tabTablaMultiplicar: TTabSheet
+      Caption = 'tabTablaMultiplicar'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel7: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox8: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edNumTabla: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '12'
+          end
+        end
+      end
+      object Panel8: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bCalcularTabla: TButton
+          Left = 836
+          Height = 40
+          Top = 5
+          Width = 160
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Calcular Tabla'
+          OnClick = CalcularTablaMultiplicar
+          TabOrder = 0
+        end
+      end
+    end
+    object tabFactorial: TTabSheet
+      Caption = 'tabFactorial'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel9: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox9: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edNumFact: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '5'
+          end
+        end
+      end
+      object Panel10: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bCalcularFactorial: TButton
+          Left = 836
+          Height = 40
+          Top = 5
+          Width = 160
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Calcular Factorial'
+          OnClick = CalcularFactorial
+          TabOrder = 0
+        end
+      end
+    end
+    object tabGenerarClaves: TTabSheet
+      Caption = 'tabGenerarClaves'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel11: TPanel
+        Left = 0
+        Height = 104
+        Top = 80
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox10: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 976
+          Align = alClient
+          BorderSpacing.Around = 20
+          Caption = 'Copie la clave generada'
+          ClientHeight = 38
+          ClientWidth = 972
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edClave: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 966
+            Align = alClient
+            Alignment = taCenter
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = 'Pulse el botón para generar una clave aleatoria'
+          end
+        end
+      end
+      object Panel12: TPanel
+        Left = 0
+        Height = 50
+        Top = 30
+        Width = 1016
+        Align = alTop
+        BorderSpacing.Top = 30
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bGenerarClaves: TButton
+          Left = 836
+          Height = 40
+          Top = 5
+          Width = 160
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Generar Clave'
+          OnClick = GenerarClaveAleatoria
+          TabOrder = 0
+        end
+      end
+    end
+    object tabPrimerosPrimos: TTabSheet
+      Caption = 'tabPrimerosPrimos'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel13: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox11: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edNumN: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '100'
+          end
+        end
+      end
+      object Panel14: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bCalcularPrimosN: TButton
+          Left = 772
+          Height = 40
+          Top = 5
+          Width = 224
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Calcular Números Primos'
+          OnClick = CalcularPrimerosPrimosN
+          TabOrder = 0
+        end
+      end
+    end
+    object tabOrdenarNumeros: TTabSheet
+      Caption = 'tabOrdenarNumeros'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel15: TPanel
+        Left = 0
+        Height = 50
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 0
+        object bOrdenarNumeros: TButton
+          Left = 772
+          Height = 40
+          Top = 5
+          Width = 224
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Ordenar Números'
+          OnClick = OrdenarNumeros
+          TabOrder = 0
+        end
+      end
+    end
+    object tabCalculosEstdisticos: TTabSheet
+      Caption = 'tabCalculosEstdisticos'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object GroupBox12: TGroupBox
+        Left = 5
+        Height = 306
+        Top = 5
+        Width = 308
+        Align = alLeft
+        BorderSpacing.Around = 5
+        Caption = 'Datos Estadísticos'
+        ClientHeight = 280
+        ClientWidth = 304
+        TabOrder = 0
+        object tvDatos: TTreeView
+          Left = 0
+          Height = 234
+          Top = 0
+          Width = 304
+          Align = alClient
+          TabOrder = 0
+          OnKeyDown = validarBorrarDatos
+        end
+        object Panel16: TPanel
+          Left = 0
+          Height = 46
+          Top = 234
+          Width = 304
+          Align = alBottom
+          ClientHeight = 46
+          ClientWidth = 304
+          TabOrder = 1
+          object edValor: TEdit
+            Left = 6
+            Height = 34
+            Top = 6
+            Width = 192
+            Align = alClient
+            Alignment = taCenter
+            BorderSpacing.Around = 5
+            Font.Color = 4227072
+            Font.Height = -16
+            Font.Style = [fsBold]
+            OnKeyDown = validarEnter
+            ParentFont = False
+            TabOrder = 0
+            Text = '0'
+          end
+          object bInsertar: TButton
+            Left = 203
+            Height = 34
+            Top = 6
+            Width = 95
+            Align = alRight
+            BorderSpacing.Around = 5
+            Caption = 'Insertar'
+            OnClick = InsertarValor
+            TabOrder = 1
+          end
+        end
+      end
+      object Panel17: TPanel
+        Left = 0
+        Height = 56
+        Top = 316
+        Width = 1016
+        Align = alBottom
+        ClientHeight = 56
+        ClientWidth = 1016
+        TabOrder = 1
+        object bCalcularEstadisticas: TButton
+          Left = 832
+          Height = 44
+          Top = 6
+          Width = 178
+          Align = alRight
+          BorderSpacing.Around = 5
+          Caption = 'Calcular Estadísticas'
+          OnClick = CalcularEstadisticas
+          TabOrder = 0
+        end
+        object bGenerarDatos: TButton
+          Left = 6
+          Height = 44
+          Top = 6
+          Width = 178
+          Align = alLeft
+          BorderSpacing.Around = 5
+          Caption = 'Generar Datos'
+          OnClick = GenerarDatos
+          TabOrder = 1
+        end
+      end
+      object GraficaDiagramaBarras: TChart
+        Left = 318
+        Height = 316
+        Top = 0
+        Width = 698
+        AxisList = <        
+          item
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+            Title.LabelBrush.Style = bsClear
+          end        
+          item
+            Alignment = calBottom
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelBrush.Style = bsClear
+          end>
+        Title.Text.Strings = (
+          'TAChart'
+        )
+        Align = alClient
+        object diagramaBarras: TBarSeries
+          BarBrush.Color = clRed
+        end
+      end
+    end
+    object tabTabulacion: TTabSheet
+      Caption = 'tabTabulacion'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object GroupBox13: TGroupBox
+        Left = 3
+        Height = 366
+        Top = 3
+        Width = 317
+        Align = alLeft
+        BorderSpacing.Around = 3
+        Caption = 'Tabulación'
+        ClientHeight = 340
+        ClientWidth = 313
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        object lvTabulacion: TListView
+          Left = 0
+          Height = 340
+          Top = 0
+          Width = 313
+          Align = alClient
+          Columns = <          
+            item
+              Width = 3
+            end          
+            item
+              Width = 100
+            end          
+            item
+              Width = 100
+            end>
+          Font.Height = -16
+          GridLines = True
+          ParentFont = False
+          RowSelect = True
+          TabOrder = 0
+          ViewStyle = vsReport
+        end
+      end
+      object GroupBox14: TGroupBox
+        Left = 323
+        Height = 366
+        Top = 3
+        Width = 285
+        Align = alLeft
+        BorderSpacing.Around = 3
+        Caption = 'Datos'
+        ClientHeight = 340
+        ClientWidth = 281
+        Font.Height = -16
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        object Panel18: TPanel
+          Left = 0
+          Height = 40
+          Top = 0
+          Width = 281
+          Align = alTop
+          ClientHeight = 40
+          ClientWidth = 281
+          TabOrder = 0
+          object Label1: TLabel
+            Left = 1
+            Height = 38
+            Top = 1
+            Width = 100
+            Align = alLeft
+            Alignment = taRightJustify
+            AutoSize = False
+            Caption = 'Lím Inf = '
+            Font.Height = -16
+            Font.Style = [fsBold, fsItalic]
+            Layout = tlCenter
+            ParentColor = False
+            ParentFont = False
+          end
+          object edLimInf: TEdit
+            Left = 104
+            Height = 32
+            Top = 4
+            Width = 173
+            Align = alClient
+            Alignment = taCenter
+            BorderSpacing.Around = 3
+            Font.Color = 9044037
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '-10'
+          end
+        end
+        object Panel19: TPanel
+          Left = 0
+          Height = 40
+          Top = 80
+          Width = 281
+          Align = alTop
+          ClientHeight = 40
+          ClientWidth = 281
+          TabOrder = 1
+          object Label2: TLabel
+            Left = 1
+            Height = 38
+            Top = 1
+            Width = 100
+            Align = alLeft
+            Alignment = taRightJustify
+            AutoSize = False
+            Caption = 'dx = '
+            Font.Height = -16
+            Font.Style = [fsBold, fsItalic]
+            Layout = tlCenter
+            ParentColor = False
+            ParentFont = False
+          end
+          object edDx: TEdit
+            Left = 104
+            Height = 32
+            Top = 4
+            Width = 173
+            Align = alClient
+            Alignment = taCenter
+            BorderSpacing.Around = 3
+            Font.Color = 9044037
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '1'
+          end
+        end
+        object Panel20: TPanel
+          Left = 0
+          Height = 40
+          Top = 40
+          Width = 281
+          Align = alTop
+          ClientHeight = 40
+          ClientWidth = 281
+          TabOrder = 2
+          object Label3: TLabel
+            Left = 1
+            Height = 38
+            Top = 1
+            Width = 100
+            Align = alLeft
+            Alignment = taRightJustify
+            AutoSize = False
+            Caption = 'Lím Sup = '
+            Font.Height = -16
+            Font.Style = [fsBold, fsItalic]
+            Layout = tlCenter
+            ParentColor = False
+            ParentFont = False
+          end
+          object edLimSup: TEdit
+            Left = 104
+            Height = 32
+            Top = 4
+            Width = 173
+            Align = alClient
+            Alignment = taCenter
+            BorderSpacing.Around = 3
+            Font.Color = 9044037
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '10'
+          end
+        end
+        object bTabular: TButton
+          Left = 3
+          Height = 46
+          Top = 291
+          Width = 275
+          Align = alBottom
+          BorderSpacing.Around = 3
+          Caption = 'Graficar'
+          Font.Height = -16
+          OnClick = RealizarGrafica
+          ParentFont = False
+          TabOrder = 3
+        end
+      end
+      object graficaFuncion: TChart
+        Left = 611
+        Height = 372
+        Top = 0
+        Width = 405
+        AxisList = <        
+          item
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+            Title.LabelBrush.Style = bsClear
+          end        
+          item
+            Alignment = calBottom
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelBrush.Style = bsClear
+          end>
+        Title.Text.Strings = (
+          'TAChart'
+        )
+        Align = alClient
+        object fx: TCubicSplineSeries
+          Pen.Color = clRed
+          Pen.Width = 3
+        end
+      end
+    end
+    object tabListaAleatoria: TTabSheet
+      Caption = 'tabListaAleatoria'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel21: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox15: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edCond: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            MaxLength = 3
+            ParentFont = False
+            TabOrder = 0
+            Text = '100'
+          end
+        end
+      end
+      object Panel22: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bCalcularListaAleatoria: TButton
+          Left = 772
+          Height = 40
+          Top = 5
+          Width = 224
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Calcular Lista Aleatoria'
+          OnClick = CalcularListaAleatoria
+          TabOrder = 0
+        end
+      end
+    end
+    object tabListaSinRepeticion: TTabSheet
+      Caption = 'tabListaSinRepeticion'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel23: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox16: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese un número'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edRango: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            MaxLength = 3
+            ParentFont = False
+            TabOrder = 0
+            Text = '100'
+          end
+        end
+      end
+      object Panel24: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bGenerarListaAleatoria: TButton
+          Left = 772
+          Height = 40
+          Top = 5
+          Width = 224
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Generar Lista'
+          OnClick = GenerarListaAleatoria
+          TabOrder = 0
+        end
+      end
+    end
+    object tabRebotes: TTabSheet
+      Caption = 'tabRebotes'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel25: TPanel
+        Left = 0
+        Height = 104
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 104
+        ClientWidth = 1016
+        TabOrder = 0
+        object GroupBox17: TGroupBox
+          Left = 20
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Ingrese el porcentaje de perdida'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+          object edPerdida: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '11'
+          end
+        end
+        object GroupBox18: TGroupBox
+          Left = 518
+          Height = 64
+          Top = 20
+          Width = 478
+          Align = alLeft
+          BorderSpacing.Around = 20
+          Caption = 'Altura de la pelota'
+          ClientHeight = 38
+          ClientWidth = 474
+          Font.Height = -16
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 1
+          object edAltura: TEdit
+            Left = 3
+            Height = 32
+            Top = 3
+            Width = 468
+            Align = alClient
+            Alignment = taRightJustify
+            BorderSpacing.Around = 3
+            Font.Color = 10420304
+            Font.Height = -16
+            ParentFont = False
+            TabOrder = 0
+            Text = '10'
+          end
+        end
+      end
+      object Panel26: TPanel
+        Left = 0
+        Height = 50
+        Top = 104
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 1016
+        TabOrder = 1
+        object bSimulacion: TButton
+          Left = 772
+          Height = 40
+          Top = 5
+          Width = 224
+          Align = alRight
+          BorderSpacing.Right = 15
+          BorderSpacing.Around = 5
+          Caption = 'Generar Simulación'
+          OnClick = GenerarSimulacion
+          TabOrder = 0
+        end
+      end
+      object Chart1: TChart
+        Left = 0
+        Height = 218
+        Top = 154
+        Width = 1016
+        AxisList = <        
+          item
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+            Title.LabelBrush.Style = bsClear
+          end        
+          item
+            Alignment = calBottom
+            Marks.LabelBrush.Style = bsClear
+            Minors = <>
+            Title.LabelBrush.Style = bsClear
+          end>
+        Legend.Visible = True
+        Title.Text.Strings = (
+          'TAChart'
+        )
+        Align = alClient
+        object graficaPelota: TCubicSplineSeries
+          Pen.Color = clBlue
+          Pen.Width = 4
+        end
+      end
+    end
+    object tabCronometro: TTabSheet
+      Caption = 'tabCronometro'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object Panel27: TPanel
+        Left = 0
+        Height = 59
+        Top = 129
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 59
+        ClientWidth = 1016
+        TabOrder = 0
+        object bPausarCrono: TButton
+          Left = 949
+          Height = 39
+          Top = 10
+          Width = 57
+          Align = alRight
+          BorderSpacing.Around = 10
+          Caption = 'Pausa'
+          OnClick = pausarCrono
+          TabOrder = 0
+        end
+        object bIniciarCrono: TButton
+          Left = 882
+          Height = 39
+          Top = 10
+          Width = 57
+          Align = alRight
+          BorderSpacing.Around = 10
+          Caption = 'Iniciar'
+          OnClick = IniciarCrono
+          TabOrder = 1
+        end
+      end
+      object Panel28: TPanel
+        Left = 0
+        Height = 129
+        Top = 0
+        Width = 1016
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 129
+        ClientWidth = 1016
+        TabOrder = 1
+        object lbCrono: TLabel
+          Left = 30
+          Height = 69
+          Top = 30
+          Width = 658
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Around = 30
+          Caption = '00:00:00'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clRed
+          Font.Height = -64
+          Font.Name = 'Digital dream'
+          Font.Pitch = fpFixed
+          Font.Quality = fqDraft
+          ParentColor = False
+          ParentFont = False
+        end
+        object lbMili: TLabel
+          Left = 718
+          Height = 69
+          Top = 30
+          Width = 78
+          Align = alLeft
+          Alignment = taCenter
+          BorderSpacing.Around = 30
+          Caption = '000'
+          Font.CharSet = ANSI_CHARSET
+          Font.Color = clRed
+          Font.Height = -32
+          Font.Name = 'Digital dream'
+          Font.Pitch = fpFixed
+          Font.Quality = fqDraft
+          Layout = tlBottom
+          ParentColor = False
+          ParentFont = False
+        end
+      end
+    end
+    object tabSimulacionCodigo: TTabSheet
+      Caption = 'tabSimulacionCodigo'
+      ClientHeight = 372
+      ClientWidth = 1016
+      object tvCodigo: TTreeView
+        Left = 0
+        Height = 372
+        Top = 0
+        Width = 1016
+        Align = alClient
+        TabOrder = 0
+      end
+      inline seCodigo: TSynEdit
+        Left = 480
+        Height = 251
+        Top = 64
+        Width = 422
+        Font.Height = -13
+        Font.Name = 'Courier New'
+        Font.Pitch = fpFixed
+        Font.Quality = fqNonAntialiased
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 1
+        Visible = False
+        Gutter.Width = 65
+        Gutter.MouseActions = <>
+        RightGutter.Width = 0
+        RightGutter.MouseActions = <>
+        Keystrokes = <        
+          item
+            Command = ecUp
+            ShortCut = 38
+          end        
+          item
+            Command = ecSelUp
+            ShortCut = 8230
+          end        
+          item
+            Command = ecScrollUp
+            ShortCut = 16422
+          end        
+          item
+            Command = ecDown
+            ShortCut = 40
+          end        
+          item
+            Command = ecSelDown
+            ShortCut = 8232
+          end        
+          item
+            Command = ecScrollDown
+            ShortCut = 16424
+          end        
+          item
+            Command = ecLeft
+            ShortCut = 37
+          end        
+          item
+            Command = ecSelLeft
+            ShortCut = 8229
+          end        
+          item
+            Command = ecWordLeft
+            ShortCut = 16421
+          end        
+          item
+            Command = ecSelWordLeft
+            ShortCut = 24613
+          end        
+          item
+            Command = ecRight
+            ShortCut = 39
+          end        
+          item
+            Command = ecSelRight
+            ShortCut = 8231
+          end        
+          item
+            Command = ecWordRight
+            ShortCut = 16423
+          end        
+          item
+            Command = ecSelWordRight
+            ShortCut = 24615
+          end        
+          item
+            Command = ecPageDown
+            ShortCut = 34
+          end        
+          item
+            Command = ecSelPageDown
+            ShortCut = 8226
+          end        
+          item
+            Command = ecPageBottom
+            ShortCut = 16418
+          end        
+          item
+            Command = ecSelPageBottom
+            ShortCut = 24610
+          end        
+          item
+            Command = ecPageUp
+            ShortCut = 33
+          end        
+          item
+            Command = ecSelPageUp
+            ShortCut = 8225
+          end        
+          item
+            Command = ecPageTop
+            ShortCut = 16417
+          end        
+          item
+            Command = ecSelPageTop
+            ShortCut = 24609
+          end        
+          item
+            Command = ecLineStart
+            ShortCut = 36
+          end        
+          item
+            Command = ecSelLineStart
+            ShortCut = 8228
+          end        
+          item
+            Command = ecEditorTop
+            ShortCut = 16420
+          end        
+          item
+            Command = ecSelEditorTop
+            ShortCut = 24612
+          end        
+          item
+            Command = ecLineEnd
+            ShortCut = 35
+          end        
+          item
+            Command = ecSelLineEnd
+            ShortCut = 8227
+          end        
+          item
+            Command = ecEditorBottom
+            ShortCut = 16419
+          end        
+          item
+            Command = ecSelEditorBottom
+            ShortCut = 24611
+          end        
+          item
+            Command = ecToggleMode
+            ShortCut = 45
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16429
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 8237
+          end        
+          item
+            Command = ecDeleteChar
+            ShortCut = 46
+          end        
+          item
+            Command = ecCut
+            ShortCut = 8238
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8200
+          end        
+          item
+            Command = ecDeleteLastWord
+            ShortCut = 16392
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 32776
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 40968
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 13
+          end        
+          item
+            Command = ecSelectAll
+            ShortCut = 16449
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16451
+          end        
+          item
+            Command = ecBlockIndent
+            ShortCut = 24649
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 16461
+          end        
+          item
+            Command = ecInsertLine
+            ShortCut = 16462
+          end        
+          item
+            Command = ecDeleteWord
+            ShortCut = 16468
+          end        
+          item
+            Command = ecBlockUnindent
+            ShortCut = 24661
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 16470
+          end        
+          item
+            Command = ecCut
+            ShortCut = 16472
+          end        
+          item
+            Command = ecDeleteLine
+            ShortCut = 16473
+          end        
+          item
+            Command = ecDeleteEOL
+            ShortCut = 24665
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 16474
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 24666
+          end        
+          item
+            Command = ecGotoMarker0
+            ShortCut = 16432
+          end        
+          item
+            Command = ecGotoMarker1
+            ShortCut = 16433
+          end        
+          item
+            Command = ecGotoMarker2
+            ShortCut = 16434
+          end        
+          item
+            Command = ecGotoMarker3
+            ShortCut = 16435
+          end        
+          item
+            Command = ecGotoMarker4
+            ShortCut = 16436
+          end        
+          item
+            Command = ecGotoMarker5
+            ShortCut = 16437
+          end        
+          item
+            Command = ecGotoMarker6
+            ShortCut = 16438
+          end        
+          item
+            Command = ecGotoMarker7
+            ShortCut = 16439
+          end        
+          item
+            Command = ecGotoMarker8
+            ShortCut = 16440
+          end        
+          item
+            Command = ecGotoMarker9
+            ShortCut = 16441
+          end        
+          item
+            Command = ecSetMarker0
+            ShortCut = 24624
+          end        
+          item
+            Command = ecSetMarker1
+            ShortCut = 24625
+          end        
+          item
+            Command = ecSetMarker2
+            ShortCut = 24626
+          end        
+          item
+            Command = ecSetMarker3
+            ShortCut = 24627
+          end        
+          item
+            Command = ecSetMarker4
+            ShortCut = 24628
+          end        
+          item
+            Command = ecSetMarker5
+            ShortCut = 24629
+          end        
+          item
+            Command = ecSetMarker6
+            ShortCut = 24630
+          end        
+          item
+            Command = ecSetMarker7
+            ShortCut = 24631
+          end        
+          item
+            Command = ecSetMarker8
+            ShortCut = 24632
+          end        
+          item
+            Command = ecSetMarker9
+            ShortCut = 24633
+          end        
+          item
+            Command = EcFoldLevel1
+            ShortCut = 41009
+          end        
+          item
+            Command = EcFoldLevel2
+            ShortCut = 41010
+          end        
+          item
+            Command = EcFoldLevel3
+            ShortCut = 41011
+          end        
+          item
+            Command = EcFoldLevel4
+            ShortCut = 41012
+          end        
+          item
+            Command = EcFoldLevel5
+            ShortCut = 41013
+          end        
+          item
+            Command = EcFoldLevel6
+            ShortCut = 41014
+          end        
+          item
+            Command = EcFoldLevel7
+            ShortCut = 41015
+          end        
+          item
+            Command = EcFoldLevel8
+            ShortCut = 41016
+          end        
+          item
+            Command = EcFoldLevel9
+            ShortCut = 41017
+          end        
+          item
+            Command = EcFoldLevel0
+            ShortCut = 41008
+          end        
+          item
+            Command = EcFoldCurrent
+            ShortCut = 41005
+          end        
+          item
+            Command = EcUnFoldCurrent
+            ShortCut = 41003
+          end        
+          item
+            Command = EcToggleMarkupWord
+            ShortCut = 32845
+          end        
+          item
+            Command = ecNormalSelect
+            ShortCut = 24654
+          end        
+          item
+            Command = ecColumnSelect
+            ShortCut = 24643
+          end        
+          item
+            Command = ecLineSelect
+            ShortCut = 24652
+          end        
+          item
+            Command = ecTab
+            ShortCut = 9
+          end        
+          item
+            Command = ecShiftTab
+            ShortCut = 8201
+          end        
+          item
+            Command = ecMatchBracket
+            ShortCut = 24642
+          end        
+          item
+            Command = ecColSelUp
+            ShortCut = 40998
+          end        
+          item
+            Command = ecColSelDown
+            ShortCut = 41000
+          end        
+          item
+            Command = ecColSelLeft
+            ShortCut = 40997
+          end        
+          item
+            Command = ecColSelRight
+            ShortCut = 40999
+          end        
+          item
+            Command = ecColSelPageDown
+            ShortCut = 40994
+          end        
+          item
+            Command = ecColSelPageBottom
+            ShortCut = 57378
+          end        
+          item
+            Command = ecColSelPageUp
+            ShortCut = 40993
+          end        
+          item
+            Command = ecColSelPageTop
+            ShortCut = 57377
+          end        
+          item
+            Command = ecColSelLineStart
+            ShortCut = 40996
+          end        
+          item
+            Command = ecColSelLineEnd
+            ShortCut = 40995
+          end        
+          item
+            Command = ecColSelEditorTop
+            ShortCut = 57380
+          end        
+          item
+            Command = ecColSelEditorBottom
+            ShortCut = 57379
+          end>
+        MouseActions = <>
+        MouseTextActions = <>
+        MouseSelActions = <>
+        Lines.Strings = (
+          'unit uFEstructurasProgramacion;'
+          ''
+          '{$mode objfpc}{$H+}'
+          ''
+          'interface'
+          ''
+          'uses'
+          '  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ComCtrls, StdCtrls,'
+          '  ExtCtrls, Menus, SynEdit, TAGraph, TASeries, TAFuncSeries, Math;'
+          ''
+          'type'
+          ''
+          '  { TFEstructurasProgramacion }'
+          ''
+          '  TFEstructurasProgramacion = class(TForm)'
+          '    bCalcularListaAleatoria: TButton;'
+          '    bGenerarListaAleatoria: TButton;'
+          '    bGenerarDatos: TButton;'
+          '    bCalcularPrimosN: TButton;'
+          '    bCalcularEstadisticas: TButton;'
+          '    bSimulacion: TButton;'
+          '    bOrdenarNumeros: TButton;'
+          '    bCalcularTabla: TButton;'
+          '    bCalcularFactorial: TButton;'
+          '    bGenerarClaves: TButton;'
+          '    bRseolverEcuacion: TButton;'
+          '    bEvaluarNumeros1: TButton;'
+          '    bEvaluarNumerosPares: TButton;'
+          '    bInsertar: TButton;'
+          '    bTabular: TButton;'
+          '    bPausarCrono: TButton;'
+          '    bIniciarCrono: TButton;'
+          '    Chart1: TChart;'
+          '    graficaPelota: TCubicSplineSeries;'
+          '    edCond: TEdit;'
+          '    edRango: TEdit;'
+          '    edPerdida: TEdit;'
+          '    edAltura: TEdit;'
+          '    graficaFuncion: TChart;'
+          '    edLimInf: TEdit;'
+          '    edDx: TEdit;'
+          '    edLimSup: TEdit;'
+          '    GraficaDiagramaBarras: TChart;'
+          '    diagramaBarras: TBarSeries;'
+          '    Contenido: TPageControl;'
+          '    edCoefA: TEdit;'
+          '    edValor: TEdit;'
+          '    edNumA: TEdit;'
+          '    edCoefC: TEdit;'
+          '    edNumB: TEdit;'
+          '    edNumC: TEdit;'
+          '    edCoefB: TEdit;'
+          '    edClave: TEdit;'
+          '    edNumN: TEdit;'
+          '    edNumTabla: TEdit;'
+          '    edNumFact: TEdit;'
+          '    fx: TCubicSplineSeries;'
+          '    GroupBox1: TGroupBox;'
+          '    GroupBox10: TGroupBox;'
+          '    GroupBox11: TGroupBox;'
+          '    GroupBox12: TGroupBox;'
+          '    GroupBox13: TGroupBox;'
+          '    GroupBox14: TGroupBox;'
+          '    GroupBox15: TGroupBox;'
+          '    GroupBox16: TGroupBox;'
+          '    GroupBox17: TGroupBox;'
+          '    GroupBox18: TGroupBox;'
+          '    GroupBox2: TGroupBox;'
+          '    GroupBox3: TGroupBox;'
+          '    GroupBox4: TGroupBox;'
+          '    GroupBox5: TGroupBox;'
+          '    GroupBox6: TGroupBox;'
+          '    GroupBox7: TGroupBox;'
+          '    GroupBox8: TGroupBox;'
+          '    GroupBox9: TGroupBox;'
+          '    Label1: TLabel;'
+          '    Label2: TLabel;'
+          '    Label3: TLabel;'
+          '    lbCrono: TLabel;'
+          '    lbMili: TLabel;'
+          '    lvTabulacion: TListView;'
+          '    mAyuda: TMemo;'
+          '    MenuItem1: TMenuItem;'
+          '    MenuItem2: TMenuItem;'
+          '    MenuItem3: TMenuItem;'
+          '    menuGuardarDatosConsola: TMenuItem;'
+          '    menuAutor: TMenuItem;'
+          '    menuAyuda: TMenuItem;'
+          '    menuEcuGenSegGra: TMenuItem;'
+          '    menuFactorialNumero: TMenuItem;'
+          '    menuGenerarClaves: TMenuItem;'
+          '    menuCalculosEstadisticos: TMenuItem;'
+          '    menuCronometro: TMenuItem;'
+          '    menuSimulacionCodigo: TMenuItem;'
+          '    menuRebotes: TMenuItem;'
+          '    menuListaSinRepeticion: TMenuItem;'
+          '    menuListaAleatoria: TMenuItem;'
+          '    menuTabulacion: TMenuItem;'
+          '    menuOrdenarNumeros: TMenuItem;'
+          '    menuPrimerosPrimos: TMenuItem;'
+          '    menuTablaMultiplicar: TMenuItem;'
+          '    menuParImpar: TMenuItem;'
+          '    menuNumeroMayor: TMenuItem;'
+          '    menuSalir: TMenuItem;'
+          '    mLog: TSynEdit;'
+          '    PageControl1: TPageControl;'
+          '    Panel10: TPanel;'
+          '    Panel11: TPanel;'
+          '    Panel12: TPanel;'
+          '    Panel13: TPanel;'
+          '    Panel14: TPanel;'
+          '    Panel15: TPanel;'
+          '    Panel16: TPanel;'
+          '    Panel17: TPanel;'
+          '    Panel18: TPanel;'
+          '    Panel19: TPanel;'
+          '    Panel20: TPanel;'
+          '    Panel21: TPanel;'
+          '    Panel22: TPanel;'
+          '    Panel23: TPanel;'
+          '    Panel24: TPanel;'
+          '    Panel25: TPanel;'
+          '    Panel26: TPanel;'
+          '    Panel27: TPanel;'
+          '    Panel28: TPanel;'
+          '    Panel3: TPanel;'
+          '    Panel4: TPanel;'
+          '    Panel5: TPanel;'
+          '    Panel6: TPanel;'
+          '    Panel7: TPanel;'
+          '    Panel8: TPanel;'
+          '    Panel9: TPanel;'
+          '    Separator1: TMenuItem;'
+          '    MenuPrincipal: TMainMenu;'
+          '    Panel1: TPanel;'
+          '    Panel2: TPanel;'
+          '    pTitulo: TPanel;'
+          '    Splitter1: TSplitter;'
+          '    seCodigo: TSynEdit;'
+          '    TabSheet1: TTabSheet;'
+          '    tabFactorial: TTabSheet;'
+          '    tabGenerarClaves: TTabSheet;'
+          '    tabPrimerosPrimos: TTabSheet;'
+          '    tabOrdenarNumeros: TTabSheet;'
+          '    tabCalculosEstdisticos: TTabSheet;'
+          '    tabListaAleatoria: TTabSheet;'
+          '    tabListaSinRepeticion: TTabSheet;'
+          '    tabRebotes: TTabSheet;'
+          '    tabCronometro: TTabSheet;'
+          '    tabSimulacionCodigo: TTabSheet;'
+          '    tabTabulacion: TTabSheet;'
+          '    tabTablaMultiplicar: TTabSheet;'
+          '    tabSolEcuacion: TTabSheet;'
+          '    tabAyuda: TTabSheet;'
+          '    tabAutor: TTabSheet;'
+          '    tabParImpar: TTabSheet;'
+          '    tabNumeroMayor: TTabSheet;'
+          '    Cronometro: TTimer;'
+          '    Mili: TTimer;'
+          '    TreeView1: TTreeView;'
+          '    tvDatos: TTreeView;'
+          '    procedure CalcularEstadisticas(Sender: TObject);'
+          '    procedure CalcularFactorial(Sender: TObject);'
+          '    procedure CalcularListaAleatoria(Sender: TObject);'
+          '    procedure CalcularPrimerosPrimosN(Sender: TObject);'
+          '    procedure CalcularTablaMultiplicar(Sender: TObject);'
+          '    procedure ContarTiempo(Sender: TObject);'
+          '    procedure EvaluarNumeros(Sender: TObject);'
+          '    procedure EvaluarNumerosParesImpares(Sender: TObject);'
+          '    procedure FormCreate(Sender: TObject);'
+          '    procedure GenerarClaveAleatoria(Sender: TObject);'
+          '    procedure GenerarDatos(Sender: TObject);'
+          '    procedure GenerarListaAleatoria(Sender: TObject);'
+          '    procedure GenerarSimulacion(Sender: TObject);'
+          '    procedure IniciarCrono(Sender: TObject);'
+          '    procedure InsertarValor(Sender: TObject);'
+          '    procedure IrMenuVer(Sender: TObject);'
+          '    procedure IrMenuAcerca(Sender: TObject);'
+          '    procedure menuListaAleatoriaClick(Sender: TObject);'
+          '    procedure MiliTimer(Sender: TObject);'
+          '    procedure OrdenarNumeros(Sender: TObject);'
+          '    procedure pausarCrono(Sender: TObject);'
+          '    procedure RealizarGrafica(Sender: TObject);'
+          '    procedure ResolverEcuacion(Sender: TObject);'
+          '    procedure validarBorrarDatos(Sender: TObject; var Key: word; Shift: TShiftState);'
+          '    procedure validarEnter(Sender: TObject; var Key: word; Shift: TShiftState);'
+          '  private'
+          '    hh, mm, ss, ml: integer;'
+          '    cronoFuncionando: boolean;'
+          '  public'
+          '    procedure Log(mensaje: string);'
+          '  end;'
+          ''
+          'var'
+          '  FEstructurasProgramacion: TFEstructurasProgramacion;'
+          ''
+          'implementation'
+          ''
+          '{$R *.lfm}'
+          ''
+          '{ TFEstructurasProgramacion }'
+          ''
+          'procedure TFEstructurasProgramacion.FormCreate(Sender: TObject);'
+          'begin'
+          '  Width := 1024;'
+          '  Height := 600;'
+          ''
+          '  Contenido.ShowTabs := False;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.GenerarClaveAleatoria(Sender: TObject);'
+          'var'
+          '  base, clave: string;'
+          '  l, i, n: integer;'
+          'begin'
+          '  base := ''abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&=?'';'
+          ''
+          '  // Calcular la longitud del texto'
+          '  l := Length(base);'
+          ''
+          '  // Log(format(''La longitud de la base es %d'', [l]));'
+          ''
+          '  clave := '''';'
+          '  for i := 1 to 12 do'
+          '  begin'
+          '    n := Random(l) + 1;'
+          '    clave := clave + base[n];'
+          '    // Log(format(''Ciclo for con i=%d con clave = %s'',[i, clave]));'
+          '  end;'
+          ''
+          '  Log(''La clave generada es = '' + clave);'
+          '  edClave.Text := clave;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.GenerarDatos(Sender: TObject);'
+          'var'
+          '  i, n: integer;'
+          'begin'
+          '  tvDatos.Items.Clear;'
+          '  for i := 1 to 20 do'
+          '  begin'
+          '    n := Random(200) + 5;'
+          '    tvDatos.Items.Add(nil, IntToStr(n));'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.GenerarListaAleatoria(Sender: TObject);'
+          'var'
+          '  rango, i, d: integer;'
+          '  numeros: TStringList;'
+          'begin'
+          '  // Obtenemos el rango'
+          '  rango := StrToInt(edRango.Text);'
+          '  numeros := TStringList.Create;'
+          '  numeros.Clear;'
+          ''
+          '  d := Random(rango);'
+          '  numeros.Add(IntToStr(d));'
+          ''
+          '  for i := 2 to rango do'
+          '  begin'
+          '    d := Random(rango);'
+          ''
+          '    while numeros.IndexOf(IntToStr(d)) >= 0 do'
+          '    begin'
+          '      d := Random(rango);'
+          '    end;'
+          '    numeros.Add(IntToStr(d));'
+          '  end;'
+          ''
+          '  // numeros.Sort;'
+          '  Log(numeros.CommaText);'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.GenerarSimulacion(Sender: TObject);'
+          'var'
+          '  altura, perdida: real;'
+          '  rebotes: integer;'
+          'begin'
+          '  // tomamos los datos'
+          '  altura := StrToFloat(edAltura.Text);'
+          '  perdida := StrToFloat(edPerdida.Text);'
+          '  perdida := perdida / 100;'
+          ''
+          '  graficaPelota.Clear;'
+          '  rebotes := 0;'
+          ''
+          '  while altura > 0.1 do'
+          '  begin'
+          '    // Log(format(''Altura = %f'', [altura]));'
+          '    graficaPelota.Add(altura, '''', clblue);'
+          '    graficaPelota.Add(0, FloatToStr(altura), clblue);'
+          '    altura := altura * (1 - perdida);'
+          ''
+          '    Inc(rebotes);'
+          '  end;'
+          ''
+          '  Log(format(''Cantidad de Rebotes = %d'', [rebotes]));'
+          ''
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.IniciarCrono(Sender: TObject);'
+          'begin'
+          '  cronoFuncionando := True;'
+          '  hh := 0;'
+          '  mm := 0;'
+          '  ss := 0;'
+          '  ml := 0;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.InsertarValor(Sender: TObject);'
+          'begin'
+          '  tvDatos.Items.Add(nil, edValor.Text);'
+          '  edValor.Text := '''';'
+          '  edValor.SetFocus;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.IrMenuVer(Sender: TObject);'
+          'begin'
+          '  if TMenuItem(Sender) = menuNumeroMayor then'
+          '    Contenido.ActivePage := tabNumeroMayor;'
+          ''
+          '  if TMenuItem(Sender) = menuParImpar then'
+          '    Contenido.ActivePage := tabParImpar;'
+          ''
+          '  if TMenuItem(Sender) = menuEcuGenSegGra then'
+          '    Contenido.ActivePage := tabSolEcuacion;'
+          ''
+          '  if TMenuItem(Sender) = menuTablaMultiplicar then'
+          '    Contenido.ActivePage := tabTablaMultiplicar;'
+          ''
+          '  if TMenuItem(Sender) = menuFactorialNumero then'
+          '    Contenido.ActivePage := tabFactorial;'
+          ''
+          '  if TMenuItem(Sender) = menuGenerarClaves then'
+          '    Contenido.ActivePage := tabGenerarClaves;'
+          ''
+          '  if TMenuItem(Sender) = menuPrimerosPrimos then'
+          '    Contenido.ActivePage := tabPrimerosPrimos;'
+          ''
+          '  if TMenuItem(Sender) = menuOrdenarNumeros then'
+          '    Contenido.ActivePage := tabOrdenarNumeros;'
+          ''
+          '  if TMenuItem(Sender) = menuCalculosEstadisticos then'
+          '    Contenido.ActivePage := tabCalculosEstdisticos;'
+          ''
+          '  if TMenuItem(Sender) = menuTabulacion then'
+          '    Contenido.ActivePage := tabTabulacion;'
+          ''
+          '  if TMenuItem(Sender) = menuListaAleatoria then'
+          '    Contenido.ActivePage := tabListaAleatoria;'
+          ''
+          '  if TMenuItem(Sender) = menuListaSinRepeticion then'
+          '    Contenido.ActivePage := tabListaSinRepeticion;'
+          ''
+          '  if TMenuItem(Sender) = menuRebotes then'
+          '    Contenido.ActivePage := tabRebotes;'
+          ''
+          '  if TMenuItem(Sender) = menuCronometro then'
+          '    Contenido.ActivePage := tabCronometro;'
+          ''
+          '  if TMenuItem(Sender) = menuSimulacionCodigo then'
+          '    Contenido.ActivePage := tabSimulacionCodigo;'
+          ''
+          '  pTitulo.Caption := TMenuItem(Sender).Caption;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.IrMenuAcerca(Sender: TObject);'
+          'begin'
+          '  if TMenuItem(Sender) = menuAyuda then'
+          '    Contenido.ActivePage := tabAyuda;'
+          ''
+          '  if TMenuItem(Sender) = menuAutor then'
+          '    Contenido.ActivePage := tabAutor;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.menuListaAleatoriaClick(Sender: TObject);'
+          'begin'
+          ''
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.MiliTimer(Sender: TObject);'
+          'begin'
+          '  if cronoFuncionando then'
+          '  begin'
+          '    Inc(ml,98);'
+          '    lbMili.Caption := FormatCurr(''000'', ml);'
+          ''
+          '    if ml > 999 then ml := 0;'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.OrdenarNumeros(Sender: TObject);'
+          'var'
+          '  lista: array[1..20] of integer;'
+          '  i, j, k, temp: integer;'
+          '  numeros: string;'
+          'begin'
+          ''
+          '  {Crear una lista de números aleatorios}'
+          '  numeros := '''';'
+          '  for i := 1 to 20 do'
+          '  begin'
+          '    lista[i] := Random(20);'
+          '    numeros := numeros + IntToStr(lista[i]) + '', '';'
+          '  end;'
+          ''
+          '  Log(''Lista de números generada aleatoriamente'');'
+          '  Log(numeros);'
+          ''
+          '  for i := 1 to 20 do'
+          '  begin'
+          ''
+          '    Log(''Comparando el número '' + IntToStr(lista[i]) + '' con el resto de la lista'');'
+          '    for j := i to 20 do'
+          '    begin'
+          ''
+          '      if lista[i] > lista[j] then'
+          '      begin'
+          '        temp := lista[i];'
+          '        lista[i] := lista[j];'
+          '        lista[j] := temp;'
+          '      end;'
+          ''
+          '      numeros := '''';'
+          '      for k := 1 to 20 do'
+          '      begin'
+          '        numeros := numeros + IntToStr(lista[k]) + '', '';'
+          '      end;'
+          '      Log(numeros);'
+          '    end;'
+          ''
+          '  end;'
+          ''
+          '  numeros := '''';'
+          '  for i := 1 to 20 do'
+          '  begin'
+          '    numeros := numeros + IntToStr(lista[i]) + '', '';'
+          '  end;'
+          ''
+          '  Log(''Lista Ordenada'');'
+          '  Log(numeros);'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.pausarCrono(Sender: TObject);'
+          'begin'
+          '  cronoFuncionando := not cronoFuncionando;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.RealizarGrafica(Sender: TObject);'
+          'var'
+          '  x, y, dx, li, ls: real;'
+          'begin'
+          '  // Obtener los datos'
+          '  dx := StrToFloat(edDx.Text);'
+          '  li := StrToFloat(edLimInf.Text);'
+          '  ls := StrToFloat(edLimSup.Text);'
+          ''
+          '  Log(Format(''Los datos de graficación son los siguientes limInf=%f, limSup=%f y dx=%f'','
+          '    [li, ls, dx]));'
+          ''
+          '  // Configuración de la tabla'
+          '  lvTabulacion.Items.Clear;'
+          '  fx.Clear;'
+          ''
+          '  x := li;'
+          '  while x < ls do'
+          '  begin'
+          '    // y := 0.5 * power(x, 2) + 3 * x - 2;'
+          '    y := 3 * sin(x) + 1;'
+          '    x := x + dx;'
+          ''
+          '    with lvTabulacion.Items.Add.SubItems do'
+          '    begin'
+          '      Add(FloatToStr(x));'
+          '      Add(FloatToStr(y));'
+          '    end;'
+          ''
+          '    fx.AddXY(x, y, '''', clred);'
+          ''
+          '    Log(format(''x = %f | y = %f'', [x, y]));'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.ResolverEcuacion(Sender: TObject);'
+          'var'
+          '  a, b, c, disc, x1, x2, img, rel: real;'
+          'begin'
+          '  // Obtener los datos'
+          '  a := StrToFloat(edCoefA.Text);'
+          '  b := StrToFloat(edCoefB.Text);'
+          '  c := StrToFloat(edCoefC.Text);'
+          ''
+          '  disc := power(b, 2) - 4 * a * c;'
+          ''
+          '  {Única solución}'
+          '  if disc = 0 then'
+          '  begin'
+          '    x1 := -b / (2 * a);'
+          '    Log(''La ecuación tiena una única solución en x = '' + FloatToStr(x1));'
+          '  end;'
+          ''
+          '  {Dos soluciones}'
+          '  if disc > 0 then'
+          '  begin'
+          '    x1 := (-b + sqrt(disc)) / (2 * a);'
+          '    x2 := (-b - sqrt(disc)) / (2 * a);'
+          '    Log(Format(''La ecuación tiene dos soluciones en x1=%f y en x2=%f'', [x1, x2]));'
+          '  end;'
+          ''
+          '  {Soluciones imaginarias}'
+          '  if disc < 0 then'
+          '  begin'
+          '    img := sqrt(abs(disc)) / (2 * a);'
+          '    rel := -b / (2 * a);'
+          ''
+          '    Log(Format(''La ecuación tiene soluciones imaginarias en x1=%f + %fi y en x2=%f - %fi'','
+          '      [rel, img, rel, img]));'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.validarBorrarDatos(Sender: TObject;'
+          '  var Key: word; Shift: TShiftState);'
+          'begin'
+          '  if key = 46 then'
+          '  begin'
+          '    if tvDatos.Selected <> nil then'
+          '      tvDatos.Selected.Delete;'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.validarEnter(Sender: TObject;'
+          '  var Key: word; Shift: TShiftState);'
+          'begin'
+          '  if key = $0D then'
+          '  begin'
+          '    tvDatos.Items.Add(nil, edValor.Text);'
+          '    edValor.Text := '''';'
+          '    edValor.SetFocus;'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.Log(mensaje: string);'
+          'begin'
+          '  mLog.Lines.Add(mensaje);'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.EvaluarNumeros(Sender: TObject);'
+          'var'
+          '  a, b: real;'
+          'begin'
+          '  // Obtener los números'
+          '  a := StrToFloat(edNumA.Text);'
+          '  b := StrToFloat(edNumB.Text);'
+          ''
+          '  if (a > b) then'
+          '  begin'
+          '    Log(FloatToStr(a) + '' es mayor que '' + FloatToStr(b));'
+          '  end'
+          '  else'
+          '  begin'
+          '    Log(FloatToStr(b) + '' es mayor que '' + FloatToStr(a));'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.CalcularTablaMultiplicar(Sender: TObject);'
+          'var'
+          '  n, r, i: integer;'
+          'begin'
+          '  {Obtener los datos}'
+          '  n := StrToInt(edNumTabla.Text);'
+          ''
+          '  //i := 1;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 2;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 3;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 4;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 5;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 6;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 7;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 8;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 9;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  //i := 10;'
+          '  //r := n*i;'
+          '  //Log(Format(''%d x %d = %d'',[n, i, r]));'
+          ''
+          '  for i := 1 to 20 do'
+          '  begin'
+          '    r := n * i;'
+          '    Log(Format(''%d x %d = %d'', [n, i, r]));'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.ContarTiempo(Sender: TObject);'
+          'begin'
+          '  if cronoFuncionando then'
+          '  begin'
+          '    Inc(ss);'
+          '    ml := 0;'
+          ''
+          '    if ss > 59 then'
+          '    begin'
+          '      Inc(mm);'
+          '      ss := 0;'
+          '    end;'
+          ''
+          '    if mm > 59 then'
+          '    begin'
+          '      Inc(hh);'
+          '      mm := 0;'
+          '    end;'
+          ''
+          '    // lbCrono.Caption:=Format(''%2d:%2d:%2d'',[hh,mm,ss]);'
+          '    lbCrono.Caption := FormatCurr(''00'', hh) + '':'' + FormatCurr(''00'', mm) +'
+          '      '':'' + FormatCurr(''00'', ss);'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.CalcularFactorial(Sender: TObject);'
+          'var'
+          '  n, fact, i: longint;'
+          'begin'
+          '  {Obtener los valores}'
+          '  n := StrToInt(edNumFact.Text);'
+          '  fact := 1;'
+          ''
+          '  for i := 1 to n do'
+          '    fact := fact * i;'
+          ''
+          '  Log(Format(''El factorial de %d es %d'', [n, fact]));'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.CalcularListaAleatoria(Sender: TObject);'
+          'var'
+          '  n, d: integer;'
+          'begin'
+          '  n := StrToInt(edCond.Text);'
+          '  d := Random(999);'
+          '  Log(FloatToStr(d));'
+          ''
+          '  while d <> n do'
+          '  begin'
+          '    d := Random(999);'
+          '    Log(FloatToStr(d));'
+          '  end;'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.CalcularEstadisticas(Sender: TObject);'
+          'var'
+          '  minimo, maximo, dato, media, suma, sumaVar, desest, varianza: real;'
+          '  i, n: integer;'
+          'begin'
+          '  // Inicializar las variables en vacio'
+          '  media := 0;'
+          '  suma := 0;'
+          '  desest := 0;'
+          '  varianza := 0;'
+          ''
+          '  Randomize;'
+          ''
+          '  n := tvDatos.Items.Count;'
+          ''
+          '  if n > 0 then'
+          '  begin'
+          '    minimo := StrToFloat(tvDatos.Items[0].Text);'
+          '    maximo := StrToFloat(tvDatos.Items[0].Text);'
+          ''
+          '    diagramaBarras.Clear;'
+          '    for i := 1 to n do'
+          '    begin'
+          '      dato := StrToFloat(tvDatos.Items[i - 1].Text);'
+          ''
+          '      // Graficar'
+          '      diagramaBarras.Add(dato, tvDatos.Items[i - 1].Text, clred);'
+          '      suma := suma + dato;'
+          ''
+          '      if dato < minimo then'
+          '        minimo := dato;'
+          ''
+          '      if dato > maximo then'
+          '        maximo := dato;'
+          '    end;'
+          ''
+          '    // Media'
+          '    media := suma / n;'
+          ''
+          '    sumaVar := 0;'
+          '    for i := 1 to n do'
+          '    begin'
+          '      dato := StrToFloat(tvDatos.Items[i - 1].Text);'
+          '      sumaVar := sumaVar + power(dato - media, 2);'
+          '    end;'
+          ''
+          '    varianza := sumaVar / (n - 1);'
+          '    desest := sqrt(varianza);'
+          ''
+          '    Log(Format(''La suma de los datos es = %f'', [suma]));'
+          '    Log(Format(''La suma de varianza es = %f'', [sumaVar]));'
+          '    Log(Format(''Le media de los datos es = %f'', [media]));'
+          '    Log(Format(''El dado mínimo es = %f'', [minimo]));'
+          '    Log(Format(''El dado máximo es = %f'', [maximo]));'
+          '    Log(Format(''La varianza es = %f'', [varianza]));'
+          '    Log(Format(''La desviación estándar es = %f'', [desest]));'
+          '  end'
+          '  else'
+          '    ShowMessage(''Debe ingresar datos para realizar el cálculo'');'
+          ''
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.CalcularPrimerosPrimosN(Sender: TObject);'
+          'var'
+          '  n, i, j, divisores: integer;'
+          '  primos: string;'
+          'begin'
+          '  // Obtener los datos'
+          '  n := StrToInt(edNumN.Text);'
+          ''
+          '  primos := '''';'
+          ''
+          '  for i := 2 to n do'
+          '  begin'
+          ''
+          '    Log('''');'
+          '    Log(format(''Estamos calculando los divisores de %d'', [i]));'
+          '    divisores := 0;'
+          '    for j := 1 to i do'
+          '    begin'
+          '      if (i mod j) = 0 then'
+          '      begin'
+          '        divisores := divisores + 1;'
+          '        Log(format(''Encontramos que %d es divisor de %d'', [j, i]));'
+          '      end;'
+          '    end;'
+          ''
+          '    if divisores = 2 then'
+          '    begin'
+          '      primos := primos + IntToStr(i) + '', '';'
+          '      Log(Format(''Como %d tiene %d divisores, por lo tanto es un primo'','
+          '        [i, divisores]));'
+          '    end'
+          '    else'
+          '      Log(Format(''Como %d tiene %d divisores, por lo tanto NO es un primo'','
+          '        [i, divisores]));'
+          '  end;'
+          ''
+          '  Log(primos);'
+          'end;'
+          ''
+          'procedure TFEstructurasProgramacion.EvaluarNumerosParesImpares(Sender: TObject);'
+          'var'
+          '  a: integer;'
+          'begin'
+          '  a := StrToInt(edNumC.Text);'
+          ''
+          '  if (a mod 2) = 0 then'
+          '    Log(''El número '' + FloatToStr(a) + '' es par'')'
+          '  else'
+          '    Log(''El número '' + FloatToStr(a) + '' es impar'');'
+          'end;'
+          ''
+          'end.'
+        )
+        VisibleSpecialChars = [vscSpace, vscTabAtLast]
+        SelectedColor.BackPriority = 50
+        SelectedColor.ForePriority = 50
+        SelectedColor.FramePriority = 50
+        SelectedColor.BoldPriority = 50
+        SelectedColor.ItalicPriority = 50
+        SelectedColor.UnderlinePriority = 50
+        SelectedColor.StrikeOutPriority = 50
+        BracketHighlightStyle = sbhsBoth
+        BracketMatchColor.Background = clNone
+        BracketMatchColor.Foreground = clNone
+        BracketMatchColor.Style = [fsBold]
+        FoldedCodeColor.Background = clNone
+        FoldedCodeColor.Foreground = clGray
+        FoldedCodeColor.FrameColor = clGray
+        MouseLinkColor.Background = clNone
+        MouseLinkColor.Foreground = clBlue
+        LineHighlightColor.Background = clNone
+        LineHighlightColor.Foreground = clNone
+        inline SynLeftGutterPartList1: TSynGutterPartList
+          object SynGutterMarks1: TSynGutterMarks
+            Width = 24
+            MouseActions = <>
+          end
+          object SynGutterLineNumber1: TSynGutterLineNumber
+            Width = 25
+            MouseActions = <>
+            MarkupInfo.Background = clBtnFace
+            MarkupInfo.Foreground = clNone
+            DigitCount = 2
+            ShowOnlyLineNumbersMultiplesOf = 1
+            ZeroStart = False
+            LeadingZeros = False
+          end
+          object SynGutterChanges1: TSynGutterChanges
+            Width = 4
+            MouseActions = <>
+            ModifiedColor = 59900
+            SavedColor = clGreen
+          end
+          object SynGutterSeparator1: TSynGutterSeparator
+            Width = 2
+            MouseActions = <>
+            MarkupInfo.Background = clWhite
+            MarkupInfo.Foreground = clGray
+          end
+          object SynGutterCodeFolding1: TSynGutterCodeFolding
+            MouseActions = <>
+            MarkupInfo.Background = clNone
+            MarkupInfo.Foreground = clGray
+            MouseActionsExpanded = <>
+            MouseActionsCollapsed = <>
+          end
+        end
+      end
+    end
+  end
+  object pTitulo: TPanel
+    Left = 0
+    Height = 71
+    Top = 0
+    Width = 1024
+    Align = alTop
+    Caption = 'Titulo'
+    Color = 12615680
+    Font.Color = clWhite
+    Font.Height = -32
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 236
+    Top = 482
+    Width = 1024
+    ActivePage = TabSheet1
+    Align = alBottom
+    TabIndex = 0
+    TabOrder = 2
+    object TabSheet1: TTabSheet
+      Caption = 'Consola de Mensajes'
+      ClientHeight = 202
+      ClientWidth = 1016
+      inline mLog: TSynEdit
+        Left = 0
+        Height = 202
+        Top = 0
+        Width = 1016
+        Align = alClient
+        Font.Height = -21
+        Font.Name = 'Courier New'
+        Font.Pitch = fpFixed
+        Font.Quality = fqNonAntialiased
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        Gutter.Width = 67
+        Gutter.MouseActions = <>
+        RightGutter.Width = 0
+        RightGutter.MouseActions = <>
+        Keystrokes = <        
+          item
+            Command = ecUp
+            ShortCut = 38
+          end        
+          item
+            Command = ecSelUp
+            ShortCut = 8230
+          end        
+          item
+            Command = ecScrollUp
+            ShortCut = 16422
+          end        
+          item
+            Command = ecDown
+            ShortCut = 40
+          end        
+          item
+            Command = ecSelDown
+            ShortCut = 8232
+          end        
+          item
+            Command = ecScrollDown
+            ShortCut = 16424
+          end        
+          item
+            Command = ecLeft
+            ShortCut = 37
+          end        
+          item
+            Command = ecSelLeft
+            ShortCut = 8229
+          end        
+          item
+            Command = ecWordLeft
+            ShortCut = 16421
+          end        
+          item
+            Command = ecSelWordLeft
+            ShortCut = 24613
+          end        
+          item
+            Command = ecRight
+            ShortCut = 39
+          end        
+          item
+            Command = ecSelRight
+            ShortCut = 8231
+          end        
+          item
+            Command = ecWordRight
+            ShortCut = 16423
+          end        
+          item
+            Command = ecSelWordRight
+            ShortCut = 24615
+          end        
+          item
+            Command = ecPageDown
+            ShortCut = 34
+          end        
+          item
+            Command = ecSelPageDown
+            ShortCut = 8226
+          end        
+          item
+            Command = ecPageBottom
+            ShortCut = 16418
+          end        
+          item
+            Command = ecSelPageBottom
+            ShortCut = 24610
+          end        
+          item
+            Command = ecPageUp
+            ShortCut = 33
+          end        
+          item
+            Command = ecSelPageUp
+            ShortCut = 8225
+          end        
+          item
+            Command = ecPageTop
+            ShortCut = 16417
+          end        
+          item
+            Command = ecSelPageTop
+            ShortCut = 24609
+          end        
+          item
+            Command = ecLineStart
+            ShortCut = 36
+          end        
+          item
+            Command = ecSelLineStart
+            ShortCut = 8228
+          end        
+          item
+            Command = ecEditorTop
+            ShortCut = 16420
+          end        
+          item
+            Command = ecSelEditorTop
+            ShortCut = 24612
+          end        
+          item
+            Command = ecLineEnd
+            ShortCut = 35
+          end        
+          item
+            Command = ecSelLineEnd
+            ShortCut = 8227
+          end        
+          item
+            Command = ecEditorBottom
+            ShortCut = 16419
+          end        
+          item
+            Command = ecSelEditorBottom
+            ShortCut = 24611
+          end        
+          item
+            Command = ecToggleMode
+            ShortCut = 45
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16429
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 8237
+          end        
+          item
+            Command = ecDeleteChar
+            ShortCut = 46
+          end        
+          item
+            Command = ecCut
+            ShortCut = 8238
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8200
+          end        
+          item
+            Command = ecDeleteLastWord
+            ShortCut = 16392
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 32776
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 40968
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 13
+          end        
+          item
+            Command = ecSelectAll
+            ShortCut = 16449
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16451
+          end        
+          item
+            Command = ecBlockIndent
+            ShortCut = 24649
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 16461
+          end        
+          item
+            Command = ecInsertLine
+            ShortCut = 16462
+          end        
+          item
+            Command = ecDeleteWord
+            ShortCut = 16468
+          end        
+          item
+            Command = ecBlockUnindent
+            ShortCut = 24661
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 16470
+          end        
+          item
+            Command = ecCut
+            ShortCut = 16472
+          end        
+          item
+            Command = ecDeleteLine
+            ShortCut = 16473
+          end        
+          item
+            Command = ecDeleteEOL
+            ShortCut = 24665
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 16474
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 24666
+          end        
+          item
+            Command = ecGotoMarker0
+            ShortCut = 16432
+          end        
+          item
+            Command = ecGotoMarker1
+            ShortCut = 16433
+          end        
+          item
+            Command = ecGotoMarker2
+            ShortCut = 16434
+          end        
+          item
+            Command = ecGotoMarker3
+            ShortCut = 16435
+          end        
+          item
+            Command = ecGotoMarker4
+            ShortCut = 16436
+          end        
+          item
+            Command = ecGotoMarker5
+            ShortCut = 16437
+          end        
+          item
+            Command = ecGotoMarker6
+            ShortCut = 16438
+          end        
+          item
+            Command = ecGotoMarker7
+            ShortCut = 16439
+          end        
+          item
+            Command = ecGotoMarker8
+            ShortCut = 16440
+          end        
+          item
+            Command = ecGotoMarker9
+            ShortCut = 16441
+          end        
+          item
+            Command = ecSetMarker0
+            ShortCut = 24624
+          end        
+          item
+            Command = ecSetMarker1
+            ShortCut = 24625
+          end        
+          item
+            Command = ecSetMarker2
+            ShortCut = 24626
+          end        
+          item
+            Command = ecSetMarker3
+            ShortCut = 24627
+          end        
+          item
+            Command = ecSetMarker4
+            ShortCut = 24628
+          end        
+          item
+            Command = ecSetMarker5
+            ShortCut = 24629
+          end        
+          item
+            Command = ecSetMarker6
+            ShortCut = 24630
+          end        
+          item
+            Command = ecSetMarker7
+            ShortCut = 24631
+          end        
+          item
+            Command = ecSetMarker8
+            ShortCut = 24632
+          end        
+          item
+            Command = ecSetMarker9
+            ShortCut = 24633
+          end        
+          item
+            Command = EcFoldLevel1
+            ShortCut = 41009
+          end        
+          item
+            Command = EcFoldLevel2
+            ShortCut = 41010
+          end        
+          item
+            Command = EcFoldLevel3
+            ShortCut = 41011
+          end        
+          item
+            Command = EcFoldLevel4
+            ShortCut = 41012
+          end        
+          item
+            Command = EcFoldLevel5
+            ShortCut = 41013
+          end        
+          item
+            Command = EcFoldLevel6
+            ShortCut = 41014
+          end        
+          item
+            Command = EcFoldLevel7
+            ShortCut = 41015
+          end        
+          item
+            Command = EcFoldLevel8
+            ShortCut = 41016
+          end        
+          item
+            Command = EcFoldLevel9
+            ShortCut = 41017
+          end        
+          item
+            Command = EcFoldLevel0
+            ShortCut = 41008
+          end        
+          item
+            Command = EcFoldCurrent
+            ShortCut = 41005
+          end        
+          item
+            Command = EcUnFoldCurrent
+            ShortCut = 41003
+          end        
+          item
+            Command = EcToggleMarkupWord
+            ShortCut = 32845
+          end        
+          item
+            Command = ecNormalSelect
+            ShortCut = 24654
+          end        
+          item
+            Command = ecColumnSelect
+            ShortCut = 24643
+          end        
+          item
+            Command = ecLineSelect
+            ShortCut = 24652
+          end        
+          item
+            Command = ecTab
+            ShortCut = 9
+          end        
+          item
+            Command = ecShiftTab
+            ShortCut = 8201
+          end        
+          item
+            Command = ecMatchBracket
+            ShortCut = 24642
+          end        
+          item
+            Command = ecColSelUp
+            ShortCut = 40998
+          end        
+          item
+            Command = ecColSelDown
+            ShortCut = 41000
+          end        
+          item
+            Command = ecColSelLeft
+            ShortCut = 40997
+          end        
+          item
+            Command = ecColSelRight
+            ShortCut = 40999
+          end        
+          item
+            Command = ecColSelPageDown
+            ShortCut = 40994
+          end        
+          item
+            Command = ecColSelPageBottom
+            ShortCut = 57378
+          end        
+          item
+            Command = ecColSelPageUp
+            ShortCut = 40993
+          end        
+          item
+            Command = ecColSelPageTop
+            ShortCut = 57377
+          end        
+          item
+            Command = ecColSelLineStart
+            ShortCut = 40996
+          end        
+          item
+            Command = ecColSelLineEnd
+            ShortCut = 40995
+          end        
+          item
+            Command = ecColSelEditorTop
+            ShortCut = 57380
+          end        
+          item
+            Command = ecColSelEditorBottom
+            ShortCut = 57379
+          end>
+        MouseActions = <>
+        MouseTextActions = <>
+        MouseSelActions = <>
+        Lines.Strings = (
+          'mLog'
+        )
+        VisibleSpecialChars = [vscSpace, vscTabAtLast]
+        RightEdge = 60
+        SelectedColor.BackPriority = 50
+        SelectedColor.ForePriority = 50
+        SelectedColor.FramePriority = 50
+        SelectedColor.BoldPriority = 50
+        SelectedColor.ItalicPriority = 50
+        SelectedColor.UnderlinePriority = 50
+        SelectedColor.StrikeOutPriority = 50
+        BracketHighlightStyle = sbhsBoth
+        BracketMatchColor.Background = clNone
+        BracketMatchColor.Foreground = clNone
+        BracketMatchColor.Style = [fsBold]
+        FoldedCodeColor.Background = clNone
+        FoldedCodeColor.Foreground = clGray
+        FoldedCodeColor.FrameColor = clGray
+        MouseLinkColor.Background = clNone
+        MouseLinkColor.Foreground = clBlue
+        LineHighlightColor.Background = clNone
+        LineHighlightColor.Foreground = clNone
+        inline SynLeftGutterPartList1: TSynGutterPartList
+          object SynGutterMarks1: TSynGutterMarks
+            Width = 24
+            MouseActions = <>
+          end
+          object SynGutterLineNumber1: TSynGutterLineNumber
+            Width = 27
+            MouseActions = <>
+            MarkupInfo.Background = clBtnFace
+            MarkupInfo.Foreground = clNone
+            DigitCount = 2
+            ShowOnlyLineNumbersMultiplesOf = 1
+            ZeroStart = False
+            LeadingZeros = False
+          end
+          object SynGutterChanges1: TSynGutterChanges
+            Width = 4
+            MouseActions = <>
+            ModifiedColor = 59900
+            SavedColor = clGreen
+          end
+          object SynGutterSeparator1: TSynGutterSeparator
+            Width = 2
+            MouseActions = <>
+            MarkupInfo.Background = clWhite
+            MarkupInfo.Foreground = clGray
+          end
+          object SynGutterCodeFolding1: TSynGutterCodeFolding
+            MouseActions = <>
+            MarkupInfo.Background = clNone
+            MarkupInfo.Foreground = clGray
+            MouseActionsExpanded = <>
+            MouseActionsCollapsed = <>
+          end
+        end
+      end
+    end
+  end
+  object Splitter1: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 5
+    Top = 477
+    Width = 1024
+    Align = alBottom
+    ResizeAnchor = akBottom
+  end
+  object MenuPrincipal: TMainMenu
+    Left = 936
+    Top = 560
+    object MenuItem1: TMenuItem
+      Caption = 'Archivo'
+      object menuGuardarDatosConsola: TMenuItem
+        Caption = 'Guardar datos de consola'
+        ShortCut = 16449
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object menuSalir: TMenuItem
+        Caption = 'Salir'
+        ShortCut = 16465
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Ver'
+      object menuNumeroMayor: TMenuItem
+        Caption = 'Determinar el mayor entre dos números'
+        OnClick = IrMenuVer
+      end
+      object menuParImpar: TMenuItem
+        Caption = 'Determinar si es par o impar'
+        OnClick = IrMenuVer
+      end
+      object menuEcuGenSegGra: TMenuItem
+        Caption = 'Ecuación General de Segundo Grado'
+        OnClick = IrMenuVer
+      end
+      object menuTablaMultiplicar: TMenuItem
+        Caption = 'Tablas de Multiplicar'
+        OnClick = IrMenuVer
+      end
+      object menuFactorialNumero: TMenuItem
+        Caption = 'Factorial de un Número'
+        OnClick = IrMenuVer
+      end
+      object menuGenerarClaves: TMenuItem
+        Caption = 'Generar Claves Aleatorias'
+        OnClick = IrMenuVer
+      end
+      object menuPrimerosPrimos: TMenuItem
+        Caption = 'Primeros primos hasta el natural N'
+        OnClick = IrMenuVer
+      end
+      object menuOrdenarNumeros: TMenuItem
+        Caption = 'Ordenar Lista de Números'
+        OnClick = IrMenuVer
+      end
+      object menuCalculosEstadisticos: TMenuItem
+        Caption = 'Cálculos Estadísticos'
+        OnClick = IrMenuVer
+      end
+      object menuTabulacion: TMenuItem
+        Caption = 'Tabulación de una Función'
+        OnClick = IrMenuVer
+      end
+      object menuListaAleatoria: TMenuItem
+        Caption = 'Lista Números Aleatorios con Condición'
+        OnClick = IrMenuVer
+      end
+      object menuListaSinRepeticion: TMenuItem
+        Caption = 'Lista de Aleatorios sin Repetición'
+        OnClick = IrMenuVer
+      end
+      object menuRebotes: TMenuItem
+        Caption = 'Rebotes de una pelota'
+        OnClick = IrMenuVer
+      end
+      object menuCronometro: TMenuItem
+        Caption = 'Cronómetro'
+        OnClick = IrMenuVer
+      end
+      object menuSimulacionCodigo: TMenuItem
+        Caption = 'Simulación de Código'
+        OnClick = IrMenuVer
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Acerca de ...'
+      object menuAutor: TMenuItem
+        Caption = 'Autor'
+        OnClick = IrMenuAcerca
+      end
+      object menuAyuda: TMenuItem
+        Caption = 'Ayuda'
+        ShortCut = 112
+        OnClick = IrMenuAcerca
+      end
+    end
+  end
+  object Cronometro: TTimer
+    OnTimer = ContarTiempo
+    Left = 168
+    Top = 584
+  end
+  object Mili: TTimer
+    Interval = 1
+    OnTimer = MiliTimer
+    Left = 112
+    Top = 584
+  end
+  object Simulador: TTimer
+    Interval = 75
+    OnTimer = SimuladorTimer
+    Left = 288
+    Top = 581
+  end
+end
