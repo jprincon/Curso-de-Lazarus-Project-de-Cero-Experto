@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="Procedimientos y Funciones"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item>
+      <Item>
+        <PackageName Value="SynEdit"/>
+      </Item>
+      <Item>
+        <PackageName Value="LazControls"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="Procedimientos_y_Funciones.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufutilidades.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FUtilidades"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFUtilidades"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\Utilidades\utilidades.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Utilidades"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\Tipos\utipos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTipos"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\Formularios\ufmensaje.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMensaje"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFMensaje"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\Formularios\uftoast.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FToast"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFToast"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\Formularios\ufreal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FReal"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFReal"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\Formularios\uftexto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FTexto"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFTexto"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\Formularios\ufconsola.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FConsola"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFConsola"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="Procedimientos_y_Funciones"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\..\Librerias\Utilidades;..\..\Librerias\Tipos;..\..\Librerias\Formularios"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EConvertError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

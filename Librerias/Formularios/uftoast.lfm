@@ -1,0 +1,48 @@
+object FToast: TFToast
+  Left = 550
+  Height = 250
+  Top = 287
+  Width = 700
+  AlphaBlend = True
+  AlphaBlendValue = 150
+  BorderStyle = bsNone
+  ClientHeight = 250
+  ClientWidth = 700
+  Color = clGray
+  Font.Height = -16
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 250
+    Top = 0
+    Width = 700
+    Align = alClient
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 246
+    ClientWidth = 696
+    TabOrder = 0
+    object lbMensaje: TLabel
+      Left = 20
+      Height = 206
+      Top = 20
+      Width = 656
+      Align = alClient
+      Alignment = taCenter
+      BorderSpacing.Around = 20
+      Caption = 'Este es un mensaje para mostrar en un formulario Toast y que desaparezca solo.'
+      Font.Color = clWhite
+      Font.Height = -24
+      Layout = tlCenter
+      ParentColor = False
+      ParentFont = False
+      WordWrap = True
+    end
+  end
+  object Temporizador: TTimer
+    OnTimer = TemporizadorTimer
+    Left = 184
+    Top = 40
+  end
+end
