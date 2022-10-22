@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/glscene/!svn/ver/4448/trunk/Source/GameAPIs
+END
+GLSceneVCLSDL.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/1771/trunk/Source/GameAPIs/GLSceneVCLSDL.dcr
+END
+sdl.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4448/trunk/Source/GameAPIs/sdl.pas
+END
+README-SDL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/123/trunk/Source/GameAPIs/README-SDL.txt
+END
+SDL.dll
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/123/trunk/Source/GameAPIs/SDL.dll
+END
+SDLWindow.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/4448/trunk/Source/GameAPIs/SDLWindow.pas
+END

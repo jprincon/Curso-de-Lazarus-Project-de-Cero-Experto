@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 23
+*.~*
+*.cfg
+*.dof
+*.dsk
+
+END

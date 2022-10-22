@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5434/trunk/Source/ScriptingAPIs
+END
+dws2Classes.pas
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/glscene/!svn/ver/2552/trunk/Source/ScriptingAPIs/dws2Classes.pas
+END
+dws2VectorGeometry.pas
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/2768/trunk/Source/ScriptingAPIs/dws2VectorGeometry.pas
+END
+uPSI_PersistentClasses.pas
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/glscene/!svn/ver/5377/trunk/Source/ScriptingAPIs/uPSI_PersistentClasses.pas
+END
+uPSI_VectorGeometry.pas
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/glscene/!svn/ver/5434/trunk/Source/ScriptingAPIs/uPSI_VectorGeometry.pas
+END
+dws2GLScene.pas
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/glscene/!svn/ver/4211/trunk/Source/ScriptingAPIs/dws2GLScene.pas
+END
+uPSI_VectorLists.pas
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/5377/trunk/Source/ScriptingAPIs/uPSI_VectorLists.pas
+END
+uPSI_GLUtils.pas
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/5377/trunk/Source/ScriptingAPIs/uPSI_GLUtils.pas
+END
+uPSI_XCollection.pas
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/5377/trunk/Source/ScriptingAPIs/uPSI_XCollection.pas
+END
+dws2OpenGLAdapter.pas
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/glscene/!svn/ver/5432/trunk/Source/ScriptingAPIs/dws2OpenGLAdapter.pas
+END
+uPSI_VectorTypes.pas
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/5377/trunk/Source/ScriptingAPIs/uPSI_VectorTypes.pas
+END
+GLSceneVCLDWS2.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/glscene/!svn/ver/2870/trunk/Source/ScriptingAPIs/GLSceneVCLDWS2.dcr
+END
+dws2HelperFunc.pas
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/glscene/!svn/ver/2552/trunk/Source/ScriptingAPIs/dws2HelperFunc.pas
+END
+uPSI_ApplicationFileIO.pas
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/glscene/!svn/ver/5377/trunk/Source/ScriptingAPIs/uPSI_ApplicationFileIO.pas
+END
+uPSI_GLStrings.pas
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/glscene/!svn/ver/5377/trunk/Source/ScriptingAPIs/uPSI_GLStrings.pas
+END

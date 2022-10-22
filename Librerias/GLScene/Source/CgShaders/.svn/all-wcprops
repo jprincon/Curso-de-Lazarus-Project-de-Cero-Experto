@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/glscene/!svn/ver/5085/trunk/Source/CgShaders
+END
+CGPostTransformationShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/glscene/!svn/ver/4805/trunk/Source/CgShaders/CGPostTransformationShader.pas
+END
+GLCgRegister.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4425/trunk/Source/CgShaders/GLCgRegister.pas
+END
+cg.dll
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4694/trunk/Source/CgShaders/cg.dll
+END
+GLCgBombShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/4805/trunk/Source/CgShaders/GLCgBombShader.pas
+END
+GLCgShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5050/trunk/Source/CgShaders/GLCgShader.pas
+END
+GLSceneVCLCg.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/3618/trunk/Source/CgShaders/GLSceneVCLCg.dcr
+END
+cgGL.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/4694/trunk/Source/CgShaders/cgGL.dll
+END
+cg.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4451/trunk/Source/CgShaders/cg.pas
+END
+cgGL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5085/trunk/Source/CgShaders/cgGL.pas
+END

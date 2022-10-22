@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5561/trunk/Source/ComputeAPIs
+END
+cutil32.dll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4691/trunk/Source/ComputeAPIs/cutil32.dll
+END
+cuda.inc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5495/trunk/Source/ComputeAPIs/cuda.inc
+END
+GLS_CL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/5561/trunk/Source/ComputeAPIs/GLS_CL.pas
+END
+GLS_CUDA_Runtime.pas
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/glscene/!svn/ver/5557/trunk/Source/ComputeAPIs/GLS_CUDA_Runtime.pas
+END
+GLS_CUDA_Utility.pas
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/glscene/!svn/ver/5498/trunk/Source/ComputeAPIs/GLS_CUDA_Utility.pas
+END
+cl.inc
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/4468/trunk/Source/ComputeAPIs/cl.inc
+END
+GLS_CL_GL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5561/trunk/Source/ComputeAPIs/GLS_CL_GL.pas
+END
+GLS_CL_Platform.pas
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/glscene/!svn/ver/5552/trunk/Source/ComputeAPIs/GLS_CL_Platform.pas
+END
+GLSceneVCLCUDA.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/5508/trunk/Source/ComputeAPIs/GLSceneVCLCUDA.dcr
+END
+GLS_CUDA_FourierTransform.pas
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/5557/trunk/Source/ComputeAPIs/GLS_CUDA_FourierTransform.pas
+END
+GLS_CUDA_ParallelPrimitives.pas
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/glscene/!svn/ver/4562/trunk/Source/ComputeAPIs/GLS_CUDA_ParallelPrimitives.pas
+END
+GLS_CUDA_API.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/5552/trunk/Source/ComputeAPIs/GLS_CUDA_API.pas
+END

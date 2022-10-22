@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/glscene/!svn/ver/5576/trunk/Source/SoundAPIs
+END
+fmod.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/4063/trunk/Source/SoundAPIs/fmod.dll
+END
+openal.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/4427/trunk/Source/SoundAPIs/openal.pas
+END
+readme_fmod.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/1912/trunk/Source/SoundAPIs/readme_fmod.txt
+END
+GLSceneVCLFMod.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/1771/trunk/Source/SoundAPIs/GLSceneVCLFMod.dcr
+END
+bass.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/4080/trunk/Source/SoundAPIs/bass.dll
+END
+fmoddyn.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5576/trunk/Source/SoundAPIs/fmoddyn.pas
+END
+readme_bass.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/535/trunk/Source/SoundAPIs/readme_bass.txt
+END
+fmoderrors.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/4063/trunk/Source/SoundAPIs/fmoderrors.pas
+END
+GLSceneVCLBass.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/1771/trunk/Source/SoundAPIs/GLSceneVCLBass.dcr
+END
+fmod.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5576/trunk/Source/SoundAPIs/fmod.pas
+END
+Bass.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/4169/trunk/Source/SoundAPIs/Bass.pas
+END
+GLSceneVCLOpenAL.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/4090/trunk/Source/SoundAPIs/GLSceneVCLOpenAL.dcr
+END
+fmodtypes.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5576/trunk/Source/SoundAPIs/fmodtypes.pas
+END
+fmodpresets.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4063/trunk/Source/SoundAPIs/fmodpresets.pas
+END

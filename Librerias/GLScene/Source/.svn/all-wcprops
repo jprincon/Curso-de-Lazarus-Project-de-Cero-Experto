@@ -1,0 +1,845 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/glscene/!svn/ver/5592/trunk/Source
+END
+GLVerletClasses.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLVerletClasses.pas
+END
+GLSCUDAGraphics.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/5559/trunk/Source/GLSCUDAGraphics.pas
+END
+GLSLProjectedTextures.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5551/trunk/Source/GLSLProjectedTextures.pas
+END
+GLScene.inc
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5517/trunk/Source/GLScene.inc
+END
+GLRagdoll.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5422/trunk/Source/GLRagdoll.pas
+END
+GLSpatialPartitioning.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLSpatialPartitioning.pas
+END
+GLSMBASS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/4497/trunk/Source/GLSMBASS.pas
+END
+GLTimeEventsMgr.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/4498/trunk/Source/GLTimeEventsMgr.pas
+END
+GLDWS2Objects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/4211/trunk/Source/GLDWS2Objects.pas
+END
+GLNavigator.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5133/trunk/Source/GLNavigator.pas
+END
+GLProxyObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5134/trunk/Source/GLProxyObjects.pas
+END
+GLDCE.pas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/glscene/!svn/ver/5445/trunk/Source/GLDCE.pas
+END
+GLSpaceText.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5227/trunk/Source/GLSpaceText.pas
+END
+GLGraph.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5416/trunk/Source/GLGraph.pas
+END
+GLScriptDWS2.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4211/trunk/Source/GLScriptDWS2.pas
+END
+GLLinePFX.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLLinePFX.pas
+END
+GLVerletSkeletonColliders.pas
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/glscene/!svn/ver/4942/trunk/Source/GLVerletSkeletonColliders.pas
+END
+GLThorFX.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5445/trunk/Source/GLThorFX.pas
+END
+GLMaterialMultiProxy.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLMaterialMultiProxy.pas
+END
+GLTilePlane.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLTilePlane.pas
+END
+GLExplosionFx.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5481/trunk/Source/GLExplosionFx.pas
+END
+GLSCUDAGenerics.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/5554/trunk/Source/GLSCUDAGenerics.pas
+END
+GLFireFX.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5445/trunk/Source/GLFireFX.pas
+END
+GLContext.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5534/trunk/Source/GLContext.pas
+END
+GLBSP.pas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/glscene/!svn/ver/5303/trunk/Source/GLBSP.pas
+END
+GLWideMultiBitmapFont.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5407/trunk/Source/GLWideMultiBitmapFont.pas
+END
+GLSCUDACompiler.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/5559/trunk/Source/GLSCUDACompiler.pas
+END
+GLCollision.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5445/trunk/Source/GLCollision.pas
+END
+GLTeapot.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLTeapot.pas
+END
+GLCameraController.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLCameraController.pas
+END
+GLScene.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5550/trunk/Source/GLScene.pas
+END
+GLBaseMeshSilhouette.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5314/trunk/Source/GLBaseMeshSilhouette.pas
+END
+GLHeightData.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5295/trunk/Source/GLHeightData.pas
+END
+GLCompositeImage.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5545/trunk/Source/GLCompositeImage.pas
+END
+GLAVIRecorder.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/4925/trunk/Source/GLAVIRecorder.pas
+END
+GLTextureFormat.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/5314/trunk/Source/GLTextureFormat.pas
+END
+GLODERagdoll.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4446/trunk/Source/GLODERagdoll.pas
+END
+GLSCUDAParser.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5559/trunk/Source/GLSCUDAParser.pas
+END
+GLSMOpenAL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/4426/trunk/Source/GLSMOpenAL.pas
+END
+GLPolyhedron.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLPolyhedron.pas
+END
+GLSmoothNavigator.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5438/trunk/Source/GLSmoothNavigator.pas
+END
+GLPostEffects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLPostEffects.pas
+END
+GLSound.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5444/trunk/Source/GLSound.pas
+END
+GLMeshCSG.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/4971/trunk/Source/GLMeshCSG.pas
+END
+GLMovement.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5445/trunk/Source/GLMovement.pas
+END
+GLGraphics.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5545/trunk/Source/GLGraphics.pas
+END
+GLVerletClothify.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5151/trunk/Source/GLVerletClothify.pas
+END
+GLBitmapFont.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5431/trunk/Source/GLBitmapFont.pas
+END
+GLFPSMovement.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5444/trunk/Source/GLFPSMovement.pas
+END
+GLMeshBuilder.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/4805/trunk/Source/GLMeshBuilder.pas
+END
+GLCadencer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5499/trunk/Source/GLCadencer.pas
+END
+GLPerlinPFX.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5303/trunk/Source/GLPerlinPFX.pas
+END
+GLNodes.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5546/trunk/Source/GLNodes.pas
+END
+GLEllipseCollision.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLEllipseCollision.pas
+END
+GLSCUDAFFTPlan.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5559/trunk/Source/GLSCUDAFFTPlan.pas
+END
+GLLensFlare.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5514/trunk/Source/GLLensFlare.pas
+END
+GLVectorFileObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5542/trunk/Source/GLVectorFileObjects.pas
+END
+GLShadowVolume.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLShadowVolume.pas
+END
+readme.htm
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/glscene/!svn/ver/3381/trunk/Source/readme.htm
+END
+GLParametricSurfaces.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5256/trunk/Source/GLParametricSurfaces.pas
+END
+GLHeightTileFileHDS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4254/trunk/Source/GLHeightTileFileHDS.pas
+END
+GLSelection.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5456/trunk/Source/GLSelection.pas
+END
+GLParticles.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLParticles.pas
+END
+GLMultiProxy.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLMultiProxy.pas
+END
+GLTree.pas
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLTree.pas
+END
+GLSCUDA.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5559/trunk/Source/GLSCUDA.pas
+END
+GLBumpmapHDS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5133/trunk/Source/GLBumpmapHDS.pas
+END
+GLExtrusion.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5553/trunk/Source/GLExtrusion.pas
+END
+GLImposter.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5248/trunk/Source/GLImposter.pas
+END
+GLNGDManager.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5486/trunk/Source/GLNGDManager.pas
+END
+GLAsyncHDS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5294/trunk/Source/GLAsyncHDS.pas
+END
+GLWideBitmapFont.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLWideBitmapFont.pas
+END
+TextureError.inc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4526/trunk/Source/TextureError.inc
+END
+GLROAMPatch.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLROAMPatch.pas
+END
+GLSkyBox.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLSkyBox.pas
+END
+GLMaterialScript.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/4805/trunk/Source/GLMaterialScript.pas
+END
+GLSMFMOD.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5576/trunk/Source/GLSMFMOD.pas
+END
+GLSMWaveOut.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/4465/trunk/Source/GLSMWaveOut.pas
+END
+GLRenderContextInfo.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5473/trunk/Source/GLRenderContextInfo.pas
+END
+GLGeomObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLGeomObjects.pas
+END
+GLMultiPolygon.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLMultiPolygon.pas
+END
+GLODECustomColliders.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLODECustomColliders.pas
+END
+GLShadowPlane.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5067/trunk/Source/GLShadowPlane.pas
+END
+GLDynamicTexture.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLDynamicTexture.pas
+END
+GLSLanguage.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5303/trunk/Source/GLSLanguage.pas
+END
+GLDCEMisc.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLDCEMisc.pas
+END
+GLSCUDADataAccess.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5558/trunk/Source/GLSCUDADataAccess.pas
+END
+GLWindowsFont.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLWindowsFont.pas
+END
+GLPerlinBase.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLPerlinBase.pas
+END
+GLGizmo.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLGizmo.pas
+END
+GLGameMenu.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLGameMenu.pas
+END
+GLMaterial.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5529/trunk/Source/GLMaterial.pas
+END
+GLScriptBase.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4170/trunk/Source/GLScriptBase.pas
+END
+GLMeshOptimizer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/4472/trunk/Source/GLMeshOptimizer.pas
+END
+GLMultisampleImage.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/5456/trunk/Source/GLMultisampleImage.pas
+END
+GLParticleFX.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5445/trunk/Source/GLParticleFX.pas
+END
+GLObjectManager.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/4967/trunk/Source/GLObjectManager.pas
+END
+GLSoundFileObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLSoundFileObjects.pas
+END
+GLEParticleMasksManager.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/5339/trunk/Source/GLEParticleMasksManager.pas
+END
+GLConsole.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLConsole.pas
+END
+GLTexturedHDS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/4255/trunk/Source/GLTexturedHDS.pas
+END
+GLBlur.pas
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLBlur.pas
+END
+GLScriptPython.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/4211/trunk/Source/GLScriptPython.pas
+END
+GLAtmosphere.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5582/trunk/Source/GLAtmosphere.pas
+END
+GLSimpleNavigation.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/5473/trunk/Source/GLSimpleNavigation.pas
+END
+GLAnimatedSprite.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5444/trunk/Source/GLAnimatedSprite.pas
+END
+GLManager.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/4437/trunk/Source/GLManager.pas
+END
+GLMirror.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5423/trunk/Source/GLMirror.pas
+END
+GLTrail.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLTrail.pas
+END
+GLSkydome.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5584/trunk/Source/GLSkydome.pas
+END
+GLODESkeletonColliders.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4444/trunk/Source/GLODESkeletonColliders.pas
+END
+GLGizmoEx.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5111/trunk/Source/GLGizmoEx.pas
+END
+GLShadowHDS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLShadowHDS.pas
+END
+GLFeedback.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5543/trunk/Source/GLFeedback.pas
+END
+GLSilhouette.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5303/trunk/Source/GLSilhouette.pas
+END
+_Cleanup.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/2480/trunk/Source/_Cleanup.bat
+END
+GLStrings.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5473/trunk/Source/GLStrings.pas
+END
+GLPerlin.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5294/trunk/Source/GLPerlin.pas
+END
+GLObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5592/trunk/Source/GLObjects.pas
+END
+GLHUDObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLHUDObjects.pas
+END
+GLWindows.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5177/trunk/Source/GLWindows.pas
+END
+GLMesh.pas
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/glscene/!svn/ver/5465/trunk/Source/GLMesh.pas
+END
+GLSArchiveManager.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/4872/trunk/Source/GLSArchiveManager.pas
+END
+GLPortal.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/4262/trunk/Source/GLPortal.pas
+END
+GLWaterPlane.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLWaterPlane.pas
+END
+GLGLUTesselation.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5265/trunk/Source/GLGLUTesselation.pas
+END
+GLzBuffer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLzBuffer.pas
+END
+GLSCUDAContext.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5559/trunk/Source/GLSCUDAContext.pas
+END
+GLProcTextures.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLProcTextures.pas
+END
+GLState.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5531/trunk/Source/GLState.pas
+END
+GLProjectedTextures.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLProjectedTextures.pas
+END
+GLGui.pas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/glscene/!svn/ver/5059/trunk/Source/GLGui.pas
+END
+GLTerrainRenderer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5333/trunk/Source/GLTerrainRenderer.pas
+END
+GLTexLensFlare.pas
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/5129/trunk/Source/GLTexLensFlare.pas
+END
+GLFBORenderer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/glscene/!svn/ver/5545/trunk/Source/GLFBORenderer.pas
+END
+GLUtils.pas
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5473/trunk/Source/GLUtils.pas
+END
+GLTexture.pas
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/glscene/!svn/ver/5545/trunk/Source/GLTexture.pas
+END
+GLODEManager.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5445/trunk/Source/GLODEManager.pas
+END
+GLFBO.pas
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/glscene/!svn/ver/5328/trunk/Source/GLFBO.pas
+END
+GLBehaviours.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5444/trunk/Source/GLBehaviours.pas
+END

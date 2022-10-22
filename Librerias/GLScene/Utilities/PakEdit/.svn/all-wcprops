@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/glscene/!svn/ver/3289/trunk/Utilities/PakEdit
+END
+FolderDialog.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/FolderDialog.dfm
+END
+FolderSelect.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/FolderSelect.dfm
+END
+icons.res
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/icons.res
+END
+PakEdit.dpr
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/PakEdit.dpr
+END
+Main.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/Main.pas
+END
+icons.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/icons.bmp
+END
+Main.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/Main.dfm
+END
+PakEdit.res
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/3289/trunk/Utilities/PakEdit/PakEdit.res
+END
+FolderDialog.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/FolderDialog.pas
+END
+FolderSelect.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/2517/trunk/Utilities/PakEdit/FolderSelect.pas
+END

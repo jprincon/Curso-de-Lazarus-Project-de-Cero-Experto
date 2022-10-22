@@ -1,0 +1,88 @@
+object FAnalisisEstadistico: TFAnalisisEstadistico
+  Left = 319
+  Height = 768
+  Top = 183
+  Width = 1366
+  Caption = 'Análisis Estadístico'
+  ClientHeight = 748
+  ClientWidth = 1366
+  Color = clWhite
+  Menu = MenuPrincipal
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  WindowState = wsMaximized
+  object sgDatos: TStringGrid
+    Left = 0
+    Height = 748
+    Top = 0
+    Width = 1366
+    Align = alClient
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSizing, goColSizing, goEditing, goDblClickAutoSize, goSmoothScroll]
+    TabOrder = 0
+  end
+  object MenuPrincipal: TMainMenu
+    Left = 1304
+    Top = 32
+    object menuArchivo: TMenuItem
+      Caption = 'Archivo'
+      object menuNuevo: TMenuItem
+        Caption = 'Nuevo'
+      end
+      object menuAbrir: TMenuItem
+        Caption = 'Abrir'
+      end
+      object menuGuardar: TMenuItem
+        Caption = 'Guardar'
+      end
+      object menuExportar: TMenuItem
+        Caption = 'Exportar'
+        object menuExportarArchivoINI: TMenuItem
+          Caption = 'Archivo INI'
+        end
+        object menuExportarArchivoCSV: TMenuItem
+          Caption = 'Archivo CSV'
+        end
+      end
+      object menuExportarGrafica: TMenuItem
+        Caption = 'Exportar Gráfica'
+        object menuDigramaBarras: TMenuItem
+          Caption = 'Digrama de Barras'
+        end
+        object menuDiagramaArea: TMenuItem
+          Caption = 'Diagrama de Área'
+        end
+        object menuDigramaLineal: TMenuItem
+          Caption = 'Diagrama Lineal'
+        end
+        object menuDigramaPastel: TMenuItem
+          Caption = 'Digrama de Pastel'
+        end
+      end
+      object Separator1: TMenuItem
+        Caption = '-'
+      end
+      object menuSalir: TMenuItem
+        Caption = 'Salir'
+        ShortCut = 16465
+      end
+    end
+    object menuConfigurar: TMenuItem
+      Caption = 'Configuración'
+      object menuConfigurarAplicacion: TMenuItem
+        Caption = 'Configurar aplicación'
+        ShortCut = 24655
+      end
+    end
+    object menuAyuda: TMenuItem
+      Caption = 'Ayuda'
+      object menuManualAyuda: TMenuItem
+        Caption = 'Manual de Ayuda'
+        ShortCut = 112
+      end
+      object menuAcerca: TMenuItem
+        Caption = 'Acerca de ...'
+      end
+    end
+  end
+end

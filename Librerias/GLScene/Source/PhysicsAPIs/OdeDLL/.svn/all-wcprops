@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/glscene/!svn/ver/4932/trunk/Source/PhysicsAPIs/OdeDLL
+END
+ode_doubled.dll
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/4932/trunk/Source/PhysicsAPIs/OdeDLL/ode_doubled.dll
+END
+ode_single.dll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4932/trunk/Source/PhysicsAPIs/OdeDLL/ode_single.dll
+END
+ode_singled.dll
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/4932/trunk/Source/PhysicsAPIs/OdeDLL/ode_singled.dll
+END
+Install.bat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/4932/trunk/Source/PhysicsAPIs/OdeDLL/Install.bat
+END
+ode_double.dll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4932/trunk/Source/PhysicsAPIs/OdeDLL/ode_double.dll
+END

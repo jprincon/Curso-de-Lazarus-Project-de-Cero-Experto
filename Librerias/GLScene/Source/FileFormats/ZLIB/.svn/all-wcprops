@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5538/trunk/Source/FileFormats/ZLIB
+END
+GLSZLibExApi.pas
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/5538/trunk/Source/FileFormats/ZLIB/GLSZLibExApi.pas
+END
+GLSZLibEx.pas
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/5039/trunk/Source/FileFormats/ZLIB/GLSZLibEx.pas
+END
+ZLibEx.inc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/4876/trunk/Source/FileFormats/ZLIB/ZLibEx.inc
+END
+zlib1.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4955/trunk/Source/FileFormats/ZLIB/zlib1.dll
+END

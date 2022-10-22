@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 50
+*.dcu
+*.~pas
+*.bk1
+*.bk2
+*.dpu
+*.~inc
+*.ppu
+*.rst
+
+END

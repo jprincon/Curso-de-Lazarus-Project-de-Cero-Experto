@@ -1,0 +1,341 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/glscene/!svn/ver/5400/trunk/Source/PropertyEditors
+END
+FRFaceEditor.pas
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/glscene/!svn/ver/4806/trunk/Source/PropertyEditors/FRFaceEditor.pas
+END
+FRTextureEdit.pas
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/5314/trunk/Source/PropertyEditors/FRTextureEdit.pas
+END
+FRTrackBarEditLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/glscene/!svn/ver/4455/trunk/Source/PropertyEditors/FRTrackBarEditLCL.lrs
+END
+GuiSkinEditorFormUnitLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/glscene/!svn/ver/5090/trunk/Source/PropertyEditors/GuiSkinEditorFormUnitLCL.pas
+END
+FRMaterialPreviewLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRMaterialPreviewLCL.lrs
+END
+FRColorEditor.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4842/trunk/Source/PropertyEditors/FRColorEditor.dfm
+END
+FLibMaterialPickerLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/4710/trunk/Source/PropertyEditors/FLibMaterialPickerLCL.lrs
+END
+Info.res
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/4203/trunk/Source/PropertyEditors/Info.res
+END
+FRColorEditorLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4455/trunk/Source/PropertyEditors/FRColorEditorLCL.lfm
+END
+FRTextureEditLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRTextureEditLCL.lrs
+END
+FMaterialEditorFormLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FMaterialEditorFormLCL.lrs
+END
+FVectorEditorLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FVectorEditorLCL.pas
+END
+FRMaterialPreview.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/glscene/!svn/ver/4806/trunk/Source/PropertyEditors/FRMaterialPreview.dfm
+END
+Info.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/4921/trunk/Source/PropertyEditors/Info.dfm
+END
+FVectorEditor.pas
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4842/trunk/Source/PropertyEditors/FVectorEditor.pas
+END
+GLTextureImageEditors.pas
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/4533/trunk/Source/PropertyEditors/GLTextureImageEditors.pas
+END
+FRFaceEditor.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/glscene/!svn/ver/4830/trunk/Source/PropertyEditors/FRFaceEditor.dfm
+END
+InfoLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/4870/trunk/Source/PropertyEditors/InfoLCL.lfm
+END
+FRTextureEdit.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4829/trunk/Source/PropertyEditors/FRTextureEdit.dfm
+END
+FRTrackBarEditLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/glscene/!svn/ver/4455/trunk/Source/PropertyEditors/FRTrackBarEditLCL.pas
+END
+FRFaceEditorLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/glscene/!svn/ver/4810/trunk/Source/PropertyEditors/FRFaceEditorLCL.lfm
+END
+FRMaterialPreviewLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRMaterialPreviewLCL.pas
+END
+FLibMaterialPickerLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FLibMaterialPickerLCL.pas
+END
+FRColorEditorLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRColorEditorLCL.lrs
+END
+FRTrackBarEdit.pas
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/4203/trunk/Source/PropertyEditors/FRTrackBarEdit.pas
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4204/trunk/Source/PropertyEditors/Readme.txt
+END
+FLibMaterialPicker.pas
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/glscene/!svn/ver/4207/trunk/Source/PropertyEditors/FLibMaterialPicker.pas
+END
+FRTextureEditLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/5314/trunk/Source/PropertyEditors/FRTextureEditLCL.pas
+END
+GuiSkinEditorFormUnitLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/glscene/!svn/ver/5090/trunk/Source/PropertyEditors/GuiSkinEditorFormUnitLCL.lfm
+END
+FMaterialEditorFormLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FMaterialEditorFormLCL.pas
+END
+FMaterialEditorForm.pas
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/glscene/!svn/ver/4829/trunk/Source/PropertyEditors/FMaterialEditorForm.pas
+END
+FVectorEditor.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4203/trunk/Source/PropertyEditors/FVectorEditor.dfm
+END
+InfoLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/4870/trunk/Source/PropertyEditors/InfoLCL.lrs
+END
+GuiSkinEditorFormUnit.pas
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/5147/trunk/Source/PropertyEditors/GuiSkinEditorFormUnit.pas
+END
+FRFaceEditorLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/glscene/!svn/ver/4810/trunk/Source/PropertyEditors/FRFaceEditorLCL.lrs
+END
+FVectorEditorLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4455/trunk/Source/PropertyEditors/FVectorEditorLCL.lfm
+END
+FRColorEditorLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRColorEditorLCL.pas
+END
+Info.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/4275/trunk/Source/PropertyEditors/Info.lrs
+END
+FRTrackBarEdit.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/4806/trunk/Source/PropertyEditors/FRTrackBarEdit.dfm
+END
+FVectorEditor.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4275/trunk/Source/PropertyEditors/FVectorEditor.lfm
+END
+FLibMaterialPicker.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/glscene/!svn/ver/4203/trunk/Source/PropertyEditors/FLibMaterialPicker.dfm
+END
+GuiSkinEditorFormUnitLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/glscene/!svn/ver/5090/trunk/Source/PropertyEditors/GuiSkinEditorFormUnitLCL.lrs
+END
+FRColorEditor.pas
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4842/trunk/Source/PropertyEditors/FRColorEditor.pas
+END
+FRTrackBarEditLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/glscene/!svn/ver/4455/trunk/Source/PropertyEditors/FRTrackBarEditLCL.lfm
+END
+FRMaterialPreviewLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRMaterialPreviewLCL.lfm
+END
+FLibMaterialPickerLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/4710/trunk/Source/PropertyEditors/FLibMaterialPickerLCL.lfm
+END
+FMaterialEditorForm.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/glscene/!svn/ver/4829/trunk/Source/PropertyEditors/FMaterialEditorForm.dfm
+END
+FRTextureEditLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRTextureEditLCL.lfm
+END
+FMaterialEditorFormLCL.lfm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/glscene/!svn/ver/5400/trunk/Source/PropertyEditors/FMaterialEditorFormLCL.lfm
+END
+InfoLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/5248/trunk/Source/PropertyEditors/InfoLCL.pas
+END
+FVectorEditorLCL.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FVectorEditorLCL.lrs
+END
+GuiSkinEditorFormUnit.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/4203/trunk/Source/PropertyEditors/GuiSkinEditorFormUnit.dfm
+END
+FRMaterialPreview.pas
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/glscene/!svn/ver/4207/trunk/Source/PropertyEditors/FRMaterialPreview.pas
+END
+FRFaceEditorLCL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/glscene/!svn/ver/4936/trunk/Source/PropertyEditors/FRFaceEditorLCL.pas
+END
+Info.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5248/trunk/Source/PropertyEditors/Info.pas
+END
+FVectorEditor.lrs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4275/trunk/Source/PropertyEditors/FVectorEditor.lrs
+END

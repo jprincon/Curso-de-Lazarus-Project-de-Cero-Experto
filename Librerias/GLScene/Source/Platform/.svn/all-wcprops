@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/glscene/!svn/ver/5587/trunk/Source/Platform
+END
+GLLCLViewer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5517/trunk/Source/Platform/GLLCLViewer.pas
+END
+GLCrossPlatform.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/5587/trunk/Source/Platform/GLCrossPlatform.pas
+END
+GLGLXContext.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5517/trunk/Source/Platform/GLGLXContext.pas
+END
+GLScreen.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5517/trunk/Source/Platform/GLScreen.pas
+END
+GLKeyboard.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4429/trunk/Source/Platform/GLKeyboard.pas
+END
+GLViewer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5517/trunk/Source/Platform/GLViewer.pas
+END
+GLFullScreenViewer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/glscene/!svn/ver/5255/trunk/Source/Platform/GLFullScreenViewer.pas
+END
+GLWin32Viewer.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/5336/trunk/Source/Platform/GLWin32Viewer.pas
+END
+GLSDLContext.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5339/trunk/Source/Platform/GLSDLContext.pas
+END
+GLWin32Context.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/5463/trunk/Source/Platform/GLWin32Context.pas
+END
+GLWidgetContext.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/5517/trunk/Source/Platform/GLWidgetContext.pas
+END
+GLCarbonContext.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/5538/trunk/Source/Platform/GLCarbonContext.pas
+END

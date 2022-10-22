@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/hud_objects
+END
+TGLGameMenu.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/hud_objects/TGLGameMenu.bmp
+END
+TGLConsole.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/hud_objects/TGLConsole.bmp
+END
+TGLResolutionIndependantHUDText.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/hud_objects/TGLResolutionIndependantHUDText.bmp
+END
+TGLAbsoluteHUDText.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/hud_objects/TGLAbsoluteHUDText.bmp
+END
+TGLHudText.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/hud_objects/TGLHudText.bmp
+END
+TGLHudSprite.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/hud_objects/TGLHudSprite.bmp
+END

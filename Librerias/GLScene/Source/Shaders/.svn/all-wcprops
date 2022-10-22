@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/glscene/!svn/ver/5564/trunk/Source/Shaders
+END
+GLBumpShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5058/trunk/Source/Shaders/GLBumpShader.pas
+END
+GLCelShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5067/trunk/Source/Shaders/GLCelShader.pas
+END
+GLHiddenLineShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/5058/trunk/Source/Shaders/GLHiddenLineShader.pas
+END
+GLMultiMaterialShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/glscene/!svn/ver/4805/trunk/Source/Shaders/GLMultiMaterialShader.pas
+END
+GLCustomShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/5058/trunk/Source/Shaders/GLCustomShader.pas
+END
+GLPhongShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5058/trunk/Source/Shaders/GLPhongShader.pas
+END
+GLTextureSharingShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/5333/trunk/Source/Shaders/GLTextureSharingShader.pas
+END
+GLTexCombineShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/5564/trunk/Source/Shaders/GLTexCombineShader.pas
+END
+GLShaderCombiner.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/4642/trunk/Source/Shaders/GLShaderCombiner.pas
+END
+GLUserShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/4207/trunk/Source/Shaders/GLUserShader.pas
+END
+GLOutlineShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/5500/trunk/Source/Shaders/GLOutlineShader.pas
+END
+GLAsmShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5058/trunk/Source/Shaders/GLAsmShader.pas
+END

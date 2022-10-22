@@ -15,14 +15,16 @@ type
 
   TFUtilidades = class(TForm)
     bCalcularRegresion: TSpeedButton;
+    bGenerarIDs: TButton;
+    bVerConsola: TButton;
     bMostrarConsola: TButton;
+    bGenerarClaveAleatoria: TButton;
     bResolverPitagoras: TButton;
     bSaludaNombre: TButton;
     bSaludarPersonalizado: TButton;
     bMostrarToast: TButton;
     bSaludarSM: TButton;
     bSaludarMD: TButton;
-    Button1: TButton;
     Chart1: TChart;
     edNombre: TEdit;
     grafPuntos: TBubbleSeries;
@@ -37,27 +39,29 @@ type
     GroupBox3: TGroupBox;
     GroupBox4: TGroupBox;
     lbRuta: TLabel;
-    Memo1: TMemo;
     PageControl1: TPageControl;
     Panel1: TPanel;
     bCalcularMedia: TSpeedButton;
     Panel2: TPanel;
     Panel3: TPanel;
     Panel4: TPanel;
+    Panel5: TPanel;
+    Panel6: TPanel;
     seRegresion: TSynEdit;
     Splitter1: TSplitter;
     barraEstado: TStatusBar;
     seEstadistica: TSynEdit;
     tabItemsMenu: TTabSheet;
     filtroMenu: TTreeFilterEdit;
-    TabSheet1: TTabSheet;
     tabCalculoMedia: TTabSheet;
     tabRegresionLineal: TTabSheet;
     tabResultados: TTabSheet;
     tabGrafica: TTabSheet;
     tabMensajes: TTabSheet;
+    tabGeneradores: TTabSheet;
     tvMenu: TTreeView;
     procedure bGenerarClaveAleatoriaClick(Sender: TObject);
+    procedure bGenerarIDsClick(Sender: TObject);
     procedure bMostrarConsolaClick(Sender: TObject);
     procedure bMostrarToastClick(Sender: TObject);
     procedure bResolverPitagorasClick(Sender: TObject);
@@ -65,12 +69,15 @@ type
     procedure bSaludarMDClick(Sender: TObject);
     procedure bSaludarPersonalizadoClick(Sender: TObject);
     procedure bSaludarSMClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure bVerConsolaClick(Sender: TObject);
     procedure CalcularMedia(Sender: TObject);
     procedure CalcularRegresionLineal(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure lbRutaClick(Sender: TObject);
+    procedure seleccionarMenu(Sender: TObject);
   private
-    unidadMatematicas, unidadSistemaOperativo: TTreeNode;
+    unidadMatematicas, unidadFormularios, unidadGeneradores: TTreeNode;
   public
 
     procedure crearSeccion(padre: TTreeNode; nombre: string);
@@ -97,9 +104,21 @@ begin
   Contenido.ShowTabs := False;
 
   unidadMatematicas := crearUnidad('Matemáticas');
-  crearSeccion(unidadMatematicas, 'Teorema de Pitágoras');
+  crearSeccion(unidadMatematicas, 'Cálculo Media');
+  crearSeccion(unidadMatematicas, 'Regresión Lineal');
 
-  unidadSistemaOperativo := crearUnidad('Sistema Operativo');
+  unidadFormularios := crearUnidad('Formularios');
+  crearSeccion(unidadFormularios, 'Saludar con Showmessage');
+  crearSeccion(unidadFormularios, 'Saludar con MessageDlg');
+  crearSeccion(unidadFormularios, 'Formulario Personalizado para Mensajes');
+  crearSeccion(unidadFormularios, 'Toasts');
+  crearSeccion(unidadFormularios, 'Consola de Mensajes');
+  crearSeccion(unidadFormularios, 'Formulario para ingreso de reales');
+  crearSeccion(unidadFormularios, 'Formulario para ingreso de texto');
+
+  unidadGeneradores := crearUnidad('Generadores');
+  crearSeccion(unidadGeneradores, 'Generar clave aleatoria');
+  crearSeccion(unidadGeneradores, 'Generar IDs');
 
   // Imprimir la versión de la libreria en la barra de estado
   barraEstado.Panels[0].Text := version;
@@ -108,6 +127,77 @@ end;
 procedure TFUtilidades.lbRutaClick(Sender: TObject);
 begin
   lbRuta.Caption := ExtractFilePath(ParamStr(0));
+end;
+
+procedure TFUtilidades.seleccionarMenu(Sender: TObject);
+var
+  nombre: string;
+begin
+  if tvMenu.Selected <> nil then
+  begin
+    nombre := tvMenu.Selected.Text;
+    // FMensaje.Mostrar('Menú',nombre,tmInfo);
+
+    if nombre = 'Cálculo Media' then
+      Contenido.ActivePage := tabCalculoMedia;
+
+    if nombre = 'Regresión Lineal' then
+      Contenido.ActivePage := tabRegresionLineal;
+
+    if nombre = 'Saludar con Showmessage' then
+    begin
+      Contenido.ActivePage := tabMensajes;
+      bSaludarSMClick(Self);
+    end;
+
+    if nombre = 'Saludar con MessageDlg' then
+    begin
+      Contenido.ActivePage := tabMensajes;
+      bSaludarMDClick(Self);
+    end;
+
+    if nombre = 'Formulario Personalizado para Mensajes' then
+    begin
+      Contenido.ActivePage := tabMensajes;
+      bSaludarPersonalizadoClick(Self);
+    end;
+
+    if nombre = 'Toasts' then
+    begin
+      Contenido.ActivePage := tabMensajes;
+      bMostrarToastClick(Self);
+    end;
+
+    if nombre = 'Consola de Mensajes' then
+    begin
+      Contenido.ActivePage := tabMensajes;
+      bMostrarConsolaClick(Self);
+    end;
+
+    if nombre = 'Formulario para ingreso de reales' then
+    begin
+      Contenido.ActivePage := tabMensajes;
+      bResolverPitagorasClick(Self);
+    end;
+
+    if nombre = 'Formulario para ingreso de texto' then
+    begin
+      Contenido.ActivePage := tabMensajes;
+      bSaludaNombreClick(Self);
+    end;
+
+    if nombre = 'Generar clave aleatoria' then
+    begin
+      Contenido.ActivePage := tabGeneradores;
+      bGenerarClaveAleatoriaClick(Self);
+    end;
+
+    if nombre = 'Generar IDs' then
+    begin
+      Contenido.ActivePage := tabGeneradores;
+      bGenerarIDsClick(Self);
+    end;
+  end;
 end;
 
 procedure TFUtilidades.CalcularMedia(Sender: TObject);
@@ -146,6 +236,16 @@ begin
   ShowMessage('Hola, ' + edNombre.Text);
 end;
 
+procedure TFUtilidades.Button1Click(Sender: TObject);
+begin
+
+end;
+
+procedure TFUtilidades.bVerConsolaClick(Sender: TObject);
+begin
+  FConsola.Show;
+end;
+
 procedure TFUtilidades.bSaludarMDClick(Sender: TObject);
 begin
   MessageDlg('Saludar', 'Hola, ' + edNombre.Text, mtInformation, [mbYes], ''); ///Pausa
@@ -170,15 +270,26 @@ begin
   FConsola.log('bMostrarConsolaClick',
     'Error en el procedimiento', tcError);
 
-  FConsola.log('bMostrarConsolaClick', 'En este capítulo creamos un formulario'+
-  ' personalizado para crear una consola de mensajes en la cual podamos mostrar'+
-  ' diferentes tipos de mensajes, info, warning y error.', tcInfo);
+  FConsola.log('bMostrarConsolaClick', 'En este capítulo creamos un formulario' +
+    ' personalizado para crear una consola de mensajes en la cual podamos mostrar' +
+    ' diferentes tipos de mensajes, info, warning y error.', tcInfo);
   FConsola.Show;
 end;
 
 procedure TFUtilidades.bGenerarClaveAleatoriaClick(Sender: TObject);
+var
+  clave: string;
 begin
-    //
+  clave := Utilidades.generarClave(12);
+  FConsola.log('Generador Claves', clave, tcInfo);
+end;
+
+procedure TFUtilidades.bGenerarIDsClick(Sender: TObject);
+var
+  ID: string;
+begin
+  ID := Utilidades.generarID;
+  FConsola.log('Generador IDs', ID, tcInfo);
 end;
 
 procedure TFUtilidades.bResolverPitagorasClick(Sender: TObject);

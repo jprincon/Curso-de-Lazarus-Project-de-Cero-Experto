@@ -1,0 +1,395 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5568/trunk/Source/FileFormats
+END
+Const3DS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/2549/trunk/Source/FileFormats/Const3DS.pas
+END
+DXTC.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5303/trunk/Source/FileFormats/DXTC.pas
+END
+GLFilePNG.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5248/trunk/Source/FileFormats/GLFilePNG.pas
+END
+Utils3DS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5195/trunk/Source/FileFormats/Utils3DS.pas
+END
+TGA.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/5568/trunk/Source/FileFormats/TGA.pas
+END
+LIBPNG.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/5538/trunk/Source/FileFormats/LIBPNG.pas
+END
+GLFileQ3BSP.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/5177/trunk/Source/FileFormats/GLFileQ3BSP.pas
+END
+GLVfsPAK.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5177/trunk/Source/FileFormats/GLVfsPAK.pas
+END
+GLFileGTS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4226/trunk/Source/FileFormats/GLFileGTS.pas
+END
+GLFileSTL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4309/trunk/Source/FileFormats/GLFileSTL.pas
+END
+GLSJPG.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/4925/trunk/Source/FileFormats/GLSJPG.pas
+END
+GlFileX.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4451/trunk/Source/FileFormats/GlFileX.pas
+END
+GLStarRecord.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/4842/trunk/Source/FileFormats/GLStarRecord.pas
+END
+GLFile3DSSceneObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/glscene/!svn/ver/5255/trunk/Source/FileFormats/GLFile3DSSceneObjects.pas
+END
+GLFilePGM.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5503/trunk/Source/FileFormats/GLFilePGM.pas
+END
+GLFileSMD.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4842/trunk/Source/FileFormats/GLFileSMD.pas
+END
+FileX.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5211/trunk/Source/FileFormats/FileX.pas
+END
+RGBE.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/4937/trunk/Source/FileFormats/RGBE.pas
+END
+GLFileWAV.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4888/trunk/Source/FileFormats/GLFileWAV.pas
+END
+GLFileLWO.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5177/trunk/Source/FileFormats/GLFileLWO.pas
+END
+Q3BSP.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/4226/trunk/Source/FileFormats/Q3BSP.pas
+END
+GLFileO3TC.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/5248/trunk/Source/FileFormats/GLFileO3TC.pas
+END
+GLFileOBJ.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5473/trunk/Source/FileFormats/GLFileOBJ.pas
+END
+GLFileDDS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5303/trunk/Source/FileFormats/GLFileDDS.pas
+END
+VRMLParser.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4309/trunk/Source/FileFormats/VRMLParser.pas
+END
+GLFileHDR.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5303/trunk/Source/FileFormats/GLFileHDR.pas
+END
+GLFileLMTS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4888/trunk/Source/FileFormats/GLFileLMTS.pas
+END
+TypesMD2.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5097/trunk/Source/FileFormats/TypesMD2.pas
+END
+GLFileJPEG.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/5248/trunk/Source/FileFormats/GLFileJPEG.pas
+END
+O3TCImage.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5473/trunk/Source/FileFormats/O3TCImage.pas
+END
+GLFileNurbs.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/4309/trunk/Source/FileFormats/GLFileNurbs.pas
+END
+Types3DS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5195/trunk/Source/FileFormats/Types3DS.pas
+END
+HDRImage.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5473/trunk/Source/FileFormats/HDRImage.pas
+END
+FileNMF.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4226/trunk/Source/FileFormats/FileNMF.pas
+END
+FileMD2.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5109/trunk/Source/FileFormats/FileMD2.pas
+END
+GLFileZLIB.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/5177/trunk/Source/FileFormats/GLFileZLIB.pas
+END
+FileMD3.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4226/trunk/Source/FileFormats/FileMD3.pas
+END
+FileGL2.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/1990/trunk/Source/FileFormats/FileGL2.pas
+END
+FileOCT.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4226/trunk/Source/FileFormats/FileOCT.pas
+END
+GLFilePLY.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4226/trunk/Source/FileFormats/GLFilePLY.pas
+END
+TypesMDC.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/4226/trunk/Source/FileFormats/TypesMDC.pas
+END
+File3DS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5422/trunk/Source/FileFormats/File3DS.pas
+END
+GLFileMS3D.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/5328/trunk/Source/FileFormats/GLFileMS3D.pas
+END
+GLFileASE.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4842/trunk/Source/FileFormats/GLFileASE.pas
+END
+TypesB3D.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/3366/trunk/Source/FileFormats/TypesB3D.pas
+END
+GLFilePAK.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5177/trunk/Source/FileFormats/GLFilePAK.pas
+END
+GLFileVRML.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4888/trunk/Source/FileFormats/GLFileVRML.pas
+END
+GLFileNMF.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4201/trunk/Source/FileFormats/GLFileNMF.pas
+END
+GLFileMD2.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5097/trunk/Source/FileFormats/GLFileMD2.pas
+END
+GLFileMD3.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5195/trunk/Source/FileFormats/GLFileMD3.pas
+END
+GLFileGL2.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4207/trunk/Source/FileFormats/GLFileGL2.pas
+END
+GLFileOCT.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4531/trunk/Source/FileFormats/GLFileOCT.pas
+END
+FileB3D.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/4347/trunk/Source/FileFormats/FileB3D.pas
+END
+GLFileMD5.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4842/trunk/Source/FileFormats/GLFileMD5.pas
+END
+GLFile3DS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5541/trunk/Source/FileFormats/GLFile3DS.pas
+END
+GLFileTIN.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4937/trunk/Source/FileFormats/GLFileTIN.pas
+END
+DDSImage.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5473/trunk/Source/FileFormats/DDSImage.pas
+END
+GLFileMP3.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4357/trunk/Source/FileFormats/GLFileMP3.pas
+END
+GLFileMDC.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4888/trunk/Source/FileFormats/GLFileMDC.pas
+END
+Q3MD3.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5177/trunk/Source/FileFormats/Q3MD3.pas
+END
+TypesSTL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/1990/trunk/Source/FileFormats/TypesSTL.pas
+END
+LWObjects.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/700/trunk/Source/FileFormats/LWObjects.txt
+END
+TypesMS3D.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4937/trunk/Source/FileFormats/TypesMS3D.pas
+END
+GLFileB3D.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4805/trunk/Source/FileFormats/GLFileB3D.pas
+END
+LWObjects.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/5195/trunk/Source/FileFormats/LWObjects.pas
+END

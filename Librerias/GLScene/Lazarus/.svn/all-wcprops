@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/glscene/!svn/ver/5578/trunk/Lazarus
+END
+GLS_WinOnly.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5041/trunk/Lazarus/GLS_WinOnly.pas
+END
+GLSS_OpenAL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4414/trunk/Lazarus/GLSS_OpenAL.pas
+END
+GLS_WinOnly.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/5041/trunk/Lazarus/GLS_WinOnly.lpk
+END
+GLScene_ODE.pas
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4414/trunk/Lazarus/GLScene_ODE.pas
+END
+GLSS_OpenAL.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4454/trunk/Lazarus/GLSS_OpenAL.lpk
+END
+GLScene_ODE.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/glscene/!svn/ver/4454/trunk/Lazarus/GLScene_ODE.lpk
+END
+GLS_NGD.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5351/trunk/Lazarus/GLS_NGD.pas
+END
+GLSS_FMOD.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5578/trunk/Lazarus/GLSS_FMOD.pas
+END
+GLS_NGD.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/5358/trunk/Lazarus/GLS_NGD.lpk
+END
+GLSS_BASS.pas
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/4414/trunk/Lazarus/GLSS_BASS.pas
+END
+GLSS_FMOD.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/5578/trunk/Lazarus/GLSS_FMOD.lpk
+END
+GLScene_CgShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5041/trunk/Lazarus/GLScene_CgShader.pas
+END
+GLScene_CgShader.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5041/trunk/Lazarus/GLScene_CgShader.lpk
+END
+GLSS_BASS.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/glscene/!svn/ver/4414/trunk/Lazarus/GLSS_BASS.lpk
+END
+glscene_runtime.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5482/trunk/Lazarus/glscene_runtime.pas
+END
+glscene_runtime.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/5482/trunk/Lazarus/glscene_runtime.lpk
+END
+GLS_SDL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/4414/trunk/Lazarus/GLS_SDL.pas
+END
+glscene_designtime.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5476/trunk/Lazarus/glscene_designtime.pas
+END
+GLS_SDL.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/glscene/!svn/ver/4454/trunk/Lazarus/GLS_SDL.lpk
+END
+glscene_designtime.lpk
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/5476/trunk/Lazarus/glscene_designtime.lpk
+END

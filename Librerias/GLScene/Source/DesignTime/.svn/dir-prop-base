@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 39
+*.dcu
+*.~pas
+*.~dfm
+*.dpu
+*.~ddp
+*.ddp
+
+END

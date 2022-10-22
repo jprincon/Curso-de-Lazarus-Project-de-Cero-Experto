@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 35
+*.~*
+*.dcu
+*.ddp
+*.cfg
+*.dsk
+*.dof
+
+END

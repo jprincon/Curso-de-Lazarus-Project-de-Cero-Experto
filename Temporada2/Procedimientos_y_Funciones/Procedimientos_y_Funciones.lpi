@@ -47,6 +47,7 @@
         <Filename Value="ufutilidades.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FUtilidades"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFUtilidades"/>
       </Unit>
@@ -64,6 +65,7 @@
         <Filename Value="..\..\Librerias\Formularios\ufmensaje.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FMensaje"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFMensaje"/>
       </Unit>
@@ -71,6 +73,7 @@
         <Filename Value="..\..\Librerias\Formularios\uftoast.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FToast"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFToast"/>
       </Unit>
@@ -78,6 +81,7 @@
         <Filename Value="..\..\Librerias\Formularios\ufreal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FReal"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFReal"/>
       </Unit>
@@ -85,6 +89,7 @@
         <Filename Value="..\..\Librerias\Formularios\uftexto.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FTexto"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFTexto"/>
       </Unit>
@@ -92,6 +97,7 @@
         <Filename Value="..\..\Librerias\Formularios\ufconsola.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FConsola"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFConsola"/>
       </Unit>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/glscene/!svn/ver/5226/trunk/Source/PlugIn
+END
+PlugInIntf.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/4226/trunk/Source/PlugIn/PlugInIntf.pas
+END
+PlugInManagerPropEditor.pas
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/5177/trunk/Source/PlugIn/PlugInManagerPropEditor.pas
+END
+PlugInManagerPropEditor.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/5025/trunk/Source/PlugIn/PlugInManagerPropEditor.dfm
+END
+PlugInManager.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5226/trunk/Source/PlugIn/PlugInManager.pas
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/environment_objects
+END
+TGLSkyDome.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/environment_objects/TGLSkyDome.bmp
+END
+TGLEarthSkyDome.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/environment_objects/TGLEarthSkyDome.bmp
+END
+TGLSkyBox.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/environment_objects/TGLSkyBox.bmp
+END
+TGLAtmosphere.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/environment_objects/TGLAtmosphere.bmp
+END

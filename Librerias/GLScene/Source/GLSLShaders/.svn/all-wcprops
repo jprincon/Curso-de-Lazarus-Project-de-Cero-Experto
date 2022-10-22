@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5588/trunk/Source/GLSLShaders
+END
+GLSLDiffuseSpecularShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/5195/trunk/Source/GLSLShaders/GLSLDiffuseSpecularShader.pas
+END
+GLSLParameter.pas
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/glscene/!svn/ver/5588/trunk/Source/GLSLShaders/GLSLParameter.pas
+END
+GLSLPostBlurShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/glscene/!svn/ver/4805/trunk/Source/GLSLShaders/GLSLPostBlurShader.pas
+END
+GLSLShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/5530/trunk/Source/GLSLShaders/GLSLShader.pas
+END
+GLSLBumpShader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/5195/trunk/Source/GLSLShaders/GLSLBumpShader.pas
+END

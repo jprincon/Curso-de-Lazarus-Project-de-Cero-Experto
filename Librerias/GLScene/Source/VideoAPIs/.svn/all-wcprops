@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/glscene/!svn/ver/5269/trunk/Source/VideoAPIs
+END
+GLS_VDPAU_API.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/5269/trunk/Source/VideoAPIs/GLS_VDPAU_API.pas
+END
+GLS_VDPAU_X11.pas
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/glscene/!svn/ver/5269/trunk/Source/VideoAPIs/GLS_VDPAU_X11.pas
+END
+GLSVfw.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/4925/trunk/Source/VideoAPIs/GLSVfw.pas
+END

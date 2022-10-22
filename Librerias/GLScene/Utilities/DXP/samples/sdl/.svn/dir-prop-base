@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 47
+*.~*
+*.dcu
+*.ddp
+*.cfg
+*.dsk
+*.dof
+*.txt
+*.bat
+
+END

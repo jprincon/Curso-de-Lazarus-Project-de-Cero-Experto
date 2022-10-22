@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/glscene/!svn/ver/5478/trunk/Source/PhysicsAPIs
+END
+NewtonImport_JointLibrary.pas
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/glscene/!svn/ver/5398/trunk/Source/PhysicsAPIs/NewtonImport_JointLibrary.pas
+END
+ODE-README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/656/trunk/Source/PhysicsAPIs/ODE-README.TXT
+END
+GLSModuleLoader.pas
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/glscene/!svn/ver/4925/trunk/Source/PhysicsAPIs/GLSModuleLoader.pas
+END
+GLSceneVCLODE.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/glscene/!svn/ver/1771/trunk/Source/PhysicsAPIs/GLSceneVCLODE.dcr
+END
+ODEImport.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/4932/trunk/Source/PhysicsAPIs/ODEImport.pas
+END
+delphiode.inc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/2428/trunk/Source/PhysicsAPIs/delphiode.inc
+END
+GLSceneVCLNGD.dcr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/glscene/!svn/ver/5154/trunk/Source/PhysicsAPIs/GLSceneVCLNGD.dcr
+END
+dynodegl.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/5055/trunk/Source/PhysicsAPIs/dynodegl.pas
+END
+NewtonImport.pas
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/5478/trunk/Source/PhysicsAPIs/NewtonImport.pas
+END
+delphinewton.inc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/glscene/!svn/ver/5352/trunk/Source/PhysicsAPIs/delphinewton.inc
+END
+ODE-LICENSE-BSD.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/656/trunk/Source/PhysicsAPIs/ODE-LICENSE-BSD.TXT
+END
+ODEGL.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/5055/trunk/Source/PhysicsAPIs/ODEGL.pas
+END

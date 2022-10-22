@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/basic_geometry
+END
+TGLCapsule.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLCapsule.bmp
+END
+TGLPoints.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLPoints.bmp
+END
+TGLCube.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLCube.bmp
+END
+TGLIcosahedron.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLIcosahedron.bmp
+END
+TGLDodecahedron.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLDodecahedron.bmp
+END
+TGLPlane.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLPlane.bmp
+END
+TGLCone.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLCone.bmp
+END
+TGLSphere.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLSphere.bmp
+END
+TGLSprite.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLSprite.bmp
+END
+TGLFrustrum.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/glscene/!svn/ver/4438/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLFrustrum.bmp
+END
+TGLPolygon.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLPolygon.bmp
+END
+TGLCylinder.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLCylinder.bmp
+END
+TGLDisk.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLDisk.bmp
+END
+TGLLines.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/glscene/!svn/ver/3805/trunk/Source/DesignTime/Resources/objects/basic_geometry/TGLLines.bmp
+END

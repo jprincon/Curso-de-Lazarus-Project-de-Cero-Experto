@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Analisis_Estadistico.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufanalisisestadistico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FAnalisisEstadistico"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFAnalisisEstadistico"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="57"/>
+        <CursorPos X="28" Y="72"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="ufanalisisestadistico.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="ufanalisisestadistico.pas"/>
+        <Caret Line="5" Column="10"/>
+      </Position>
+      <Position>
+        <Filename Value="ufanalisisestadistico.pas"/>
+        <Caret Line="39" Column="32" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="ufanalisisestadistico.pas"/>
+        <Caret Line="34" Column="35" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="ufanalisisestadistico.pas"/>
+        <Caret Line="41" Column="27" TopLine="31"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

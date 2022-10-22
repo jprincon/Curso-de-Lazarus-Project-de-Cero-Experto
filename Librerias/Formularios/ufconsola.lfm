@@ -8,10 +8,12 @@ object FConsola: TFConsola
   ClientWidth = 1193
   Color = clWhite
   Font.Height = -16
+  OnResize = FormResize
+  OnShow = FormShow
   LCLVersion = '2.2.4.0'
   object PageControl1: TPageControl
     Left = 0
-    Height = 384
+    Height = 472
     Top = 0
     Width = 1193
     ActivePage = tabConsola
@@ -21,12 +23,12 @@ object FConsola: TFConsola
     TabOrder = 0
     object tabConsola: TTabSheet
       Caption = 'Consola de Mensajes'
-      ClientHeight = 341
+      ClientHeight = 429
       ClientWidth = 1185
       ImageIndex = 0
       object lvConsola: TListView
         Left = 0
-        Height = 341
+        Height = 429
         Top = 0
         Width = 1039
         Align = alClient
@@ -65,11 +67,11 @@ object FConsola: TFConsola
       end
       object Panel1: TPanel
         Left = 1039
-        Height = 341
+        Height = 429
         Top = 0
         Width = 146
         Align = alRight
-        ClientHeight = 341
+        ClientHeight = 429
         ClientWidth = 146
         Color = clWhite
         ParentColor = False
@@ -222,8 +224,8 @@ object FConsola: TFConsola
   end
   object PageControl2: TPageControl
     Left = 0
-    Height = 200
-    Top = 389
+    Height = 112
+    Top = 477
     Width = 1193
     ActivePage = tabMensaje
     Align = alBottom
@@ -233,12 +235,12 @@ object FConsola: TFConsola
     TabPosition = tpLeft
     object tabMensaje: TTabSheet
       Caption = 'Mensaje'
-      ClientHeight = 192
+      ClientHeight = 104
       ClientWidth = 1150
       ImageIndex = 1
       object mMensaje: TMemo
         Left = 3
-        Height = 186
+        Height = 98
         Top = 3
         Width = 1144
         Align = alClient
@@ -255,7 +257,7 @@ object FConsola: TFConsola
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 384
+    Top = 472
     Width = 1193
     Align = alBottom
     ResizeAnchor = akBottom

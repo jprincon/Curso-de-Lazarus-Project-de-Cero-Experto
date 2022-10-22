@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/glscene/!svn/ver/4614/trunk/Utilities/DXP
+END
+FDXPCompileLog.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/FDXPCompileLog.dfm
+END
+DXPGlobals.pas
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/DXPGlobals.pas
+END
+FDXPOptions.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/FDXPOptions.dfm
+END
+FDXPPathsDialog.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/2216/trunk/Utilities/DXP/FDXPPathsDialog.dfm
+END
+FDXPFPCOptions.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/2216/trunk/Utilities/DXP/FDXPFPCOptions.pas
+END
+FDXPDirectoryDialog.pas
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/2216/trunk/Utilities/DXP/FDXPDirectoryDialog.pas
+END
+FDXPProgress.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/2261/trunk/Utilities/DXP/FDXPProgress.dfm
+END
+DXPFPCConfig.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/2246/trunk/Utilities/DXP/DXPFPCConfig.pas
+END
+FDXPCompileLog.pas
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/FDXPCompileLog.pas
+END
+DXPUtils.pas
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/DXPUtils.pas
+END
+DXPExpertModule.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/2216/trunk/Utilities/DXP/DXPExpertModule.dfm
+END
+FDXPOptions.pas
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/FDXPOptions.pas
+END
+DXPExpert.dpk
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/DXPExpert.dpk
+END
+DXPConfig.pas
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/2216/trunk/Utilities/DXP/DXPConfig.pas
+END
+FDXPPathsDialog.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/2252/trunk/Utilities/DXP/FDXPPathsDialog.pas
+END
+DXPExpertUnit.pas
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/glscene/!svn/ver/2222/trunk/Utilities/DXP/DXPExpertUnit.pas
+END
+FDXPProgress.pas
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/glscene/!svn/ver/2261/trunk/Utilities/DXP/FDXPProgress.pas
+END
+FDXPFPCOptions.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/glscene/!svn/ver/2246/trunk/Utilities/DXP/FDXPFPCOptions.dfm
+END
+FDXPDirectoryDialog.dfm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/glscene/!svn/ver/2216/trunk/Utilities/DXP/FDXPDirectoryDialog.dfm
+END
+DXPExpertModule.pas
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/glscene/!svn/ver/4614/trunk/Utilities/DXP/DXPExpertModule.pas
+END
+DXPExpert.res
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/glscene/!svn/ver/2218/trunk/Utilities/DXP/DXPExpert.res
+END

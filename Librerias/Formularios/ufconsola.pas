@@ -28,6 +28,8 @@ type
     tabConsola: TTabSheet;
     tabMensaje: TTabSheet;
     procedure bLimpiarClick(Sender: TObject);
+    procedure FormResize(Sender: TObject);
+    procedure FormShow(Sender: TObject);
     procedure lvConsolaClick(Sender: TObject);
 
     procedure lvConsolaCustomDrawSubItem(Sender: TCustomListView;
@@ -54,13 +56,27 @@ begin
   lvConsola.Items.Clear;
 end;
 
+procedure TFConsola.FormResize(Sender: TObject);
+begin
+  log('Resize', Format('Width := %d; Height := %d; Left := %d; Top := %d',
+    [Width, Height, Left, Top]), tcInfo);
+end;
+
+procedure TFConsola.FormShow(Sender: TObject);
+begin
+  Width := 1914;
+  Height := 347;
+  Left := -7;
+  Top := 655;
+end;
+
 procedure TFConsola.lvConsolaClick(Sender: TObject);
 begin
-    if lvConsola.Selected<>nil then
-    begin
-      mMensaje.Lines.Clear;
-      mMensaje.Lines.Add(lvConsola.Selected.SubItems[2]);
-    end;
+  if lvConsola.Selected <> nil then
+  begin
+    mMensaje.Lines.Clear;
+    mMensaje.Lines.Add(lvConsola.Selected.SubItems[2]);
+  end;
 end;
 
 procedure TFConsola.lvConsolaCustomDrawSubItem(Sender: TCustomListView;
@@ -84,7 +100,7 @@ end;
 
 procedure TFConsola.menuLimpiarConsolaClick(Sender: TObject);
 begin
-     bLimpiarClick(self);
+  bLimpiarClick(self);
 end;
 
 procedure TFConsola.log(proceso: string; mensaje: string; tipo: TTipoConsola);

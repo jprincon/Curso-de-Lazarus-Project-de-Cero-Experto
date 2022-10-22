@@ -7,14 +7,26 @@ interface
 uses
   Classes, SysUtils, Math, Dialogs, uTipos;
 
+{General}
 function version: string;
 
+{Matemáticas}
 function calcularMedia(datos: TStringList): real;
 function calcularMinimo(datos: TStringList): real;
 function calcularMaximo(datos: TStringList): real;
 function calcularVarianza(datos: TStringList): real;
 function calcularDesvStandar(datos: TStringList): real;
 function calcularRegresionLineal(datosX, datosY: TStringList): TRegresionLineal;
+
+{Generadores}
+function generarClave(n: integer): string;
+function generarCadena(n: integer): string;
+function generarID: string;
+
+const
+
+  base = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&=';
+  base_ = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
 implementation
 
@@ -167,6 +179,37 @@ begin
     m := (n * sumXY - sumX * sumY) / (n * sumX2 - power(sumX, 2));
   end;
 
+end;
+
+function generarClave(n: integer): string;
+var
+  p, i: integer;
+begin
+  Result := '';
+  for i := 1 to n do
+  begin
+    p := Random(Length(base)) + 1;
+    Result := Result + base[p];
+  end;
+end;
+
+function generarCadena(n: integer): string;
+var
+  p, i: integer;
+begin
+  Result := '';
+  for i := 1 to n do
+  begin
+    p := Random(Length(base_)) + 1;
+    Result := Result + base_[p];
+  end;
+end;
+
+function generarID: string;
+begin
+  {kmiqhjuy-LolM-ploQ-lokA-junJaYqlMoPq}
+  Result := generarCadena(8) + '-' + generarCadena(4) + '-' + generarCadena(
+    4) + '-' + generarCadena(4) + '-' + generarCadena(12);
 end;
 
 end.
