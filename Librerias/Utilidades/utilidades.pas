@@ -23,6 +23,9 @@ function generarClave(n: integer): string;
 function generarCadena(n: integer): string;
 function generarID: string;
 
+{Archivos}
+function comprobarExtension(ruta, ext: string): string;
+
 const
 
   base = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&=';
@@ -208,8 +211,16 @@ end;
 function generarID: string;
 begin
   {kmiqhjuy-LolM-ploQ-lokA-junJaYqlMoPq}
-  Result := generarCadena(8) + '-' + generarCadena(4) + '-' + generarCadena(
-    4) + '-' + generarCadena(4) + '-' + generarCadena(12);
+  Result := generarCadena(8) + '-' + generarCadena(4) + '-' +
+    generarCadena(4) + '-' + generarCadena(4) + '-' + generarCadena(12);
+end;
+
+function comprobarExtension(ruta, ext: string): string;
+begin
+  if ExtractFileExt(ruta) = ext then
+    Result := ruta
+  else
+    Result := ruta + ext;
 end;
 
 end.

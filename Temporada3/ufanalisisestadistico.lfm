@@ -14,16 +14,31 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
   WindowState = wsMaximized
   object sgDatos: TStringGrid
     Left = 0
-    Height = 748
+    Height = 725
     Top = 0
     Width = 1366
     Align = alClient
     Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSizing, goColSizing, goEditing, goDblClickAutoSize, goSmoothScroll]
     TabOrder = 0
+    OnKeyDown = sgDatosKeyDown
+  end
+  object barraEstado: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 725
+    Width = 1366
+    Panels = <    
+      item
+        Width = 300
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
   end
   object MenuPrincipal: TMainMenu
-    Left = 1304
-    Top = 32
+    Left = 1232
+    Top = 48
     object menuArchivo: TMenuItem
       Caption = 'Archivo'
       object menuNuevo: TMenuItem
@@ -31,9 +46,13 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
       end
       object menuAbrir: TMenuItem
         Caption = 'Abrir'
+        ShortCut = 16463
+        OnClick = menuAbrirClick
       end
       object menuGuardar: TMenuItem
         Caption = 'Guardar'
+        ShortCut = 16467
+        OnClick = menuGuardarClick
       end
       object menuExportar: TMenuItem
         Caption = 'Exportar'
@@ -67,6 +86,25 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
         ShortCut = 16465
       end
     end
+    object menuVer: TMenuItem
+      Caption = 'menuVer'
+      object menuConsolaMensajes: TMenuItem
+        Caption = 'Consola de Mensajes'
+        ShortCut = 16461
+        OnClick = menuConsolaMensajesClick
+      end
+    end
+    object menuDatos: TMenuItem
+      Caption = 'Datos'
+      object menuGenerarDatos: TMenuItem
+        Caption = 'Generar Datos'
+        OnClick = menuGenerarDatosClick
+      end
+      object menuObtenerDatosXML: TMenuItem
+        Caption = 'Obtener Datos XML'
+        OnClick = menuObtenerDatosXMLClick
+      end
+    end
     object menuConfigurar: TMenuItem
       Caption = 'Configuración'
       object menuConfigurarAplicacion: TMenuItem
@@ -84,5 +122,18 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
         Caption = 'Acerca de ...'
       end
     end
+  end
+  object dlgGuardarTabla: TSaveDialog
+    Title = 'Guardar tabla de datos como ...'
+    Filter = 'Archivo de Datos (XML)|*.xml*|Archivo de Datos (DATA)|*.data*'
+    Left = 1112
+    Top = 192
+  end
+  object dlgAbrirTabla: TOpenDialog
+    Title = 'Abrir archivo de datos ...'
+    Filter = 'Archivo de Datos (DATA)|*.data*'
+    FilterIndex = 0
+    Left = 1134
+    Top = 268
   end
 end

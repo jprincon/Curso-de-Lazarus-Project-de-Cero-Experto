@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, uFAnalisisEstadistico
+  Forms, uFAnalisisEstadistico, uFMensaje, uFConsola, Utilidades, uTipos
   { you can add units after this };
 
 {$R *.res}
@@ -20,6 +20,8 @@ begin
   Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TFAnalisisEstadistico, FAnalisisEstadistico);
+  Application.CreateForm(TFMensaje, FMensaje);
+  Application.CreateForm(TFConsola, FConsola);
   Application.Run;
 end.
 

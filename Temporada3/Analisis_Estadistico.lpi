@@ -26,6 +26,12 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="SynEdit"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+      <Item>
         <PackageName Value="LCL"/>
       </Item>
     </RequiredPackages>
@@ -41,6 +47,32 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFAnalisisEstadistico"/>
       </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Formularios\ufmensaje.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMensaje"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFMensaje"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Utilidades\utilidades.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Utilidades"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Tipos\utipos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTipos"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Formularios\ufconsola.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FConsola"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFConsola"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -51,6 +83,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\Librerias\Formularios;..\Librerias\Utilidades;..\Librerias\Tipos"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
