@@ -1,11 +1,11 @@
 object FConsola: TFConsola
-  Left = 414
-  Height = 589
-  Top = 207
-  Width = 1193
+  Left = 326
+  Height = 376
+  Top = 465
+  Width = 1180
   Caption = 'Consola de Mensajes'
-  ClientHeight = 589
-  ClientWidth = 1193
+  ClientHeight = 376
+  ClientWidth = 1180
   Color = clWhite
   Font.Height = -16
   OnResize = FormResize
@@ -13,9 +13,9 @@ object FConsola: TFConsola
   LCLVersion = '2.2.4.0'
   object PageControl1: TPageControl
     Left = 0
-    Height = 472
+    Height = 259
     Top = 0
-    Width = 1193
+    Width = 1180
     ActivePage = tabConsola
     Align = alClient
     Images = iconos32
@@ -23,14 +23,14 @@ object FConsola: TFConsola
     TabOrder = 0
     object tabConsola: TTabSheet
       Caption = 'Consola de Mensajes'
-      ClientHeight = 429
-      ClientWidth = 1185
+      ClientHeight = 216
+      ClientWidth = 1172
       ImageIndex = 0
       object lvConsola: TListView
         Left = 0
-        Height = 429
+        Height = 216
         Top = 0
-        Width = 1039
+        Width = 1026
         Align = alClient
         Columns = <        
           item
@@ -66,12 +66,12 @@ object FConsola: TFConsola
         OnCustomDrawSubItem = lvConsolaCustomDrawSubItem
       end
       object Panel1: TPanel
-        Left = 1039
-        Height = 429
+        Left = 1026
+        Height = 216
         Top = 0
         Width = 146
         Align = alRight
-        ClientHeight = 429
+        ClientHeight = 216
         ClientWidth = 146
         Color = clWhite
         ParentColor = False
@@ -225,8 +225,8 @@ object FConsola: TFConsola
   object PageControl2: TPageControl
     Left = 0
     Height = 112
-    Top = 477
-    Width = 1193
+    Top = 264
+    Width = 1180
     ActivePage = tabMensaje
     Align = alBottom
     Images = iconos32
@@ -236,13 +236,13 @@ object FConsola: TFConsola
     object tabMensaje: TTabSheet
       Caption = 'Mensaje'
       ClientHeight = 104
-      ClientWidth = 1150
+      ClientWidth = 1137
       ImageIndex = 1
       object mMensaje: TMemo
         Left = 3
         Height = 98
         Top = 3
-        Width = 1144
+        Width = 1131
         Align = alClient
         BorderSpacing.Around = 3
         Lines.Strings = (
@@ -257,8 +257,8 @@ object FConsola: TFConsola
     Cursor = crVSplit
     Left = 0
     Height = 5
-    Top = 472
-    Width = 1193
+    Top = 259
+    Width = 1180
     Align = alBottom
     ResizeAnchor = akBottom
   end

@@ -1,44 +1,851 @@
 object FAnalisisEstadistico: TFAnalisisEstadistico
-  Left = 319
-  Height = 768
-  Top = 183
-  Width = 1366
+  Left = 320
+  Height = 600
+  Top = 215
+  Width = 1365
   Caption = 'Análisis Estadístico'
-  ClientHeight = 748
-  ClientWidth = 1366
+  ClientHeight = 580
+  ClientWidth = 1365
   Color = clWhite
+  Font.Height = -16
   Menu = MenuPrincipal
+  OnCloseQuery = FormCloseQuery
   OnCreate = FormCreate
-  Position = poScreenCenter
+  OnResize = FormResize
+  OnShow = FormShow
   LCLVersion = '2.2.4.0'
-  WindowState = wsMaximized
-  object sgDatos: TStringGrid
-    Left = 0
-    Height = 725
-    Top = 0
-    Width = 1366
-    Align = alClient
-    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSizing, goColSizing, goEditing, goDblClickAutoSize, goSmoothScroll]
-    TabOrder = 0
-    OnKeyDown = sgDatosKeyDown
-  end
   object barraEstado: TStatusBar
     Left = 0
     Height = 23
-    Top = 725
-    Width = 1366
+    Top = 557
+    Width = 1365
     Panels = <    
       item
         Width = 300
+      end    
+      item
+        Width = 800
+      end    
+      item
+        Width = 50
       end    
       item
         Width = 50
       end>
     SimplePanel = False
   end
+  object Contenido: TPageControl
+    Left = 0
+    Height = 557
+    Top = 0
+    Width = 1365
+    ActivePage = TabDatos
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object TabDatos: TTabSheet
+      Caption = 'Datos'
+      ClientHeight = 523
+      ClientWidth = 1357
+      object sgDatos: TStringGrid
+        Left = 0
+        Height = 523
+        Top = 0
+        Width = 1357
+        Align = alClient
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goRowSizing, goColSizing, goEditing, goDblClickAutoSize, goSmoothScroll]
+        TabOrder = 0
+        OnKeyDown = sgDatosKeyDown
+      end
+    end
+    object TabAnalisis: TTabSheet
+      Caption = 'Análisis'
+      ClientHeight = 523
+      ClientWidth = 1357
+      inline seAnalisis: TSynEdit
+        Left = 0
+        Height = 523
+        Top = 0
+        Width = 1357
+        Align = alClient
+        Font.Height = -21
+        Font.Name = 'Courier New'
+        Font.Pitch = fpFixed
+        Font.Quality = fqNonAntialiased
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+        Gutter.Width = 67
+        Gutter.MouseActions = <>
+        RightGutter.Width = 0
+        RightGutter.MouseActions = <>
+        Keystrokes = <        
+          item
+            Command = ecUp
+            ShortCut = 38
+          end        
+          item
+            Command = ecSelUp
+            ShortCut = 8230
+          end        
+          item
+            Command = ecScrollUp
+            ShortCut = 16422
+          end        
+          item
+            Command = ecDown
+            ShortCut = 40
+          end        
+          item
+            Command = ecSelDown
+            ShortCut = 8232
+          end        
+          item
+            Command = ecScrollDown
+            ShortCut = 16424
+          end        
+          item
+            Command = ecLeft
+            ShortCut = 37
+          end        
+          item
+            Command = ecSelLeft
+            ShortCut = 8229
+          end        
+          item
+            Command = ecWordLeft
+            ShortCut = 16421
+          end        
+          item
+            Command = ecSelWordLeft
+            ShortCut = 24613
+          end        
+          item
+            Command = ecRight
+            ShortCut = 39
+          end        
+          item
+            Command = ecSelRight
+            ShortCut = 8231
+          end        
+          item
+            Command = ecWordRight
+            ShortCut = 16423
+          end        
+          item
+            Command = ecSelWordRight
+            ShortCut = 24615
+          end        
+          item
+            Command = ecPageDown
+            ShortCut = 34
+          end        
+          item
+            Command = ecSelPageDown
+            ShortCut = 8226
+          end        
+          item
+            Command = ecPageBottom
+            ShortCut = 16418
+          end        
+          item
+            Command = ecSelPageBottom
+            ShortCut = 24610
+          end        
+          item
+            Command = ecPageUp
+            ShortCut = 33
+          end        
+          item
+            Command = ecSelPageUp
+            ShortCut = 8225
+          end        
+          item
+            Command = ecPageTop
+            ShortCut = 16417
+          end        
+          item
+            Command = ecSelPageTop
+            ShortCut = 24609
+          end        
+          item
+            Command = ecLineStart
+            ShortCut = 36
+          end        
+          item
+            Command = ecSelLineStart
+            ShortCut = 8228
+          end        
+          item
+            Command = ecEditorTop
+            ShortCut = 16420
+          end        
+          item
+            Command = ecSelEditorTop
+            ShortCut = 24612
+          end        
+          item
+            Command = ecLineEnd
+            ShortCut = 35
+          end        
+          item
+            Command = ecSelLineEnd
+            ShortCut = 8227
+          end        
+          item
+            Command = ecEditorBottom
+            ShortCut = 16419
+          end        
+          item
+            Command = ecSelEditorBottom
+            ShortCut = 24611
+          end        
+          item
+            Command = ecToggleMode
+            ShortCut = 45
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16429
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 8237
+          end        
+          item
+            Command = ecDeleteChar
+            ShortCut = 46
+          end        
+          item
+            Command = ecCut
+            ShortCut = 8238
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8
+          end        
+          item
+            Command = ecDeleteLastChar
+            ShortCut = 8200
+          end        
+          item
+            Command = ecDeleteLastWord
+            ShortCut = 16392
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 32776
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 40968
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 13
+          end        
+          item
+            Command = ecSelectAll
+            ShortCut = 16449
+          end        
+          item
+            Command = ecCopy
+            ShortCut = 16451
+          end        
+          item
+            Command = ecBlockIndent
+            ShortCut = 24649
+          end        
+          item
+            Command = ecLineBreak
+            ShortCut = 16461
+          end        
+          item
+            Command = ecInsertLine
+            ShortCut = 16462
+          end        
+          item
+            Command = ecDeleteWord
+            ShortCut = 16468
+          end        
+          item
+            Command = ecBlockUnindent
+            ShortCut = 24661
+          end        
+          item
+            Command = ecPaste
+            ShortCut = 16470
+          end        
+          item
+            Command = ecCut
+            ShortCut = 16472
+          end        
+          item
+            Command = ecDeleteLine
+            ShortCut = 16473
+          end        
+          item
+            Command = ecDeleteEOL
+            ShortCut = 24665
+          end        
+          item
+            Command = ecUndo
+            ShortCut = 16474
+          end        
+          item
+            Command = ecRedo
+            ShortCut = 24666
+          end        
+          item
+            Command = ecGotoMarker0
+            ShortCut = 16432
+          end        
+          item
+            Command = ecGotoMarker1
+            ShortCut = 16433
+          end        
+          item
+            Command = ecGotoMarker2
+            ShortCut = 16434
+          end        
+          item
+            Command = ecGotoMarker3
+            ShortCut = 16435
+          end        
+          item
+            Command = ecGotoMarker4
+            ShortCut = 16436
+          end        
+          item
+            Command = ecGotoMarker5
+            ShortCut = 16437
+          end        
+          item
+            Command = ecGotoMarker6
+            ShortCut = 16438
+          end        
+          item
+            Command = ecGotoMarker7
+            ShortCut = 16439
+          end        
+          item
+            Command = ecGotoMarker8
+            ShortCut = 16440
+          end        
+          item
+            Command = ecGotoMarker9
+            ShortCut = 16441
+          end        
+          item
+            Command = ecSetMarker0
+            ShortCut = 24624
+          end        
+          item
+            Command = ecSetMarker1
+            ShortCut = 24625
+          end        
+          item
+            Command = ecSetMarker2
+            ShortCut = 24626
+          end        
+          item
+            Command = ecSetMarker3
+            ShortCut = 24627
+          end        
+          item
+            Command = ecSetMarker4
+            ShortCut = 24628
+          end        
+          item
+            Command = ecSetMarker5
+            ShortCut = 24629
+          end        
+          item
+            Command = ecSetMarker6
+            ShortCut = 24630
+          end        
+          item
+            Command = ecSetMarker7
+            ShortCut = 24631
+          end        
+          item
+            Command = ecSetMarker8
+            ShortCut = 24632
+          end        
+          item
+            Command = ecSetMarker9
+            ShortCut = 24633
+          end        
+          item
+            Command = EcFoldLevel1
+            ShortCut = 41009
+          end        
+          item
+            Command = EcFoldLevel2
+            ShortCut = 41010
+          end        
+          item
+            Command = EcFoldLevel3
+            ShortCut = 41011
+          end        
+          item
+            Command = EcFoldLevel4
+            ShortCut = 41012
+          end        
+          item
+            Command = EcFoldLevel5
+            ShortCut = 41013
+          end        
+          item
+            Command = EcFoldLevel6
+            ShortCut = 41014
+          end        
+          item
+            Command = EcFoldLevel7
+            ShortCut = 41015
+          end        
+          item
+            Command = EcFoldLevel8
+            ShortCut = 41016
+          end        
+          item
+            Command = EcFoldLevel9
+            ShortCut = 41017
+          end        
+          item
+            Command = EcFoldLevel0
+            ShortCut = 41008
+          end        
+          item
+            Command = EcFoldCurrent
+            ShortCut = 41005
+          end        
+          item
+            Command = EcUnFoldCurrent
+            ShortCut = 41003
+          end        
+          item
+            Command = EcToggleMarkupWord
+            ShortCut = 32845
+          end        
+          item
+            Command = ecNormalSelect
+            ShortCut = 24654
+          end        
+          item
+            Command = ecColumnSelect
+            ShortCut = 24643
+          end        
+          item
+            Command = ecLineSelect
+            ShortCut = 24652
+          end        
+          item
+            Command = ecTab
+            ShortCut = 9
+          end        
+          item
+            Command = ecShiftTab
+            ShortCut = 8201
+          end        
+          item
+            Command = ecMatchBracket
+            ShortCut = 24642
+          end        
+          item
+            Command = ecColSelUp
+            ShortCut = 40998
+          end        
+          item
+            Command = ecColSelDown
+            ShortCut = 41000
+          end        
+          item
+            Command = ecColSelLeft
+            ShortCut = 40997
+          end        
+          item
+            Command = ecColSelRight
+            ShortCut = 40999
+          end        
+          item
+            Command = ecColSelPageDown
+            ShortCut = 40994
+          end        
+          item
+            Command = ecColSelPageBottom
+            ShortCut = 57378
+          end        
+          item
+            Command = ecColSelPageUp
+            ShortCut = 40993
+          end        
+          item
+            Command = ecColSelPageTop
+            ShortCut = 57377
+          end        
+          item
+            Command = ecColSelLineStart
+            ShortCut = 40996
+          end        
+          item
+            Command = ecColSelLineEnd
+            ShortCut = 40995
+          end        
+          item
+            Command = ecColSelEditorTop
+            ShortCut = 57380
+          end        
+          item
+            Command = ecColSelEditorBottom
+            ShortCut = 57379
+          end>
+        MouseActions = <>
+        MouseTextActions = <>
+        MouseSelActions = <>
+        Lines.Strings = (
+          'seAnalisis'
+        )
+        VisibleSpecialChars = [vscSpace, vscTabAtLast]
+        SelectedColor.BackPriority = 50
+        SelectedColor.ForePriority = 50
+        SelectedColor.FramePriority = 50
+        SelectedColor.BoldPriority = 50
+        SelectedColor.ItalicPriority = 50
+        SelectedColor.UnderlinePriority = 50
+        SelectedColor.StrikeOutPriority = 50
+        BracketHighlightStyle = sbhsBoth
+        BracketMatchColor.Background = clNone
+        BracketMatchColor.Foreground = clNone
+        BracketMatchColor.Style = [fsBold]
+        FoldedCodeColor.Background = clNone
+        FoldedCodeColor.Foreground = clGray
+        FoldedCodeColor.FrameColor = clGray
+        MouseLinkColor.Background = clNone
+        MouseLinkColor.Foreground = clBlue
+        LineHighlightColor.Background = clNone
+        LineHighlightColor.Foreground = clNone
+        inline SynLeftGutterPartList1: TSynGutterPartList
+          object SynGutterMarks1: TSynGutterMarks
+            Width = 24
+            MouseActions = <>
+          end
+          object SynGutterLineNumber1: TSynGutterLineNumber
+            Width = 27
+            MouseActions = <>
+            MarkupInfo.Background = clBtnFace
+            MarkupInfo.Foreground = clNone
+            DigitCount = 2
+            ShowOnlyLineNumbersMultiplesOf = 1
+            ZeroStart = False
+            LeadingZeros = False
+          end
+          object SynGutterChanges1: TSynGutterChanges
+            Width = 4
+            MouseActions = <>
+            ModifiedColor = 59900
+            SavedColor = clGreen
+          end
+          object SynGutterSeparator1: TSynGutterSeparator
+            Width = 2
+            MouseActions = <>
+            MarkupInfo.Background = clWhite
+            MarkupInfo.Foreground = clGray
+          end
+          object SynGutterCodeFolding1: TSynGutterCodeFolding
+            MouseActions = <>
+            MarkupInfo.Background = clNone
+            MarkupInfo.Foreground = clGray
+            MouseActionsExpanded = <>
+            MouseActionsCollapsed = <>
+          end
+        end
+      end
+    end
+    object TabConfig: TTabSheet
+      Caption = 'Configuración'
+      ClientHeight = 523
+      ClientWidth = 1357
+      object datosUsuario: TPageControl
+        Left = 0
+        Height = 523
+        Top = 0
+        Width = 400
+        ActivePage = tabDatosUsuario
+        Align = alLeft
+        TabIndex = 0
+        TabOrder = 0
+        TabPosition = tpLeft
+        object tabDatosUsuario: TTabSheet
+          Caption = 'Datos de Usuario'
+          ClientHeight = 515
+          ClientWidth = 364
+          object GroupBox1: TGroupBox
+            Left = 10
+            Height = 57
+            Top = 5
+            Width = 349
+            Align = alTop
+            BorderSpacing.Left = 5
+            BorderSpacing.Around = 5
+            Caption = 'Nombre'
+            ClientHeight = 35
+            ClientWidth = 345
+            Font.Height = -13
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 0
+            object edNombre: TEdit
+              Left = 3
+              Height = 29
+              Top = 3
+              Width = 339
+              Align = alClient
+              BorderSpacing.Around = 3
+              Font.Color = 8388672
+              Font.Height = -16
+              ParentFont = False
+              TabOrder = 0
+              TextHint = 'Ingrese su nombre'
+            end
+          end
+          object GroupBox2: TGroupBox
+            Left = 10
+            Height = 57
+            Top = 191
+            Width = 349
+            Align = alTop
+            BorderSpacing.Left = 5
+            BorderSpacing.Around = 5
+            Caption = 'ID'
+            ClientHeight = 35
+            ClientWidth = 345
+            Font.Height = -13
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 1
+            object edID: TEdit
+              Left = 3
+              Height = 29
+              Top = 3
+              Width = 339
+              Align = alClient
+              BorderSpacing.Around = 3
+              Font.Color = 8388672
+              Font.Height = -16
+              ParentFont = False
+              TabOrder = 0
+              TextHint = 'Ingrese su ID'
+            end
+          end
+          object GroupBox3: TGroupBox
+            Left = 10
+            Height = 57
+            Top = 67
+            Width = 349
+            Align = alTop
+            BorderSpacing.Left = 5
+            BorderSpacing.Around = 5
+            Caption = 'Correo'
+            ClientHeight = 35
+            ClientWidth = 345
+            Font.Height = -13
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 2
+            object edCorreo: TEdit
+              Left = 3
+              Height = 29
+              Top = 3
+              Width = 339
+              Align = alClient
+              BorderSpacing.Around = 3
+              Font.Color = 8388672
+              Font.Height = -16
+              ParentFont = False
+              TabOrder = 0
+              TextHint = 'Ingrese su correo'
+            end
+          end
+          object sbGuardarDatos: TSpeedButton
+            Left = 5
+            Height = 49
+            Top = 461
+            Width = 354
+            Align = alBottom
+            BorderSpacing.Around = 5
+            Caption = 'Guardar Datos'
+            Flat = True
+            Glyph.Data = {
+              36100000424D3610000000000000360000002800000020000000200000000100
+              2000000000000010000064000000640000000000000000000000FFFFFFFFB3A1
+              97FF826656FF816455FF7D5F4FFFA89082FFFAEAE3FFF2E1D9FFF2E1D9FFF2E1
+              D9FFF2E1D9FFF2E1D9FFF2E1D9FFF2E1D9FFF2E1D9FFF3E3DBFFE4CAC0FFE6CD
+              C3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFEED5
+              CCFF9C8476FF725749FF765C4EFF765C4EFFAA9990FFFFFFFFFFAE9C92FF6B49
+              36FF775846FF775847FF725240FFA18879FFFBEBE4FFF2E1D9FFF2E1D9FFF2E1
+              D9FFF2E1D9FFF2E1D9FFF2E1D9FFF2E1D9FFF2E1D9FFF3E3DBFFE4CAC0FFE6CD
+              C3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFEFD6
+              CDFF957B6CFF66493AFF6B4F40FF6B4F3FFF5E402FFFA5948BFF7A5B4AFF7859
+              48FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF2E1D9FFF2E1
+              D9FFF3E3DBFFF3E3DBFFF3E3DBFFF3E3DBFFF3E3DBFFF5E5DDFFE6CCC2FFE7CE
+              C4FFE7CEC4FFE7CEC4FFE7CEC4FFE7CEC4FFE6CDC3FFE6CDC3FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6C5041FF6D5142FF785948FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF2E1D9FFF4E4
+              DCFFE5D3CAFFE6D4CCFFE6D4CCFFE6D4CCFFE6D4CCFFE7D6CEFFD8C0B5FFDAC2
+              B8FFDAC2B8FFDAC2B8FFDAC2B8FFD9C1B7FFE8CFC5FFE6CDC3FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6C5041FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF6E5DDFFC7B4
+              AAFFA69186FFAA958AFFAA958AFFAA958AFFAA958AFFAB978BFF9D8A80FF9F8B
+              81FF9F8B81FF9F8B81FF9F8B81FF9B887EFFBBA59BFFEAD1C7FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF3E2DAFFE7D5
+              CDFFC5B2A8FFC8B5ABFFC8B5ABFFC8B5ABFFC8B5ABFFCAB7ADFFBBA59BFFBDA7
+              9DFFBDA79DFFBDA79DFFBDA79DFFBAA49AFFDAC2B8FFE7CEC4FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF2E1D9FFF4E3
+              DCFFFAEAE2FFFAEAE2FFFAEAE2FFFAEAE2FFFAEAE2FFFCECE5FFEDD2C8FFEED5
+              CBFFEED5CBFFEED5CBFFEED5CBFFEED4CAFFE8CFC5FFE6CDC3FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF3E2DAFFECDB
+              D3FFD0BDB4FFD2BFB6FFD2C0B6FFD2C0B6FFD2C0B6FFD3C1B8FFC5AEA4FFC7B0
+              A6FFC7B0A6FFC7B0A6FFC6B0A6FFC4AEA4FFE0C7BDFFE7CEC4FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF6E5DDFFC5B2
+              A8FFA69286FFAA958AFFAA958AFFAA958AFFAA958AFFAB978BFF9D8A80FF9F8B
+              81FF9F8B81FF9F8B81FF9F8B81FF9B887EFFB9A49AFFEAD1C7FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF2E1D9FFF1E0
+              D8FFDAC8BFFFDCCAC1FFDCCAC1FFDCCAC1FFDCCAC1FFDDCCC3FFCFB7ADFFD0B9
+              AFFFD0B9AFFFD0B9AFFFD0B9AFFFCEB7ADFFE5CCC2FFE6CDC3FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF2E1D9FFF2E1
+              D9FFF4E4DCFFF4E4DCFFF4E4DCFFF4E4DCFFF4E4DCFFF6E6DEFFE7CDC2FFE8CF
+              C5FFE8CFC5FFE8CFC5FFE8CFC5FFE8CFC5FFE6CDC3FFE6CDC3FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA2887AFFFBEBE4FFF2E1D9FFF2E1D9FFF2E1
+              D9FFF2E1D9FFF2E1D9FFF2E1D9FFF2E1D9FFF2E1D9FFF3E3DBFFE4CAC0FFE6CD
+              C3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFE6CDC3FFEFD6
+              CDFF967C6DFF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF735342FFA1887FFFFAE9F2FFF0DFE6FFF0DFE6FFF0DF
+              E6FFF0DFE6FFF0DFE6FFF0DFE6FFF0DFE6FFF0DFE6FFF2E1E9FFE4C9CCFFE6CB
+              CFFFE6CBCFFFE6CBCFFFE6CBCFFFE6CBCFFFE6CBCFFFE6CBCFFFE6CBCFFFEFD5
+              D9FF967B72FF674B3CFF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF725247FFA68E4FFFFFFC60FFFEF05DFFFEF05DFFFEF0
+              5DFFFEF05DFFFEF05DFFFEF05DFFFEF05DFFFEF05DFFFFF35FFFE3D653FFE6D9
+              54FFE6D954FFE6D954FFE6D954FFE6D954FFE6D954FFE6D954FFE6D954FFEFE4
+              56FF967F48FF674A40FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF725248FFA68E4DFFFFFD59FFFFF158FFFFF158FFFFF1
+              58FFFFF158FFFFF158FFFFF158FFFFF158FFFFF158FFFFF459FFE2D74EFFE6DA
+              4FFFE6DA4FFFE6DA4FFFE6DA4FFFE6DA4FFFE6DA4FFFE6DA4FFFE6DA4FFFEFE4
+              50FF967F46FF674A41FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF725248FFA9914EFFFFFE5BFFFFF25AFFFFF25AFFFFF2
+              5AFFFFF25AFFFFF25AFFFFF25AFFFFF25AFFFFF25AFFFFF55BFFE3D84FFFE6DB
+              51FFE6DB51FFE6DB51FFE6DB51FFE6DB51FFE6DB51FFE6DB51FFE6DB51FFF0E6
+              52FF988247FF674A41FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF755648FF8A6E4BFFFFFE5BFFFFF85AFFFFF85AFFFFF8
+              5AFFFFF85AFFFFF85AFFFFF85AFFFFF85AFFFFF85AFFFFFA5BFFE8DD50FFEBE0
+              51FFEBE051FFEBE051FFEBE051FFEBE051FFEBE051FFEBE051FFECE051FFF1E7
+              52FF7E6544FF694D41FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF755648FF694847FF694847FF694847FF6948
+              47FF694847FF694847FF694847FF694847FF694847FF6A4947FF5D3F3FFF5E40
+              40FF5E4040FF5E4040FF5E4040FF5E4040FF5E4040FF5E4040FF5E4040FF5F41
+              40FF694D41FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF795A49FF795A49FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF795A49FF7A5B49FF6B4F41FF6D51
+              42FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D51
+              42FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF795A49FF785948FF755644FF7555
+              44FF755544FF755544FF755544FF755544FF755544FF765645FF674B3CFF694C
+              3DFF694C3DFF694C3DFF694C3DFF694C3DFF694C3DFF694D3DFF6C5041FF6D51
+              42FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF785948FF71513FFF907465FF8F73
+              64FF8F7364FF8F7364FF8F7364FF8F7364FF8F7364FF917465FF82685BFF8369
+              5CFF83695CFF83695CFF83695CFF83695CFF836A5CFF856B5EFF654939FF6C50
+              41FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF725241FFB1988CFFFFF8F3FFFDEE
+              E8FFFDEEE8FFFDEEE8FFFDEEE8FFFDEEE8FFFDEEE8FFFFF6F0FFF5E7E1FFF7E8
+              E2FFF7E8E2FFF7E8E2FFF5E7E1FFF1E2DCFFF1E2DCFFF9EBE6FFA69084FF6649
+              3AFF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF71513FFFB79F93FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFF7E7E1FFC7B2A7FFBAA69CFFBCA8
+              9EFFBCA89EFFBBA69CFFC3B0A7FFEADAD3FFE6D6CFFFEDDED7FFAB958AFF6548
+              39FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF6C4B38FF614434FF6346
+              36FF634636FF5F4232FF7C6153FFF1E2DCFFE6D6CFFFEDDED7FFAA9489FF6548
+              39FF6D5142FF6D5142FF6D5142FF6D5142FF6D5142FF6C5041FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFEDDED7FFAA9489FF6548
+              39FF6D5142FF6D5142FF6D5142FF6D5142FF6C5041FF705445FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFEDDED7FFAA9489FF6548
+              39FF6D5142FF6D5142FF6D5142FF6D5142FF674A3AFF978378FF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFEDDED7FFAA9489FF6548
+              39FF6D5142FF6D5142FF6D5142FF6C5041FF563624FFF2EFEEFF795A49FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFEDDED7FFAA9489FF6548
+              39FF6D5142FF6D5142FF6C5041FF583826FFD5CCC8FFFFFFFFFF785948FF795A
+              49FF795A49FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFEDDED7FFAA9489FF6548
+              39FF6D5142FF6C5041FF583826FFD5CCC8FFFFFFFFFFFFFFFFFF795A49FF7859
+              48FF795A49FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFEDDED7FFAA9489FF6548
+              39FF6C5041FF583826FFD5CCC8FFFFFFFFFFFFFFFFFFFFFFFFFFA8948AFF6D4B
+              39FF785948FF795A49FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFEDDED7FFA99388FF5F42
+              32FF563625FFD5CCC8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA894
+              89FF795A49FF785948FF795A49FF795A49FF71513FFFB69E92FFF9EAE4FFF2E2
+              DBFFF2E2DBFFF2E2DBFFF2E2DBFFF2E2DBFFFFF1ECFF755542FF6A4E40FF6D51
+              42FF6D5142FF694C3DFF83695CFFF1E2DCFFE6D6CFFFECDDD6FFAC968BFF8F7A
+              6FFFF2EFEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+            }
+            OnClick = sbGuardarDatosClick
+          end
+          object GroupBox4: TGroupBox
+            Left = 10
+            Height = 57
+            Top = 129
+            Width = 349
+            Align = alTop
+            BorderSpacing.Left = 5
+            BorderSpacing.Around = 5
+            Caption = 'Dirección'
+            ClientHeight = 35
+            ClientWidth = 345
+            Font.Height = -13
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 3
+            object edDireccion: TEdit
+              Left = 3
+              Height = 29
+              Top = 3
+              Width = 339
+              Align = alClient
+              BorderSpacing.Around = 3
+              Font.Color = 8388672
+              Font.Height = -16
+              ParentFont = False
+              TabOrder = 0
+              TextHint = 'Ingrese su correo'
+            end
+          end
+        end
+      end
+    end
+  end
   object MenuPrincipal: TMainMenu
-    Left = 1232
-    Top = 48
+    Left = 1200
+    Top = 136
     object menuArchivo: TMenuItem
       Caption = 'Archivo'
       object menuNuevo: TMenuItem
@@ -54,13 +861,30 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
         ShortCut = 16467
         OnClick = menuGuardarClick
       end
+      object menuGuardarAnalisis: TMenuItem
+        Caption = 'Guardar Análisis'
+        OnClick = menuGuardarAnalisisClick
+      end
       object menuExportar: TMenuItem
         Caption = 'Exportar'
         object menuExportarArchivoINI: TMenuItem
           Caption = 'Archivo INI'
+          OnClick = menuExportarArchivoINIClick
         end
         object menuExportarArchivoCSV: TMenuItem
           Caption = 'Archivo CSV'
+          OnClick = menuExportarArchivoCSVClick
+        end
+      end
+      object Importar: TMenuItem
+        Caption = 'Importar'
+        object menuImportarDesdeArchivoINI: TMenuItem
+          Caption = 'Desde archivo INI'
+          OnClick = menuImportarDesdeArchivoINIClick
+        end
+        object menuImportarDesdeArchivoCSV: TMenuItem
+          Caption = 'Desde Archivo CSV'
+          OnClick = menuImportarDesdeArchivoCSVClick
         end
       end
       object menuExportarGrafica: TMenuItem
@@ -78,6 +902,13 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
           Caption = 'Digrama de Pastel'
         end
       end
+      object Separator2: TMenuItem
+        Caption = '-'
+      end
+      object menuCerrarTablas: TMenuItem
+        Caption = 'Cerrar tablas'
+        OnClick = menuCerrarTablasClick
+      end
       object Separator1: TMenuItem
         Caption = '-'
       end
@@ -87,7 +918,7 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
       end
     end
     object menuVer: TMenuItem
-      Caption = 'menuVer'
+      Caption = 'Ver'
       object menuConsolaMensajes: TMenuItem
         Caption = 'Consola de Mensajes'
         ShortCut = 16461
@@ -103,6 +934,40 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
       object menuObtenerDatosXML: TMenuItem
         Caption = 'Obtener Datos XML'
         OnClick = menuObtenerDatosXMLClick
+      end
+      object menuObtenerCantidadFilas: TMenuItem
+        Caption = 'Obtener Cantidad de Filas'
+        OnClick = menuObtenerCantidadFilasClick
+      end
+      object Separator3: TMenuItem
+        Caption = '-'
+      end
+      object menEstadisticosBasicos: TMenuItem
+        Caption = 'Estadísticos Básicos'
+        OnClick = menEstadisticosBasicosClick
+      end
+      object menuCalcularRegresionLineal: TMenuItem
+        Caption = 'Calcular Regresión Lineal'
+        OnClick = menuCalcularRegresionLinealClick
+      end
+      object Separator4: TMenuItem
+        Caption = '-'
+      end
+      object menuGenerarDiagramaBarras: TMenuItem
+        Caption = 'Generar Diagrama de Barras'
+        OnClick = menuGenerarDiagramaBarrasClick
+      end
+      object menuGenerarDiagramaLineal: TMenuItem
+        Caption = 'Generar Diagrama Lineal'
+        OnClick = menuGenerarDiagramaLinealClick
+      end
+      object menuGenerarDiagramaAreas: TMenuItem
+        Caption = 'Generar Diagrama Áreas'
+        OnClick = menuGenerarDiagramaAreasClick
+      end
+      object menuGenerarDiagramaCircular: TMenuItem
+        Caption = 'Generar Diagrama Circular'
+        OnClick = menuGenerarDiagramaCircularClick
       end
     end
     object menuConfigurar: TMenuItem
@@ -125,15 +990,16 @@ object FAnalisisEstadistico: TFAnalisisEstadistico
   end
   object dlgGuardarTabla: TSaveDialog
     Title = 'Guardar tabla de datos como ...'
-    Filter = 'Archivo de Datos (XML)|*.xml*|Archivo de Datos (DATA)|*.data*'
-    Left = 1112
-    Top = 192
+    Filter = 'Archivo de Datos (XML)|*.xml*|Archivo de Datos (DATA)|*.data*|Archivo de Datos (INI)|*.ini*|Archivo de Datos (CSV)|*.csv*|Archivos de Texto (TXT)|*.txt*'
+    FilterIndex = 2
+    Left = 1216
+    Top = 40
   end
   object dlgAbrirTabla: TOpenDialog
     Title = 'Abrir archivo de datos ...'
-    Filter = 'Archivo de Datos (DATA)|*.data*'
-    FilterIndex = 0
-    Left = 1134
-    Top = 268
+    Filter = 'Archivo de Datos (XML)|*.xml*|Archivo de Datos (DATA)|*.data*|Archivo de Datos (INI)|*.ini*|Archivo de Datos (CSV)|*.csv*'
+    FilterIndex = 2
+    Left = 1208
+    Top = 248
   end
 end

@@ -64,10 +64,7 @@ end;
 
 procedure TFConsola.FormShow(Sender: TObject);
 begin
-  Width := 1914;
-  Height := 347;
-  Left := -7;
-  Top := 655;
+
 end;
 
 procedure TFConsola.lvConsolaClick(Sender: TObject);

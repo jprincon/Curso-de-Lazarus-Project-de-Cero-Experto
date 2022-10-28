@@ -5,7 +5,7 @@
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="Analisis_Estadistico"/>
+      <Title Value="Calculadora_de_Geometria_Analitca"/>
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
@@ -26,13 +26,7 @@
     </RunParams>
     <RequiredPackages>
       <Item>
-        <PackageName Value="TAChartLazarusPkg"/>
-      </Item>
-      <Item>
         <PackageName Value="SynEdit"/>
-      </Item>
-      <Item>
-        <PackageName Value="FCL"/>
       </Item>
       <Item>
         <PackageName Value="LCL"/>
@@ -40,24 +34,25 @@
     </RequiredPackages>
     <Units>
       <Unit>
-        <Filename Value="Analisis_Estadistico.lpr"/>
+        <Filename Value="Calculadora_de_Geometria_Analitca.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="ufanalisisestadistico.pas"/>
+        <Filename Value="ufcalculadorageometriaanalitica.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FAnalisisEstadistico"/>
-        <HasResources Value="True"/>
+        <ComponentName Value="FCalculadoraGeometria"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFAnalisisEstadistico"/>
+        <UnitName Value="uFCalculadoraGeometriaAnalitica"/>
       </Unit>
       <Unit>
-        <Filename Value="..\Librerias\Formularios\ufmensaje.pas"/>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgapunto.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FMensaje"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFMensaje"/>
+        <UnitName Value="uTGAPunto"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgarecta.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTGARecta"/>
       </Unit>
       <Unit>
         <Filename Value="..\Librerias\Utilidades\utilidades.pas"/>
@@ -70,33 +65,32 @@
         <UnitName Value="uTipos"/>
       </Unit>
       <Unit>
-        <Filename Value="..\Librerias\Formularios\ufconsola.pas"/>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgamedidas.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FConsola"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFConsola"/>
+        <UnitName Value="uTGAMedidas"/>
       </Unit>
       <Unit>
-        <Filename Value="..\Librerias\Formularios\ufimportarcsv.pas"/>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgatriangulo.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FImportarCSV"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFImportarCSV"/>
+        <UnitName Value="uTGATriangulo"/>
       </Unit>
       <Unit>
-        <Filename Value="..\Librerias\Formularios\ufgraficaestadistica.pas"/>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgatriangulo.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FGraficas"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFGraficaEstadistica"/>
+        <UnitName Value="uTGATriangulo"/>
       </Unit>
       <Unit>
         <Filename Value="..\Librerias\Formularios\ufacerca.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FAcerca"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFAcerca"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Formularios\utautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTAutor"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -104,11 +98,11 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="Analisis_Estadistico"/>
+      <Filename Value="Calculadora_de_Geometria_Analitca"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="..\Librerias\Formularios;..\Librerias\Utilidades;..\Librerias\Tipos"/>
+      <OtherUnitFiles Value="..\Librerias\GeometriaAnalitica;..\Librerias\Utilidades;..\Librerias\Tipos;..\Librerias\Formularios"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
@@ -132,12 +126,6 @@
       </Item>
       <Item>
         <Name Value="EFOpenError"/>
-      </Item>
-      <Item>
-        <Name Value="EGridException"/>
-      </Item>
-      <Item>
-        <Name Value="RunError(203)"/>
       </Item>
     </Exceptions>
   </Debugging>
