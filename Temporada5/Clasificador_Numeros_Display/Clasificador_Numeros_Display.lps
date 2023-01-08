@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Clasificador_Numeros_Display.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufclasificadornumerosdisplay.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FDisplay"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFClasificadorNumerosDisplay"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="92"/>
+        <CursorPos X="14" Y="93"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utactivactionfunction.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTActivactionFunction"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utcustomobjectlog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCustomObjectLog"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utlayer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTLayer"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utmatrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTMatrix"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuron"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="158"/>
+        <CursorPos X="26" Y="168"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utneuronalnetwork.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuronalNetwork"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNumberList"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utproductpoint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTProductPoint"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="ufclasificadornumerosdisplay.pas"/>
+        <Caret Line="38" Column="17" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="ufclasificadornumerosdisplay.pas"/>
+        <Caret Line="91" Column="9" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="ufclasificadornumerosdisplay.pas"/>
+        <Caret Line="85" Column="32" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="ufclasificadornumerosdisplay.pas"/>
+        <Caret Line="109" Column="43" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="38" Column="19" TopLine="26"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,196 @@
+object FColorFondo: TFColorFondo
+  Left = 441
+  Height = 668
+  Top = 206
+  Width = 1023
+  BorderStyle = bsDialog
+  Caption = 'Color de fonto vs fuente'
+  ClientHeight = 668
+  ClientWidth = 1023
+  Color = clWhite
+  Font.Height = -16
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object ContenidoEjemplos: TPageControl
+    Left = 624
+    Height = 668
+    Top = 0
+    Width = 399
+    ActivePage = TabSheet1
+    Align = alRight
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = tpRight
+    object TabSheet1: TTabSheet
+      Caption = 'Ejemplos'
+      ClientHeight = 660
+      ClientWidth = 363
+      object mEjemplos: TMemo
+        Left = 0
+        Height = 660
+        Top = 0
+        Width = 363
+        Align = alClient
+        Lines.Strings = (
+          'mEjemplos'
+        )
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+        WordWrap = False
+      end
+    end
+  end
+  object Contenido: TPageControl
+    Left = 0
+    Height = 668
+    Top = 0
+    Width = 624
+    ActivePage = Editor
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    object Editor: TTabSheet
+      Caption = 'Editor'
+      ClientHeight = 634
+      ClientWidth = 616
+      object pFondo: TPanel
+        Left = 10
+        Height = 125
+        Top = 10
+        Width = 596
+        Align = alTop
+        BorderSpacing.Around = 10
+        BevelOuter = bvNone
+        BorderStyle = bsSingle
+        Caption = 'Texto de Fondo'
+        Color = clBlack
+        Font.Color = clWhite
+        Font.Height = -32
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+        TabOrder = 0
+      end
+      object cbFondo: TColorButton
+        Left = 8
+        Height = 77
+        Top = 208
+        Width = 198
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        OnClick = cbFondoClick
+        OnColorChanged = cbFondoColorChanged
+      end
+      object cbFuente: TColorButton
+        Left = 408
+        Height = 77
+        Top = 208
+        Width = 198
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clWhite
+        OnClick = cbFuenteClick
+        OnColorChanged = cbFuenteColorChanged
+      end
+      object Label1: TLabel
+        Left = 10
+        Height = 21
+        Top = 182
+        Width = 107
+        Caption = 'Color de Fondo'
+        ParentColor = False
+      end
+      object Label2: TLabel
+        Left = 496
+        Height = 21
+        Top = 182
+        Width = 110
+        Alignment = taRightJustify
+        Caption = 'Color de Fuente'
+        ParentColor = False
+      end
+      object bAgregarEjemplo: TButton
+        Left = 10
+        Height = 52
+        Top = 304
+        Width = 196
+        Caption = 'Agregar Ejemplo'
+        OnClick = bAgregarEjemploClick
+        TabOrder = 1
+      end
+      object bGuardarEjemplos: TButton
+        Left = 408
+        Height = 52
+        Top = 304
+        Width = 196
+        Caption = 'Guardar Ejemplos'
+        OnClick = bGuardarEjemplosClick
+        TabOrder = 2
+      end
+      object lbColor: TLabel
+        Left = 10
+        Height = 21
+        Top = 368
+        Width = 348
+        Caption = 'Seleccione un color para probar a la Red Neuronal'
+        ParentColor = False
+      end
+      object cbFondoAutomatico: TColorButton
+        Left = 8
+        Height = 77
+        Top = 394
+        Width = 198
+        BorderWidth = 2
+        ButtonColorSize = 16
+        ButtonColor = clBlack
+        OnClick = cbFondoAutomaticoClick
+        OnColorChanged = cbFondoAutomaticoColorChanged
+      end
+      object Label4: TLabel
+        Left = 8
+        Height = 21
+        Top = 488
+        Width = 230
+        Caption = 'Pegue la lista de pesos Sinápticos'
+        ParentColor = False
+      end
+      object edPesosSinapticos: TEdit
+        Left = 8
+        Height = 29
+        Top = 512
+        Width = 590
+        TabOrder = 3
+        Text = '0.733278248459101,0.240770655451342,0.0370688617695123'
+      end
+      object Label5: TLabel
+        Left = 10
+        Height = 21
+        Top = 552
+        Width = 155
+        Caption = 'Ingrese la polarización'
+        ParentColor = False
+      end
+      object edPolarizacion: TEdit
+        Left = 10
+        Height = 29
+        Top = 576
+        Width = 590
+        TabOrder = 4
+        Text = '0'
+      end
+      object pSalida: TPanel
+        Left = 408
+        Height = 77
+        Top = 394
+        Width = 192
+        BevelOuter = bvNone
+        BorderStyle = bsSingle
+        Caption = 'pSalida'
+        TabOrder = 5
+      end
+    end
+  end
+end

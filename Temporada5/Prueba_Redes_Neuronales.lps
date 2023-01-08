@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Prueba_Redes_Neuronales.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="29" Y="25"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPruebaRedesNeuronales"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFPruebaRedesNeuronales"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="532"/>
+        <CursorPos X="18" Y="551"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNumberList"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="97"/>
+        <CursorPos X="3" Y="102"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utproductpoint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTProductPoint"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="58"/>
+        <CursorPos X="20" Y="64"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utactivactionfunction.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTActivactionFunction"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="136"/>
+        <CursorPos X="25" Y="147"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uffuncionactivacion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FGraficaFuncionActivacion"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFFuncionActivacion"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="9"/>
+        <CursorPos X="24" Y="17"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuron"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="142"/>
+        <CursorPos X="22" Y="154"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utlayer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTLayer"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="126"/>
+        <CursorPos X="22" Y="145"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuronalnetwork.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuronalNetwork"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="80"/>
+        <CursorPos X="31" Y="93"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utcustomobjectlog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCustomObjectLog"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="28"/>
+        <CursorPos X="25" Y="36"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utmatrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTMatrix"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="118"/>
+        <CursorPos X="38" Y="129"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="F:\Lazarus\components\tachart\taseries.pas"/>
+        <UnitName Value="TASeries"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="231"/>
+        <CursorPos X="3" Y="242"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="170" Column="27" TopLine="158"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <Caret Line="28" Column="26" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <Caret Line="109" Column="47" TopLine="98"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <Caret Line="28" Column="26" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="491" Column="20" TopLine="473"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="38" Column="17" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="160" Column="27" TopLine="152"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="38" Column="17" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="187" Column="33" TopLine="170"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="171" Column="56" TopLine="161"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <Caret Line="28" Column="15" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="487" Column="38" TopLine="461"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="46" Column="27" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="320" Column="33" TopLine="280"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="32" Column="22" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="149" Column="45" TopLine="138"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="139" Column="25" TopLine="123"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="51" Column="15" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="521" Column="27" TopLine="503"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="514" Column="26" TopLine="503"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="38" Column="15" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <Caret Line="152" Column="27" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <Caret Line="27" Column="15" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="506" Column="8" TopLine="497"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="52" Column="39" TopLine="42"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="544" Column="33" TopLine="525"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="32" Column="22" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="158" Column="38" TopLine="146"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="147" Column="23" TopLine="134"/>
+      </Position>
+      <Position>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <Caret Line="52" Column="28" TopLine="46"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

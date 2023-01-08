@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 444
+  Height = 403
+  Top = 232
+  Width = 455
+  BorderStyle = bsDialog
+  Caption = 'Clasificador de Puntos'
+  ClientHeight = 403
+  ClientWidth = 455
+  Color = clWhite
+  Font.Height = -16
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 49
+    Top = 0
+    Width = 455
+    Align = alTop
+    Caption = 'Clasificador de Puntos'
+    Color = 12615680
+    Font.Color = clWhite
+    Font.Height = -32
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edX: TLabeledEdit
+    Left = 32
+    Height = 29
+    Top = 104
+    Width = 168
+    EditLabel.Height = 21
+    EditLabel.Width = 168
+    EditLabel.Caption = 'Ingrese la Abscisa'
+    EditLabel.ParentColor = False
+    TabOrder = 1
+    Text = '0'
+  end
+  object edY: TLabeledEdit
+    Left = 248
+    Height = 29
+    Top = 104
+    Width = 168
+    EditLabel.Height = 21
+    EditLabel.Width = 168
+    EditLabel.Caption = 'Ingrese la Ordenada'
+    EditLabel.ParentColor = False
+    TabOrder = 2
+    Text = '0'
+  end
+  object pClasificacion: TPanel
+    Left = 32
+    Height = 150
+    Top = 224
+    Width = 384
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    Caption = 'Grupo A'
+    Font.Height = -32
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+  end
+  object bClasificar: TButton
+    Left = 32
+    Height = 53
+    Top = 152
+    Width = 384
+    Caption = 'Clasificar'
+    OnClick = bClasificarClick
+    TabOrder = 4
+  end
+end

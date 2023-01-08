@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Color_Fondo_vs_Fuente.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="39" Y="13"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FColorFondo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFColorFondoFuente"/>
+        <TopLine Value="115"/>
+        <CursorPos X="44" Y="127"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utactivactionfunction.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTActivactionFunction"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utcustomobjectlog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCustomObjectLog"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utlayer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTLayer"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utmatrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTMatrix"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuron"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utneuronalnetwork.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuronalNetwork"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNumberList"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\Librerias\RedesNeuronales\utproductpoint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTProductPoint"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit>
+      <Unit>
+        <Filename Value="F:\Lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1895"/>
+        <CursorPos X="10" Y="1903"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="F:\Lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1657"/>
+        <CursorPos X="3" Y="1667"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="55" Column="31" TopLine="43"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="58" Column="31" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="72" Column="3" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="70" Column="29" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="77" Column="29" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="58" Column="73" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="82" Column="36" TopLine="70"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="67" Column="39" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="66" Column="37" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="F:\Lazarus\lcl\graphics.pp"/>
+        <Caret Line="1912" Column="26" TopLine="1898"/>
+      </Position>
+      <Position>
+        <Filename Value="F:\Lazarus\lcl\lcltype.pp"/>
+        <Caret Line="1668" Column="3" TopLine="1657"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="69" Column="13" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="36" Column="21" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="103" Column="59" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="111" Column="59" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="68" Column="51" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="40" Column="19" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="96" Column="34" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="141" Column="90" TopLine="124"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="142" Column="90" TopLine="125"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="143" Column="90" TopLine="126"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="145" Column="90" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="74" Column="3" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="79" Column="23" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="74" Column="31" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="153" Column="82" TopLine="136"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="152" Column="35" TopLine="140"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="129" Column="62" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="121" Column="22" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="ufcolorfondofuente.pas"/>
+        <Caret Line="127" Column="44" TopLine="115"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

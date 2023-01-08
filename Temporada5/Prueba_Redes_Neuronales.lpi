@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="Prueba_Redes_Neuronales"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="TAChartLazarusPkg"/>
+      </Item>
+      <Item>
+        <PackageName Value="SynEdit"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="Prueba_Redes_Neuronales.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="ufpruebaredesneuronales.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FPruebaRedesNeuronales"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFPruebaRedesNeuronales"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utnumberlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNumberList"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utproductpoint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTProductPoint"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utactivactionfunction.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTActivactionFunction"/>
+      </Unit>
+      <Unit>
+        <Filename Value="uffuncionactivacion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FGraficaFuncionActivacion"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFFuncionActivacion"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuron.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuron"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utlayer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTLayer"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utneuronalnetwork.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTNeuronalNetwork"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utcustomobjectlog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTCustomObjectLog"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\RedesNeuronales\utmatrix.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTMatrix"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="Prueba_Redes_Neuronales"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\Librerias\RedesNeuronales"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EListError"/>
+      </Item>
+      <Item>
+        <Name Value="EStringListError"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

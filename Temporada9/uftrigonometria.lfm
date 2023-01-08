@@ -1,0 +1,43 @@
+object FSAETrigonometria: TFSAETrigonometria
+  Left = 324
+  Height = 768
+  Top = 186
+  Width = 1366
+  Caption = 'SAE Trigonometría'
+  ClientHeight = 768
+  ClientWidth = 1366
+  Color = clWhite
+  Font.Height = -16
+  OnCreate = FormCreate
+  OnResize = FormResize
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  WindowState = wsMaximized
+  object Contenido: TPageControl
+    Left = 0
+    Height = 768
+    Top = 0
+    Width = 1366
+    ActivePage = TabRegistroInicio
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabRegistroInicio: TTabSheet
+      Caption = 'TabRegistroInicio'
+      ClientHeight = 734
+      ClientWidth = 1358
+      object Edit1: TEdit
+        Left = 341
+        Height = 29
+        Top = 304
+        Width = 121
+        OnKeyDown = Edit1KeyDown
+        TabOrder = 0
+        Text = 'Edit1'
+      end
+    end
+    object TabContenido: TTabSheet
+      Caption = 'TabContenido'
+    end
+  end
+end

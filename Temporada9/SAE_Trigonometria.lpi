@@ -5,7 +5,7 @@
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
-      <Title Value="RedesNeuronales"/>
+      <Title Value="SAE_Trigonometria"/>
       <Scaled Value="True"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
@@ -31,15 +31,20 @@
     </RequiredPackages>
     <Units>
       <Unit>
-        <Filename Value="RedesNeuronales.lpr"/>
+        <Filename Value="SAE_Trigonometria.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="ufredesneuronales.pas"/>
+        <Filename Value="uftrigonometria.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="FRedesNeuronales"/>
+        <ComponentName Value="FSAETrigonometria"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFRedesNeuronales"/>
+        <UnitName Value="uFTrigonometria"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\SoftwareEducativo\utregistroinicio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTRegistroInicio"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -47,13 +52,17 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="RedesNeuronales"/>
+      <Filename Value="SAE_Trigonometria"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="..\Librerias\SoftwareEducativo"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

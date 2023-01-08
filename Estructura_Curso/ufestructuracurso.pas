@@ -58,6 +58,7 @@ begin
   agregarTemporada('Base de Datos');
   agregarTemporada('Razonamiento de Máquina');
   agregarTemporada('Exportando Latex/Lyx');
+  agregarTemporada('Software Educativo para Trigonometría');
 
 end;
 

@@ -1,0 +1,228 @@
+object FDisplay: TFDisplay
+  Left = 445
+  Height = 433
+  Top = 211
+  Width = 530
+  BorderStyle = bsDialog
+  Caption = 'Clasificación de Números de un Display'
+  ClientHeight = 433
+  ClientWidth = 530
+  Color = clWhite
+  Font.Height = -16
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 55
+    Top = 0
+    Width = 530
+    Align = alTop
+    Caption = 'Reconocimiento de Números en un Display'
+    Color = 12615680
+    Font.Color = clWhite
+    Font.Height = -24
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object pDisplay: TPanel
+    Left = 16
+    Height = 344
+    Top = 72
+    Width = 200
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    ClientHeight = 340
+    ClientWidth = 196
+    TabOrder = 1
+    object segA: TPanel
+      Left = 38
+      Height = 30
+      Top = 7
+      Width = 120
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      Caption = 'a'
+      Color = clRed
+      ParentColor = False
+      TabOrder = 0
+    end
+    object segF: TPanel
+      Left = 9
+      Height = 120
+      Top = 36
+      Width = 30
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      Caption = 'f'
+      Color = clRed
+      ParentColor = False
+      TabOrder = 1
+    end
+    object segB: TPanel
+      Left = 157
+      Height = 120
+      Top = 36
+      Width = 30
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      Caption = 'b'
+      Color = clRed
+      ParentColor = False
+      TabOrder = 2
+    end
+    object segG: TPanel
+      Left = 38
+      Height = 30
+      Top = 156
+      Width = 120
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      Caption = 'g'
+      Color = clRed
+      ParentColor = False
+      TabOrder = 3
+    end
+    object segE: TPanel
+      Left = 8
+      Height = 120
+      Top = 184
+      Width = 30
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      Caption = 'e'
+      Color = clRed
+      ParentColor = False
+      TabOrder = 4
+    end
+    object segD: TPanel
+      Left = 38
+      Height = 30
+      Top = 304
+      Width = 120
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      Caption = 'd'
+      Color = clRed
+      ParentColor = False
+      TabOrder = 5
+    end
+    object segC: TPanel
+      Left = 157
+      Height = 120
+      Top = 184
+      Width = 30
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      Caption = 'c'
+      Color = clRed
+      ParentColor = False
+      TabOrder = 6
+    end
+  end
+  object b0: TButton
+    Left = 240
+    Height = 50
+    Top = 72
+    Width = 50
+    Caption = '0'
+    OnClick = dibujarNumero
+    TabOrder = 2
+  end
+  object b1: TButton
+    Left = 296
+    Height = 50
+    Top = 72
+    Width = 50
+    Caption = '1'
+    OnClick = dibujarNumero
+    TabOrder = 3
+  end
+  object b2: TButton
+    Left = 352
+    Height = 50
+    Top = 72
+    Width = 50
+    Caption = '2'
+    OnClick = dibujarNumero
+    TabOrder = 4
+  end
+  object b3: TButton
+    Left = 408
+    Height = 50
+    Top = 72
+    Width = 50
+    Caption = '3'
+    OnClick = dibujarNumero
+    TabOrder = 5
+  end
+  object b4: TButton
+    Left = 464
+    Height = 50
+    Top = 72
+    Width = 50
+    Caption = '4'
+    OnClick = dibujarNumero
+    TabOrder = 6
+  end
+  object b5: TButton
+    Left = 240
+    Height = 50
+    Top = 127
+    Width = 50
+    Caption = '5'
+    OnClick = dibujarNumero
+    TabOrder = 7
+  end
+  object b6: TButton
+    Left = 296
+    Height = 50
+    Top = 127
+    Width = 50
+    Caption = '6'
+    OnClick = dibujarNumero
+    TabOrder = 8
+  end
+  object b7: TButton
+    Left = 352
+    Height = 50
+    Top = 127
+    Width = 50
+    Caption = '7'
+    OnClick = dibujarNumero
+    TabOrder = 9
+  end
+  object b8: TButton
+    Left = 408
+    Height = 50
+    Top = 127
+    Width = 50
+    Caption = '8'
+    OnClick = dibujarNumero
+    TabOrder = 10
+  end
+  object b9: TButton
+    Left = 464
+    Height = 50
+    Top = 127
+    Width = 50
+    Caption = '9'
+    OnClick = dibujarNumero
+    TabOrder = 11
+  end
+  object pSalida: TPanel
+    Left = 240
+    Height = 216
+    Top = 200
+    Width = 272
+    BevelOuter = bvNone
+    BorderStyle = bsSingle
+    Caption = '0.0'
+    Font.Height = -24
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 12
+  end
+end

@@ -8,11 +8,9 @@
       <Unit>
         <Filename Value="Estructura_Curso.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="2"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="27" Y="13"/>
         <UsageCount Value="51"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="ufestructuracurso.pas"/>
@@ -21,23 +19,17 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFEstructuraCurso"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="188"/>
-        <CursorPos X="37" Y="198"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="44" Y="60"/>
         <UsageCount Value="51"/>
-        <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="1">
-      <Position>
-        <Filename Value="Estructura_Curso.lpr"/>
-        <Caret Line="8" Column="23" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="ufestructuracurso.pas"/>
-        <Caret Line="198" Column="37" TopLine="188"/>
-      </Position>
-    </JumpHistory>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>

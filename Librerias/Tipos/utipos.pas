@@ -20,7 +20,11 @@ type
     b: real;
   end;
 
+const
+
+  COMPONENT_NUMBER_LIST = 'TNumberList';
+  COMPONENT_PRODUCT_POINT = 'TProductPoint';
+
 implementation
 
 end.
-
