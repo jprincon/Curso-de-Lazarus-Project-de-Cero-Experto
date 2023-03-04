@@ -11,19 +11,95 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="3"/>
         <CursorPos X="37" Y="13"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="23"/>
       </Unit>
       <Unit>
         <Filename Value="ufcalculadorageometriaanalitica.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FCalculadoraGeometria"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFCalculadoraGeometriaAnalitica"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
         <TopLine Value="46"/>
-        <CursorPos X="43" Y="58"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="17" Y="52"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgapunto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTGAPunto"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="24" Y="30"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgarecta.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTGARecta"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="32" Y="31"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Utilidades\utilidades.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Utilidades"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="192"/>
+        <CursorPos X="41" Y="205"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Tipos\utipos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTipos"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="8" Y="21"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgamedidas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTGAMedidas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="22" Y="22"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\GeometriaAnalitica\utgatriangulo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTGATriangulo"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="107"/>
+        <CursorPos X="26" Y="126"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Formularios\ufacerca.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FAcerca"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uFAcerca"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="83"/>
+        <CursorPos X="27" Y="97"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\Librerias\Formularios\utautor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTAutor"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="80"/>
+        <CursorPos X="24" Y="96"/>
+        <UsageCount Value="23"/>
       </Unit>
       <Unit>
         <Filename Value="F:\Lazarus\lcl\forms.pp"/>
@@ -57,94 +133,11 @@
         <UsageCount Value="10"/>
       </Unit>
       <Unit>
-        <Filename Value="..\Librerias\GeometriaAnalitica\utgapunto.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTGAPunto"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="10"/>
-        <CursorPos X="24" Y="30"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
         <Filename Value="F:\Lazarus\fpc\3.2.2\source\rtl\inc\objpash.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="193"/>
         <CursorPos X="23" Y="206"/>
         <UsageCount Value="10"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\GeometriaAnalitica\utgarecta.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTGARecta"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="24"/>
-        <CursorPos X="32" Y="31"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\Utilidades\utilidades.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="Utilidades"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="192"/>
-        <CursorPos X="41" Y="205"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\Tipos\utipos.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTipos"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="8" Y="21"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\GeometriaAnalitica\utgamedidas.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTGAMedidas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="9"/>
-        <CursorPos X="22" Y="22"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\GeometriaAnalitica\utgatriangulo.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTGATriangulo"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="6"/>
-        <CursorPos X="34" Y="18"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\GeometriaAnalitica\utgatriangulo.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTGATriangulo"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="107"/>
-        <CursorPos X="26" Y="126"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\Formularios\ufacerca.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="FAcerca"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="uFAcerca"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="83"/>
-        <CursorPos X="27" Y="97"/>
-        <UsageCount Value="20"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\Formularios\utautor.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTAutor"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="80"/>
-        <CursorPos X="24" Y="96"/>
-        <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="F:\Lazarus\lcl\extctrls.pp"/>
@@ -171,9 +164,6 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="-1"/>
-    </General>
     <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>

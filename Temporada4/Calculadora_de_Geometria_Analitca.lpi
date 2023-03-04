@@ -41,6 +41,7 @@
         <Filename Value="ufcalculadorageometriaanalitica.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FCalculadoraGeometria"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uFCalculadoraGeometriaAnalitica"/>
       </Unit>
@@ -68,11 +69,6 @@
         <Filename Value="..\Librerias\GeometriaAnalitica\utgamedidas.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="uTGAMedidas"/>
-      </Unit>
-      <Unit>
-        <Filename Value="..\Librerias\GeometriaAnalitica\utgatriangulo.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="uTGATriangulo"/>
       </Unit>
       <Unit>
         <Filename Value="..\Librerias\GeometriaAnalitica\utgatriangulo.pas"/>
